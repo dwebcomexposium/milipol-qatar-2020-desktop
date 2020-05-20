@@ -39,8 +39,8 @@ a {
 
 .wrapper,
 .site-wrapper {
-  max-width: none;
-  margin: 75rem 0 0 0;
+  max-width: 1440px;
+  margin: 52rem auto 0 auto;
   padding: 0;
 }
 
@@ -1208,7 +1208,7 @@ abbr[title] {
 }
 
 .intro-home h2 {
-  font-family: "Museo 700", sans-serif;
+  font-family: "Museo 700", sans-serif !important;
   font-size: 3.1875rem;
   font-weight: 700;
   line-height: 61px;
@@ -1226,19 +1226,195 @@ abbr[title] {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.intro-home .bottom-text {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+.intro-home .buttons-container .btn i::before {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  background-repeat: no-repeat;
 }
 
-.intro-home .bottom-text p {
+.bottom-text {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgba(49, 2, 0, 0.5);
+}
+
+.bottom-text p {
   font-family: "Univers LT Std", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 16px;
   color: white;
   text-transform: uppercase;
+}
+
+#zone1 {
+  background-color: #f7f8f8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+#zone1 .cta-arrow .ql-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#zone1 .cta-arrow .ql-list .ql-item {
+  width: 33%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#zone1 .cta-arrow .ql-list .ql-item a {
+  padding: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  color: #0b1626;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+}
+
+#zone1 .cta-arrow .ql-list .ql-item a i {
+  margin-top: 15px;
+}
+
+#zone1 .cta-arrow .ql-list .ql-item a i::before {
+  display: none;
+}
+
+#zone1 .cta-arrow .ql-list .ql-item a:before {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  background-repeat: no-repeat;
+}
+
+#zone1 .cta-arrow .ql-list .ql-item.linkid851795 {
+  border-left: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+}
+
+#zone2 {
+  width: 100%;
+}
+
+#zone2 .edito-about .inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#zone2 .prepare {
+  padding: 55px 0;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #0b1626;
+}
+
+#zone2 .quicklinks .ql-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#zone2 .quicklinks .ql-list .ql-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#zone2 .quicklinks .ql-list .ql-item a {
+  background-color: transparent;
+  border: none;
+  color: #0b1626;
+  padding: 0.4em 1em;
+}
+
+#zone2 .quicklinks .ql-list .ql-item a i::before {
+  display: none;
+}
+
+#zone2 .quicklinks .ql-list .ql-item:after {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  background-repeat: no-repeat;
+}
+
+#zone2 .quicklinks .ql-list .ql-item:before {
+  content: "";
+  background-repeat: no-repeat;
+}
+
+#zone2 .quicklinks .ql-list .ql-item.linkid851799:before {
+  width: 24px;
+  height: 16px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/prepare-icon-1.svg);
+}
+
+#zone2 .quicklinks .ql-list .ql-item.linkid851800:before {
+  width: 25px;
+  height: 21px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/prepare-icon-2.svg);
+}
+
+#zone2 .quicklinks .ql-list .ql-item.linkid851801:before {
+  width: 18px;
+  height: 22px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/prepare-icon-3.svg);
+}
+
+#zone2 .quicklinks .ql-list .ql-item.linkid851802:before {
+  width: 18px;
+  height: 22px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/prepare-icon-4.svg);
+}
+
+#zone2 .video {
+  background-color: #0b1626;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/video-background.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#zone2 .video h2 {
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+  margin-bottom: 52px;
+}
+
+#zone2 .video iframe {
+  margin: 0 auto;
 }
 
 
