@@ -508,7 +508,7 @@ abbr[title] {
   min-width: 16rem;
   font-size: 2rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  text-transform: none;
+  text-transform: uppercase;
   color: white;
   border: 0 none;
 }
@@ -548,20 +548,20 @@ abbr[title] {
   background-position: 0 100%;
 }
 
-.btn.btn-yellow {
+.btn.btn-red {
   background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #f39200 50%, #252525 50%);
+  background-image: linear-gradient(to bottom, #7b1228 50%, #252525 50%);
 }
 
-.btn.btn-yellow:hover {
+.btn.btn-red:hover {
   background-position: 0 100%;
 }
 
-.btn.btn-yellow.btn-yellow-color-white {
+.btn.btn-red.btn-yellow-color-white {
   color: white;
 }
 
-.btn.btn-yellow.btn-yellow-color-white:hover {
+.btn.btn-red.btn-yellow-color-white:hover {
   color: white !important;
 }
 
@@ -1415,6 +1415,368 @@ abbr[title] {
 
 #zone2 .video iframe {
   margin: 0 auto;
+}
+
+#zone2 .conference-program {
+  margin: 50px 0;
+}
+
+#zone2 .conference-program h2 {
+  text-align: center;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #0b1626;
+  margin-bottom: 55px;
+}
+
+#zone2 .conference-program .warpper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#zone2 .conference-program .tabs {
+  border-bottom: 1px solid #d8d8d8;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#zone2 .conference-program .tabs .tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0px 2px;
+  display: inline-block;
+}
+
+#zone2 .conference-program .tabs .tab .date {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #7b1228;
+}
+
+#zone2 .conference-program .tabs .tab .month {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #0b1626;
+  text-transform: uppercase;
+}
+
+#zone2 .conference-program .panels {
+  background: #fffffff6;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#zone2 .conference-program .panel {
+  display: none;
+  -webkit-animation: fadein 0.8s;
+          animation: fadein 0.8s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#zone2 .conference-program .panel-title {
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: #0b1626;
+  margin-top: 50px;
+  margin-bottom: 27px;
+}
+
+#zone2 .conference-program .panel-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f8f8;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+#zone2 .conference-program .panel-content .hour {
+  background-color: white;
+  padding: 20px 10px;
+  margin-right: 32px;
+  min-width: 85px;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#zone2 .conference-program .panel-content .hour .begin,
+#zone2 .conference-program .panel-content .hour .finish {
+  color: #0b1626;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 13px;
+}
+
+#zone2 .conference-program .panel-content .hour .begin {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #a6945d;
+}
+
+#zone2 .conference-program .panel-content .details .title {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #7b1228;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#zone2 .conference-program .panel-content .details .text {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: #3c4451;
+}
+
+#zone2 .conference-program .radio {
+  display: none;
+}
+
+#zone2 .conference-program #one:checked ~ .panels #one-panel,
+#zone2 .conference-program #two:checked ~ .panels #two-panel,
+#zone2 .conference-program #three:checked ~ .panels #three-panel {
+  display: block;
+}
+
+#zone2 .conference-program #one:checked ~ .tabs #one-tab,
+#zone2 .conference-program #two:checked ~ .tabs #two-tab,
+#zone2 .conference-program #three:checked ~ .tabs #three-tab {
+  border-bottom: 3px solid #7b1228;
+}
+
+#zone2 .conference-program #one:checked ~ .tabs #one-tab .month,
+#zone2 .conference-program #two:checked ~ .tabs #two-tab .month,
+#zone2 .conference-program #three:checked ~ .tabs #three-tab .month {
+  font-weight: bold;
+}
+
+#zone2 .conference-program .cta {
+  display: flex;
+  justify-content: center;
+}
+
+#zone2 .contacts-list {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/speakers-background.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  background-color: #f7f8f8;
+  padding: 50px;
+}
+
+#zone2 .contacts-list .block-title {
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #0b1626;
+  margin-bottom: 53px;
+  text-align: center;
+}
+
+#zone2 .contacts-list .cl-content {
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#zone2 .contacts-list .cl-content .cl-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 350px;
+  background-color: white;
+  padding-bottom: 0;
+}
+
+#zone2 .contacts-list .cl-content .cl-item .cl-item-illust {
+  display: none;
+}
+
+#zone2 .contacts-list .cl-content .cl-item .cl-item-photo {
+  margin-right: 20px;
+  padding: 10px;
+}
+
+#zone2 .contacts-list .cl-content .cl-item .cl-item-content .cl-item-title {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #7b1228;
+  margin-bottom: 23px;
+}
+
+#zone2 .contacts-list .cl-content .cl-item .cl-item-content .cl-item-cl-item-subtitle {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #7b8799;
+}
+
+#zone2 .partner .box-dark .inside .main-title-with-link {
+  display: flex;
+  flex-direction: column;
+}
+
+#zone2 .partner .box-dark .inside .main-title-with-link .main-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#zone2 .partner .box-dark .inside .main-title-with-link .link-view-all {
+  align-self: flex-end;
+}
+
+#zone2 .partner .box-dark .inside .partner-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#zone2 .partner .box-dark .inside .partner-gallery .slider-content {
+  justify-content: space-between;
+}
+
+#zone2 .partner .box-dark .inside .partner-gallery .slider-content .pg-item {
+  border: 1px solid #d8d8d8;
+}
+
+#zone2 .list-articles {
+  background-color: rgba(137, 121, 71, 0.2);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/latest-news-background.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+  padding: 50px;
+}
+
+#zone2 .list-articles .inside .main-title-with-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#zone2 .list-articles .inside .main-title-with-link .main-title {
+  text-align: center;
+  margin-bottom: 20px;
+  float: none;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #0b1626;
+}
+
+#zone2 .list-articles .inside .main-title-with-link .link-view-all {
+  float: none;
+}
+
+#zone2 .list-articles .inside .grid-la-list {
+  justify-content: space-evenly;
+}
+
+#zone2 .list-articles .inside .grid-la-list .gla-item {
+  margin-left: 0;
+  min-height: 475px;
+  background-color: white;
+  padding: 10px;
+}
+
+#zone2 .list-articles .inside .grid-la-list .gla-item a img {
+  width: 100%;
+}
+
+#zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content {
+  display: flex;
+}
+
+#zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content .gla-item-title {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  color: #7b1228;
+}
+
+#zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content .gla-item-btn {
+  order: 2;
+  margin-top: 0;
+  align-self: flex-end;
+}
+
+#zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more {
+  background-color: transparent;
+  border: 0;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #0b1626;
+}
+
+#zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more i::after {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  background-repeat: no-repeat;
 }
 
 
