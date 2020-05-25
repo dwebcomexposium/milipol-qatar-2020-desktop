@@ -322,6 +322,7 @@ h2 {
 
 .mn-item-lvl-1 > .mn-link {
   padding: 0;
+  min-height: 40px;
 }
 
 .is-stuck .mn-item-lvl-1 > .mn-link {
@@ -694,10 +695,6 @@ abbr[title] {
   transition: all 0.25s ease;
   display: flex;
   flex-direction: column;
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/header-background-right.png);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: 20%;
   /* end inside */
 }
 
@@ -709,6 +706,14 @@ abbr[title] {
 
 .site-banner.is-stuck > .inside .main-navigation + .main-navigation {
   margin: 0;
+}
+
+.site-banner.is-stuck .intro-home {
+  display: none;
+}
+
+.site-banner.is-stuck .mn-link-text {
+  color: #0b1626 !important;
 }
 
 .site-banner > .inside {
@@ -974,7 +979,7 @@ abbr[title] {
   justify-content: space-around;
   box-shadow: none;
   padding: 0;
-  margin: 3rem 0;
+  margin: 3rem 0 0 0;
   position: relative;
   z-index: 2;
   font-family: initial;
@@ -1188,13 +1193,26 @@ abbr[title] {
 }
 
 /* end site-banner*/
+.site-footer {
+  background: #7b1228;
+  position: relative;
+  margin: 0;
+  padding: 5rem 0 0 0;
+  /*END-INSIDE*/
+}
+
+/*END-SITE-FOOTER*/
 /* pages */
 .intro-home {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0 85px 0;
+  background-color: #7b1228;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/header-background-right.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 12%;
 }
 
 .intro-home h1 {
@@ -1239,9 +1257,8 @@ abbr[title] {
   justify-content: center;
   padding: 15px;
   background-color: rgba(49, 2, 0, 0.5);
-}
-
-.bottom-text p {
+  margin-top: 50px;
+  width: 100%;
   font-family: "Univers LT Std", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -1777,6 +1794,202 @@ abbr[title] {
   height: 6px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
+}
+
+#zone2 .business-areas {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/business-areas-background.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  padding: 50px;
+}
+
+#zone2 .business-areas .block-title {
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #0b1626;
+  margin-bottom: 53px;
+  text-align: center;
+}
+
+#zone2 .business-areas .item-list {
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#zone2 .business-areas .item-list a {
+  height: 144px;
+  margin-bottom: 15px;
+}
+
+#zone2 .business-areas .item-list a:hover .red-overlay {
+  display: block;
+}
+
+#zone2 .business-areas .item-list .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/business-areas-item-background.png);
+  padding: 24px;
+  width: 256px;
+  height: 144px;
+  position: relative;
+}
+
+#zone2 .business-areas .item-list .item p {
+  color: white;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-right: 35px;
+  z-index: 1;
+}
+
+#zone2 .business-areas .item-list .item .red-overlay {
+  background: rgba(154, 28, 54, 0.5);
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+#zone2 .business-areas .cta {
+  display: flex;
+  justify-content: center;
+}
+
+#zone2 .key-numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  padding: 80px 0;
+}
+
+#zone2 .key-numbers .text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  color: #0b1626;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+#zone2 .key-numbers .text span {
+  color: #7b1228;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+#zone2 .key-numbers .container-numbers {
+  border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: -70px;
+}
+
+#zone2 .key-numbers .container-numbers .link {
+  color: #7b1228;
+  font-family: "Museo 900", sans-serif;
+  font-size: 63px;
+  font-weight: 900;
+  line-height: 75px;
+  position: relative;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50px;
+}
+
+#zone2 .key-numbers .container-numbers .link:first-child {
+  margin-left: -85px;
+}
+
+#zone2 .key-numbers .container-numbers .link:first-child:after {
+  background-color: #7b1228;
+}
+
+#zone2 .key-numbers .container-numbers .link:last-child {
+  margin-right: -80px;
+}
+
+#zone2 .key-numbers .container-numbers .link:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #a6945d;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 44px;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+#zone2 .key-numbers .container-numbers .link p {
+  margin-bottom: 20px;
+}
+
+#zone2 .key-numbers .container-numbers .link span {
+  color: #0b1626;
+  text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+#zone2 .key-numbers .text-bg {
+  position: absolute;
+  bottom: 0;
+  right: -160px;
+  color: #f7f8f8;
+  z-index: -1;
+  max-width: 600px;
+  text-align: right;
+}
+
+#zone2 .key-numbers .text-bg p {
+  margin: 0;
+  margin-top: -20px;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 138px;
+  font-weight: 700;
+  line-height: 104px;
+}
+
+#zone2 .key-numbers .text-bg span {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 104px;
 }
 
 
