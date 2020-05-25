@@ -40,7 +40,7 @@ a {
 .wrapper,
 .site-wrapper {
   max-width: 1440px;
-  margin: 52rem auto 0 auto;
+  margin: 44rem auto 0 auto;
   padding: 0;
 }
 
@@ -1276,6 +1276,7 @@ abbr[title] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px solid #d8d8d8;
 }
 
 #zone1 .cta-arrow .ql-list .ql-item {
@@ -1288,7 +1289,7 @@ abbr[title] {
 }
 
 #zone1 .cta-arrow .ql-list .ql-item a {
-  padding: 30px;
+  padding: 0 100px;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -1321,9 +1322,67 @@ abbr[title] {
   background-repeat: no-repeat;
 }
 
-#zone1 .cta-arrow .ql-list .ql-item.linkid851795 {
+#zone1 .cta-arrow .ql-list .ql-item.linkid851795 a {
   border-left: 1px solid #d8d8d8;
   border-right: 1px solid #d8d8d8;
+}
+
+#zone1 .opening-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/opening-in-background.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 85px 0;
+}
+
+#zone1 .opening-in .text {
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #0b1626;
+  margin-right: 80px;
+}
+
+#zone1 .opening-in .container-dates {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#zone1 .opening-in .container-dates .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+#zone1 .opening-in .container-dates .date p {
+  font-family: "Museo 900", sans-serif;
+  font-size: 63px;
+  font-weight: 900;
+  line-height: 75px;
+  color: #7b1228;
+}
+
+#zone1 .opening-in .container-dates .date img {
+  margin-top: -20px;
+}
+
+#zone1 .opening-in .container-dates .date span {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  color: #0b1626;
+  text-transform: uppercase;
+  margin-top: -25px;
 }
 
 #zone2 {
