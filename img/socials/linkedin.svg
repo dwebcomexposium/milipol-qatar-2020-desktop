@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.1336755,22 L8.23119839,22 L8.23119839,12.653125 L11.1336755,12.653125 L11.1336755,22 Z M9.6808748,11.378125 C8.75295693,11.378125 8,10.609375 8,9.68125 C8,8.753125 8.75295693,8 9.6808748,8 C10.6087927,8 11.3617496,8.753125 11.3617496,9.68125 C11.3617496,10.609375 10.6087927,11.378125 9.6808748,11.378125 Z M21.9968757,22 L19.1006472,22 L19.1006472,17.45 C19.1006472,16.365625 19.0787771,14.975 17.591609,14.975 C16.0825709,14.975 15.8513725,16.153125 15.8513725,17.371875 L15.8513725,22 L12.9520196,22 L12.9520196,12.653125 L15.7357733,12.653125 L15.7357733,13.928125 L15.7763892,13.928125 C16.1638027,13.19375 17.1104664,12.41875 18.5226512,12.41875 C21.4594956,12.41875 22,14.353125 22,16.865625 L22,22 L21.9968757,22 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop--🖥" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MILIPOLQATAR-HOMEPAGE01" transform="translate(-1403.000000, -406.000000)">
+            <g id="RS-BAR-" transform="translate(1418.000000, 293.500000) rotate(-90.000000) translate(-1418.000000, -293.500000) translate(1268.000000, 271.000000)">
+                <g id="Group-27-Copy" transform="translate(7.000000, 8.000000)">
+                    <g id="Group-28" transform="translate(15.000000, 15.000000) rotate(90.000000) translate(-15.000000, -15.000000) translate(0.000000, 0.000000)">
+                        <g id="Group-32">
+                            <rect id="Rectangle" fill="#040911" x="0" y="0" width="30" height="30" rx="3"></rect>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="linkedin-in" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
