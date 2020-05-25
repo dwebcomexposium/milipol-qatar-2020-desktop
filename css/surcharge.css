@@ -40,7 +40,7 @@ a {
 .wrapper,
 .site-wrapper {
   max-width: 1440px;
-  margin: 44rem auto 0 auto;
+  margin: 55rem auto 0 auto;
   padding: 0;
 }
 
@@ -424,16 +424,17 @@ abbr[title] {
   font-size: 1.2rem;
 }
 
-#zone3 {
+.socials {
   position: fixed;
   right: 0;
   top: 150px;
   z-index: 100;
-  background-color: black;
+  background-color: rgba(11, 22, 38, 0.9);
   padding: 10px;
+  padding-left: 10px !important;
 }
 
-#zone3 ul {
+.socials ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -443,11 +444,11 @@ abbr[title] {
   margin-top: 0;
 }
 
-#zone3 ul li {
+.socials ul li {
   margin-bottom: 1.5rem;
 }
 
-#zone3 ul li h2 {
+.socials ul li h2 {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
@@ -462,11 +463,11 @@ abbr[title] {
   line-height: 16px;
 }
 
-#zone3 ul li a {
+.socials ul li a {
   color: white;
 }
 
-#zone3 ul li a svg {
+.socials ul li a svg {
   height: 1.5rem;
   width: 1.5rem;
 }
@@ -1212,32 +1213,42 @@ abbr[title] {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/header-background-right.png);
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: 12%;
+  background-size: 360px;
 }
 
 .intro-home h1 {
   font-family: "Univers LT Std", sans-serif;
-  font-size: 2.125rem;
+  font-size: 34px;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 0.34px;
   text-transform: uppercase;
   color: #a6945d;
+  margin-bottom: 15px;
 }
 
 .intro-home h2 {
   font-family: "Museo 700", sans-serif !important;
-  font-size: 3.1875rem;
+  font-size: 51px;
   font-weight: 700;
   line-height: 61px;
   color: white;
   margin-bottom: 30px;
+  max-width: 1015px;
+  text-align: center;
+}
+
+.intro-home img {
+  position: absolute;
+  z-index: 0;
+  top: 125px;
 }
 
 .intro-home .buttons-container {
   display: flex;
   justify-content: space-between;
   width: 530px;
+  z-index: 0;
 }
 
 .intro-home .buttons-container .btn {
@@ -1257,7 +1268,7 @@ abbr[title] {
   justify-content: center;
   padding: 15px;
   background-color: rgba(49, 2, 0, 0.5);
-  margin-top: 50px;
+  margin-top: 85px;
   width: 100%;
   font-family: "Univers LT Std", sans-serif;
   font-size: 14px;
