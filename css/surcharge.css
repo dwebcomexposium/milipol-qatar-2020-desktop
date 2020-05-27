@@ -256,8 +256,8 @@ h2 {
 .site-banner .global-search-form {
   display: block;
   position: absolute;
-  top: 20px;
-  right: 155px;
+  top: 21px;
+  right: 105px;
   width: 21px;
   height: 21px;
   z-index: 21;
@@ -339,7 +339,7 @@ h2 {
 
 .lang-switcher {
   top: 20px;
-  right: 50px;
+  right: 0;
   background-color: transparent;
 }
 
@@ -395,6 +395,10 @@ abbr[title] {
   padding: 0;
 }
 
+#cxpmClientAccountWidget .widget-my-selection {
+  margin-right: 12px;
+}
+
 #cxpmClientAccountWidget .widget-text span a {
   font-size: 1.4rem !important;
 }
@@ -425,7 +429,7 @@ abbr[title] {
 
 .site-banner .gsf-trigger:hover,
 .site-banner .gsf-trigger:focus {
-  background-color: #eee;
+  background-color: transparent;
 }
 
 .ls-lang-link {
@@ -884,7 +888,7 @@ abbr[title] {
   justify-content: flex-end;
   position: absolute;
   top: 0;
-  right: 5.3rem;
+  right: 0;
 }
 
 .site-banner > .inside .logged a,
@@ -932,7 +936,6 @@ abbr[title] {
   background-position: center center;
   width: 16px;
   height: 21px;
-  margin-right: 0.7rem;
   background-size: 100%;
   display: inline-block;
 }
@@ -1466,6 +1469,7 @@ abbr[title] {
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: -18px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #zone2 .edito-about .inside h2,
@@ -2078,8 +2082,9 @@ abbr[title] {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/business-areas-background.png);
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: contain;
-  padding: 50px;
+  background-size: 60%;
+  background-color: #f7f8f8;
+  padding: 150px;
 }
 
 #zone2 .business-areas .block-title {
