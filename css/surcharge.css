@@ -2605,7 +2605,7 @@ abbr[title] {
 .content743324 #main .zone .landing-exposant .background-exposant,
 .content374293 #main .zone .landing-exposant .background-exposant {
   position: relative;
-  background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant-v2020.jpg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/img-background-exposant-v2020.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -2646,7 +2646,7 @@ abbr[title] {
 
 .content743324 #main .zone .chiffres-cles,
 .content374293 #main .zone .chiffres-cles {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .content743324 #main .zone .chiffres-cles .number,
@@ -2729,7 +2729,7 @@ abbr[title] {
 
 .content743324 #main .zone .soyez-present,
 .content374293 #main .zone .soyez-present {
-  background-image: url("/theme/sima2019_git_desktop/images/img-background-exposant-present.jpg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/img-background-exposant-present.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 13rem;
@@ -2840,7 +2840,7 @@ abbr[title] {
 .content374293 #main .zone .soyez-present .txt-exposant .chart-bloc .chart-circles .chart-circle-card .chart-circle-number {
   font-size: 4.2rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  color: #6E6E6E;
+  color: #6e6e6e;
   position: absolute;
   top: 4rem;
   left: 50%;
@@ -2876,7 +2876,7 @@ abbr[title] {
 
 .content743324 #main .zone .article-focus,
 .content374293 #main .zone .article-focus {
-  background-image: url("/theme/sima2019_git_desktop/images/img-exposant.jpg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/img-exposant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2926,7 +2926,7 @@ abbr[title] {
   margin: 5rem 0 8rem 0;
   padding: 11rem 0 7rem 40%;
   width: 200%;
-  background-image: url("/theme/sima2019_git_desktop/images/bg-fabric.png");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-fabric.png");
   -webkit-transform: translateX(-35%) rotate(-10deg);
           transform: translateX(-35%) rotate(-10deg);
 }
@@ -2989,7 +2989,7 @@ abbr[title] {
   height: 100%;
   -webkit-transform: rotate(-25deg);
           transform: rotate(-25deg);
-  background-image: url(/theme/sima2019_git_desktop/images/img-inscription.jpg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/img-inscription.jpg);
   background-size: cover;
   background-position: center;
   left: -20%;
@@ -2999,7 +2999,7 @@ abbr[title] {
 
 .content743324 #main .article-focus,
 .content374293 #main .article-focus {
-  background-image: url("/theme/sima2019_git_desktop/images/img-exposant.jpg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/img-exposant.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -3145,22 +3145,22 @@ abbr[title] {
 
 .content743324 .quicklinks.ip1 .ql-item.linkid376259 a.btn-primary .icon,
 .content374293 .quicklinks.ip1 .ql-item.linkid376259 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-tractor-orange-v2020.svg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/icon-tractor-orange-v2020.svg");
 }
 
 .content743324 .quicklinks.ip1 .ql-item.linkid376261 a.btn-primary .icon,
 .content374293 .quicklinks.ip1 .ql-item.linkid376261 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-calendar-orange-v2020.svg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/icon-calendar-orange-v2020.svg");
 }
 
 .content743324 .quicklinks.ip1 .ql-item.linkid376262 a.btn-primary .icon,
 .content374293 .quicklinks.ip1 .ql-item.linkid376262 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-map-orange-v2020.svg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/icon-map-orange-v2020.svg");
 }
 
 .content743324 .quicklinks.ip1 .ql-item.linkid376263 a.btn-primary .icon,
 .content374293 .quicklinks.ip1 .ql-item.linkid376263 a.btn-primary .icon {
-  background-image: url("/theme/sima2019_git_desktop/images/icon-app-orange.svg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/icon-app-orange.svg");
 }
 
 .content743324 .quicklinks.ip1 .ql-item a:hover .txt-btn,
@@ -3170,15 +3170,43 @@ abbr[title] {
 
 .content743324 .list-articles .inside .main-title-with-link h2::before,
 .content743324 .nf-title::before,
-.content743324 .site-footer > .inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button,
+.content743324 .site-footer
+> .inside
+.newsletter-form
+.nf-main-content
+.inside
+.nf-form-item
+.nf-form-submit
+button,
 .content374293 .list-articles .inside .main-title-with-link h2::before,
 .content374293 .nf-title::before,
-.content374293 .site-footer > .inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button {
+.content374293 .site-footer
+> .inside
+.newsletter-form
+.nf-main-content
+.inside
+.nf-form-item
+.nf-form-submit
+button {
   background-color: #f39200 !important;
 }
 
-.content743324 .site-footer > .inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button:hover,
-.content374293 .site-footer > .inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit button:hover {
+.content743324 .site-footer
+> .inside
+.newsletter-form
+.nf-main-content
+.inside
+.nf-form-item
+.nf-form-submit
+button:hover,
+.content374293 .site-footer
+> .inside
+.newsletter-form
+.nf-main-content
+.inside
+.nf-form-item
+.nf-form-submit
+button:hover {
   background-color: #252525 !important;
 }
 
@@ -3190,7 +3218,7 @@ abbr[title] {
 .content743324 .site-footer > .inside .footer-social .reseaux-green a svg use,
 .content374293 .site-footer > .inside .footer-social .reseaux-green a svg use {
   fill: #f39200;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .content743324 .gla-item > a:hover .gla-item-content .gla-btn-read-more,
@@ -3231,7 +3259,7 @@ body.exposer #main .site-wrapper {
   position: absolute;
   left: 0;
   height: 35rem;
-  background-image: url(/theme/sima2019_git_desktop/images/bg-12.jpg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/bg-12.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -3763,7 +3791,7 @@ body.exposer #main .site-wrapper {
 > .esf-choice-container
 .esf-next-lvl::after {
   content: "";
-  background-image: url("/theme/sima2019_git_desktop/images/arrow-slides-v2020.svg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/arrow-slides-v2020.svg") !important;
   background-repeat: no-repeat !important;
   position: absolute;
   width: 1.5rem !important;
@@ -4723,13 +4751,13 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .catal-ed-group .catal-ed-partners-txt .catal-ed-partners-place {
   font-size: 2.3rem;
-  color: #6E6E6E;
+  color: #6e6e6e;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
 .mod-catal .catal-ed-group .catal-ed-partners-txt .catal-ed-partners-link {
   font-size: 2.3rem;
-  color: #6E6E6E;
+  color: #6e6e6e;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
 
@@ -5028,7 +5056,7 @@ body.exposer #main .site-wrapper {
 /*pagination*/
 .pagination .icon::before {
   content: "";
-  background-image: url(/theme/sima2019_git_desktop/images/arrow-slides-v2020.svg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-slides-v2020.svg);
   width: 0.8rem;
   height: 1.2rem;
   display: block;
@@ -5052,7 +5080,7 @@ body.exposer #main .site-wrapper {
 
 .pagination .pagin-prev:hover .icon::before,
 .pagination .pagin-next:hover .icon::before {
-  background-image: url(/theme/sima2019_git_desktop/images/arrow-allinone.svg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-allinone.svg);
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   background-size: 0.8rem auto;
@@ -5173,7 +5201,7 @@ body.exposer #main .site-wrapper {
   left: 0;
   top: 0;
   height: 36rem;
-  background-image: url(/theme/sima2019_git_desktop/images/bg-12.jpg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/bg-12.jpg);
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -5364,12 +5392,12 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary span::before {
-  content: '';
+  content: "";
   position: absolute;
   background: #0b8e36;
   width: 1.3rem;
-  height: .3rem;
-  bottom: .7rem;
+  height: 0.3rem;
+  bottom: 0.7rem;
   left: -1.7rem;
 }
 
@@ -5392,8 +5420,8 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-list .catal-other-ex-item a.catal-other-ex-link .catal-other-ex-txt {
-  background: #FFFFFF;
-  border: 1px solid #E7E7E7;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
   box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.09);
   height: 0;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
@@ -5595,7 +5623,7 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .zone .article-content blockquote::before {
   content: "";
-  background: url("/theme/sima2019_git_desktop/images/apostrophes-v2020.svg");
+  background: url("/theme/milipolqatar_desktop_2020_git/img/apostrophes-v2020.svg");
   position: absolute;
   width: 4.2rem;
   height: 2.7rem;
@@ -5804,7 +5832,7 @@ h1.main-title  {
   position: relative;
   border: 3px solid #e4e4e4;
   padding: 2rem 3rem 2rem 6rem;
-  background-image: url("/theme/sima2019_git_desktop/images/icon-pdf.svg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/icon-pdf.svg");
   background-repeat: no-repeat;
   background-position: left 2.5rem center;
   margin: -1rem 0;
@@ -6029,7 +6057,7 @@ h1.main-title  {
 }
 
 .body-corpo.sima #main::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-6.jpg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-6.jpg") !important;
 }
 
 .body-corpo.sima.content384937 #main {
@@ -6059,31 +6087,31 @@ h1.main-title  {
 }
 
 .body-corpo.simagena #main::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-13.jpg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-13.jpg") !important;
 }
 
 .body-corpo.exposer #main::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-11.jpg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-11.jpg") !important;
 }
 
 .body-corpo.exposer.article_list #main .site-wrapper.wrapper::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-11.jpg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-11.jpg") !important;
 }
 
 .body-corpo.visiter #main::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-12.jpg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-12.jpg") !important;
 }
 
 .body-corpo.evts #main::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-2.jpg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-2.jpg") !important;
 }
 
 .body-corpo.evts.article_list #main .site-wrapper.wrapper::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-2.jpg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-2.jpg") !important;
 }
 
 .body-corpo.worldwide #main::before {
-  background-image: url("/theme/sima2019_git_desktop/images/bg-10.jpg") !important;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-10.jpg") !important;
 }
 
 .stands {
@@ -6294,7 +6322,7 @@ h1.main-title  {
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main::before,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main::before {
   height: 33.5rem;
-  background-image: url(/theme/sima2019_git_desktop/images/bg-2.jpg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/bg-general.svg);
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper,
@@ -6310,12 +6338,7 @@ h1.main-title  {
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 {
-  margin: 0 0 8rem 0;
-  height: 31rem;
-  vertical-align: middle;
-  display: flex;
-  position: relative;
-  align-items: center;
+  text-align: center;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
@@ -6324,22 +6347,6 @@ h1.main-title  {
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span {
   position: relative;
-}
-
-.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
-.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
-.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
-.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after,
-.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span::after {
-  display: block;
-  right: -5.5rem;
-  top: 50%;
-  margin-top: -1px;
-  position: absolute;
-  content: "";
-  width: 3.5rem;
-  height: 3px;
-  background-color: white;
 }
 
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
@@ -6368,7 +6375,7 @@ h1.main-title  {
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-nb-result {
   font-size: 2.2rem;
   color: white;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-nb-result::before {
@@ -6679,11 +6686,13 @@ h1.main-title  {
   background: #0b8e36 !important;
 }
 
-.content453797 .mod-catal .esf-as-header:after, .content453797 .mod-catal .esf-as-header:before {
+.content453797 .mod-catal .esf-as-header:after,
+.content453797 .mod-catal .esf-as-header:before {
   background: #0b8e36;
 }
 
-.content453797 .mod-catal .esf-as-header:hover::after, .content453797 .mod-catal .esf-as-header:hover::before {
+.content453797 .mod-catal .esf-as-header:hover::after,
+.content453797 .mod-catal .esf-as-header:hover::before {
   background-color: white;
 }
 
@@ -6705,7 +6714,7 @@ h1.main-title  {
   display: block;
   background-color: #000;
   height: 53.5rem;
-  background-image: url(/theme/sima2019_git_desktop/images/evenements.jpg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/evenements.jpg);
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -6797,7 +6806,7 @@ h1.main-title  {
 }
 
 .content453797 #esf-btn-search {
-  padding: .9rem .3rem !important;
+  padding: 0.9rem 0.3rem !important;
 }
 
 .content453797 .catal-results-selectboxes {
@@ -6890,7 +6899,7 @@ h1.main-title  {
 
 .parent691061 {
   margin-top: 3rem;
-  font-family: 'Roboto-condensed-regular';
+  font-family: "Roboto-condensed-regular";
 }
 
 .parent691061 #complement .catal-edp-item .catal-edp-content .catal-edp-desc a {
@@ -6943,7 +6952,7 @@ h1.main-title  {
 }
 
 .parent691061 .mod-catal .icon-catal-long-arrow-right:before {
-  content: "" !important;
+  content: "\ea22" !important;
 }
 
 .parent691061 .catal-ed-group:nth-child(1) {
@@ -6956,12 +6965,12 @@ h1.main-title  {
 
 .parent691061 p.catal-edp-brand span:nth-child(1) {
   font-size: 1.8rem;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 .parent691061 p.catal-edp-brand span:nth-child(3) {
   font-size: 1.8rem;
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 
 .parent691061 .catal-ed-main-stand-title {
@@ -6969,8 +6978,8 @@ h1.main-title  {
 }
 
 .parent691061 .catal-ed-main-stand-ref {
-  color: #4A4A4A;
-  font-family: 'Roboto-condensed-regular';
+  color: #4a4a4a;
+  font-family: "Roboto-condensed-regular";
 }
 
 .parent691061 .catal-ed-activity-group {
@@ -7037,7 +7046,7 @@ h1.main-title  {
 .parent691061 .catal-ed-main-desc-title::before {
   content: "";
   width: 2rem;
-  height: .2rem;
+  height: 0.2rem;
   background: #0b8e36;
   position: absolute;
   left: -36px;
@@ -7054,11 +7063,11 @@ h1.main-title  {
   background-position: center;
   z-index: 1;
   margin-top: 1.5rem;
-  background-image: url(/theme/sima2019_git_desktop/images/evenements.jpg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/evenements.jpg);
 }
 
 .parent691061 .catal-nav-ex {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   margin-left: 225px;
 }
 
@@ -7076,7 +7085,7 @@ h1.main-title  {
 .parent691061 .catal-nav-ex .catal-nav-ex-more-link i.icon-catal::before, .parent691061 .catal-nav-ex .catal-nav-ex-more-link i.icon-catal::after,
 .parent691061 .catal-nav-ex .catal-nav-ex-link i.icon-catal::before,
 .parent691061 .catal-nav-ex .catal-nav-ex-link i.icon-catal::after {
-  color: #4A4A4A !important;
+  color: #4a4a4a !important;
 }
 
 .parent691061 .breadcrumb-nav {
@@ -7107,7 +7116,9 @@ h1.main-title  {
   max-width: 30rem !important;
 }
 
-.parent691061 .mod-catal.catal-nav-affix .current .catal-nav-affix-link, .parent691061 .mod-catal.catal-nav-affix .catal-nav-affix-item.is-active
+.parent691061 .mod-catal.catal-nav-affix .current .catal-nav-affix-link,
+.parent691061 .mod-catal.catal-nav-affix
+.catal-nav-affix-item.is-active
 .catal-nav-affix-link {
   color: white !important;
   background: #0b8e36;
@@ -7116,7 +7127,9 @@ h1.main-title  {
   padding-left: 3.2rem;
 }
 
-.parent691061 .mod-catal.catal-nav-affix .current .catal-nav-affix-link:before, .parent691061 .mod-catal.catal-nav-affix .catal-nav-affix-item.is-active
+.parent691061 .mod-catal.catal-nav-affix .current .catal-nav-affix-link:before,
+.parent691061 .mod-catal.catal-nav-affix
+.catal-nav-affix-item.is-active
 .catal-nav-affix-link:before {
   content: "";
   position: absolute;
@@ -7149,7 +7162,7 @@ h1.main-title  {
 
 .parent691061 .catal-ex-item-buttons .btn-primary {
   margin-left: 0;
-  background: #F4F4F4 !important;
+  background: #f4f4f4 !important;
 }
 
 .parent691061 .catal-ex-item-buttons .btn-primary:hover {
@@ -7182,7 +7195,7 @@ h1.main-title  {
 
 .parent691061 h1 .ezstring-field {
   color: #0b8e36;
-  font-family: 'Open-sans-bold';
+  font-family: "Open-sans-bold";
   font-size: 4rem;
 }
 
@@ -7192,15 +7205,15 @@ h1.main-title  {
   border: none;
   display: flex;
   flex-direction: column;
-  background: #F4F4F4;
+  background: #f4f4f4;
 }
 
 .parent691061 .catal-ed-main p:nth-child(1) {
   font-size: 17px;
   line-height: 25px;
   text-align: justify;
-  color: #4A4A4A;
-  font-family: 'Roboto-condensed-regular';
+  color: #4a4a4a;
+  font-family: "Roboto-condensed-regular";
 }
 
 .parent691061 .catal-ed-main .catal-ed-main-desc-title {
@@ -7260,7 +7273,7 @@ h1.main-title  {
 .parent691061 .catal-ed-activity {
   margin-bottom: 3rem !important;
   margin: 4rem 2.5rem 0 2.5rem;
-  border: 2px solid #E2E2E2;
+  border: 2px solid #e2e2e2;
   padding: 2rem;
 }
 
@@ -7279,7 +7292,7 @@ h1.main-title  {
 .parent691061 .catal-ed-activity .catal-ed-activity-list a.event-link-opposite {
   font-weight: 150 !important;
   color: #0b8e36;
-  background: #F4F4F4;
+  background: #f4f4f4;
   text-decoration: none !important;
   padding: 1rem;
   text-align: center;
