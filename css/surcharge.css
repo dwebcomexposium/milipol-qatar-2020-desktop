@@ -6349,6 +6349,58 @@ h1.main-title  {
   position: relative;
 }
 
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap {
+  width: 100%;
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list {
+  margin-top: 280px;
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title {
+  color: #7b1228;
+  text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  border-bottom: 1px solid #a6945d;
+  padding-bottom: 15px;
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li:before,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li:before,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li:before,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li:before,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li:before {
+  background: #7b1228;
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li a,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li a,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li a,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li a,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li a {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #0b1626;
+}
+
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 {
   height: 21rem;
