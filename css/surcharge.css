@@ -1224,13 +1224,198 @@ abbr[title] {
 /* end site-banner*/
 .site-footer {
   background: #7b1228;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/footer-background.svg");
+  background-position: bottom right;
+  background-size: 240px;
+  background-repeat: no-repeat;
   position: relative;
   margin: 0;
-  padding: 5rem 0 0 0;
-  /*END-INSIDE*/
 }
 
-/*END-SITE-FOOTER*/
+.site-footer .inside {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.site-footer .first-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.site-footer .first-container .userAccount-newsletter {
+  width: 50%;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content {
+  background-color: transparent;
+  padding: 0;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-title {
+  display: flex;
+  margin-right: 80px;
+  max-width: 150px;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 29px;
+  color: white;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-subtitle + p {
+  display: none;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item label {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-input {
+  float: none;
+  width: 300px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-input .form-txt {
+  width: 100%;
+  min-height: 40px;
+  padding: 0;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .optin-container {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(247, 248, 248, 0.53);
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .optin-container input {
+  margin-right: 10px;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit {
+  position: absolute;
+  top: 35px;
+  left: 530px;
+  margin-top: 0;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button {
+  border: 0;
+}
+
+.site-footer .first-container .follow-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer .first-container .follow-us .text {
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 29px;
+  color: white;
+  margin-right: 50px;
+  width: 200px;
+}
+
+.site-footer .first-container .follow-us .nav-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.site-footer .first-container .follow-us .nav-social li:not(:last-child) {
+  margin-right: 4px;
+}
+
+.site-footer .first-container .follow-us .nav-social li img {
+  width: 40px;
+}
+
+.site-footer .first-container .follow-us .nav-social h2 {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.site-footer .second-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.site-footer .second-container .logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer .second-container .logos .left-text {
+  max-width: 345px;
+}
+
+.site-footer .second-container .logos .left-text p {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 22px;
+  color: rgba(247, 248, 248, 0.53);
+}
+
+.site-footer .second-container .logos .right-logos .first-logo {
+  margin-right: 30px;
+}
+
+.site-footer .third-container {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 11px;
+  letter-spacing: 0.18px;
+  display: flex;
+  background-color: #0b1626;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* pages */
 .intro-home {
   display: flex;
