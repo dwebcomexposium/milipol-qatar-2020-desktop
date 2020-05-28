@@ -6316,6 +6316,17 @@ h1.main-title  {
   background-color: #634e42;
 }
 
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/articles-bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: auto;
+}
+
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main::before,
 .body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main::before,
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main::before,
@@ -6330,7 +6341,15 @@ h1.main-title  {
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper,
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper {
-  margin-bottom: 8rem;
+  padding-bottom: 8rem;
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav {
+  display: none;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1,
@@ -6406,52 +6425,84 @@ h1.main-title  {
   height: 21rem;
 }
 
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result {
+  width: 100%;
+}
+
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-form {
+  display: none;
   order: 1;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title {
   order: 0;
+  max-width: 350px;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-term {
-  margin-left: 1rem;
-  color: #0b8e36;
+  color: #a6945d;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-nb-result {
-  font-size: 2.2rem;
-  color: white;
-  margin-left: 0.5rem;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  color: rgba(247, 248, 248, 0.53);
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-nb-result::before {
   display: none;
 }
 
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-group {
+  margin-top: 200px;
+}
+
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-group:first-child .sr-group-title {
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-group .sr-group-title {
-  color: #252525;
-  font-size: 5rem;
+  text-align: center;
+  color: #7b1228;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 50px;
   margin: 8rem 0 2rem;
 }
 
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-item {
+  border-bottom: 1px solid #a6945d;
+}
+
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-item-title a {
-  color: #252525;
-  font-size: 3.2rem;
+  color: #0b1626;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-item-title a:hover {
-  color: #0b8e36;
+  color: #7b1228;
   text-decoration: none;
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-item-txt {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #3c4451;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .gsf-fields {
