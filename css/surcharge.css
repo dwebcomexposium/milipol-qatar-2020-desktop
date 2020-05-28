@@ -419,6 +419,25 @@ abbr[title] {
   font-size: 1.2rem;
 }
 
+.breadcrumb-nav {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.breadcrumb-nav .bn-item-link {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  color: rgba(247, 248, 248, 0.53);
+  text-transform: uppercase;
+}
+
+.breadcrumb-nav .icon {
+  font-size: 0.8rem;
+}
+
 #zone3.zone {
   position: fixed;
   right: 0;
@@ -1492,7 +1511,7 @@ abbr[title] {
   text-transform: uppercase;
 }
 
-#zone1 {
+#zone1 .cta-arrow {
   background-color: #f7f8f8;
 }
 
@@ -1562,6 +1581,7 @@ abbr[title] {
   background-position: bottom left;
   padding: 85px 0;
   border-top: 1px solid #d8d8d8;
+  background-color: #f7f8f8;
 }
 
 #zone1 .opening-in .text {
@@ -6555,12 +6575,12 @@ h1.main-title  {
 
 .block-page.faq .fc-item-content p a {
   font-weight: 150 !important;
-  color: #0b8e36;
+  color: #7b1228;
   text-decoration: underline;
 }
 
 .block-page.faq .fc-item-content p a:hover {
-  color: #0b8e36;
+  color: #0b1626;
   text-decoration: none;
 }
 
@@ -6582,7 +6602,7 @@ h1.main-title  {
 }
 
 .block-page.faq > .inside:nth-child(1) {
-  margin-bottom: 260px;
+  margin-bottom: 180px;
 }
 
 .block-page.faq > .inside:nth-child(1) h1 {
