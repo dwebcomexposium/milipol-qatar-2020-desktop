@@ -363,7 +363,7 @@ abbr[title] {
 #cxpmClientAccountWidget .widget-icon {
   height: 3rem;
   display: block;
-  padding: 0;
+  padding: 0 !important;
 }
 
 #cxpmClientAccountWidget .widget-my-selection .number,
@@ -5449,6 +5449,13 @@ h1.main-title  {
   margin-bottom: 2.5rem;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/articles-bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: auto;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main::before {
   content: "";
   display: block;
@@ -5465,7 +5472,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .block.block-page.social-sharing {
-  display: flex;
+  display: none;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper {
@@ -5488,7 +5495,15 @@ h1.main-title  {
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .layout-2-col #zone2 h1 {
   text-align: center;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .layout-2-col #zone2 .article-wrapper {
+  margin-bottom: 15rem;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .layout-2-col .block-page .inside h1 {
@@ -5543,6 +5558,16 @@ h1.main-title  {
   color: white;
   line-height: 5.6rem;
   margin-bottom: 3rem;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .zone .article-intro {
+  color: #7b1228;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+  border-bottom: 1px solid #a6945d;
+  padding-bottom: 30px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) .site-wrapper .zone .article-content {
@@ -6358,6 +6383,7 @@ h1.main-title  {
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 {
   text-align: center;
+  margin-top: 100px;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1 span,
@@ -6584,9 +6610,9 @@ h1.main-title  {
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link:hover {
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 15px 35px -25px rgba(0, 0, 0, 0.25);
-  outline-color: rgba(242, 108, 74, 0.4);
+  outline-color: rgba(123, 18, 40, 0.4);
   outline-offset: 1.4rem;
-  border: 2px solid #f26c4a;
+  border: 2px solid #7b1228;
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust {
