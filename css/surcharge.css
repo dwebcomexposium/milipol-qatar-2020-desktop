@@ -5480,7 +5480,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
-  color: #0b8e36;
+  color: #7b1228;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet > li:before {
@@ -6256,7 +6256,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
-  color: #0b8e36;
+  color: #7b1228;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside .content-list-bullet > li:before {
@@ -6559,14 +6559,6 @@ h1.main-title  {
   padding-bottom: 8rem;
 }
 
-.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav,
-.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav,
-.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav,
-.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav,
-.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .breadcrumb-nav {
-  display: none;
-}
-
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper h1,
@@ -6590,6 +6582,7 @@ h1.main-title  {
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap {
   width: 100%;
+  display: block;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list,
