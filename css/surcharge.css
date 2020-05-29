@@ -6279,7 +6279,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside .main-title-with-link {
-  margin-bottom: 350px !important;
+  margin-bottom: 180px !important;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside h1 {
@@ -6314,6 +6314,17 @@ h1.main-title  {
   background-color: #0b8e36;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .intro {
+  color: #7b1228;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+  border-bottom: 1px solid #a6945d;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list {
   display: flex;
   flex-direction: column;
@@ -6321,17 +6332,138 @@ h1.main-title  {
   align-items: center;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-title {
-  font-size: 2.3rem;
-  color: #252525;
-  font-weight: normal;
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item {
+  position: static;
+  width: 100%;
+  box-shadow: none;
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item a {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item a img {
+  max-width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-content {
+  position: static;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-content .gla-item-title {
+  color: #0b1626;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  margin-bottom: 12px;
+  order: 1;
+  text-align: left;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-btn .gla-btn-read-more {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  background-color: transparent;
+  border: 0;
+  color: #0b1626;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-btn .gla-btn-read-more:after {
+  display: block;
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  background-repeat: no-repeat;
+  margin-left: 10px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-desc {
-  font-size: 1.5rem;
-  margin-bottom: 3rem;
-  margin-top: 2rem;
-  color: #474747;
+  margin-bottom: 7rem;
+  text-align: left;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #3c4451;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination {
+  border: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item {
+  border-radius: 80px;
+  background-color: transparent;
+  color: #0b1626;
+  box-shadow: none;
+  text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  padding: 1rem !important;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item a {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.is-active {
+  background-color: #0b1626;
+  color: white;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item:hover {
+  background-color: #0b1626;
+  color: white;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-next,
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item .pagin-prev {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-next:after {
+  display: block;
+  content: "";
+  width: 12px;
+  height: 14px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/pagination-next.svg);
+  background-repeat: no-repeat;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev:before {
+  display: block;
+  content: "";
+  width: 12px;
+  height: 14px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/pagination-prev.svg);
+  background-repeat: no-repeat;
 }
 
 .content743330 .article-content h3 + p + ul,
