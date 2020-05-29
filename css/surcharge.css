@@ -5055,132 +5055,70 @@ body.exposer #main .site-wrapper {
 
 /*end esf-advanced-search*/
 /*pagination*/
-.pagination .icon::before {
-  content: "";
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-slides-v2020.svg);
-  width: 0.8rem;
-  height: 1.2rem;
-  display: block;
-  background-size: 0.9rem auto;
-}
-
-.pagination .pagin-prev a,
-.pagination .pagin-next a {
-  color: #474d4e;
-}
-
-.pagination .pagin-prev a:hover,
-.pagination .pagin-next a:hover {
-  background: transparent;
-}
-
-.pagination .pagin-prev:hover,
-.pagination .pagin-next:hover {
-  background: #f39200;
-}
-
-.pagination .pagin-prev:hover .icon::before,
-.pagination .pagin-next:hover .icon::before {
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-allinone.svg);
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  background-size: 0.8rem auto;
-}
-
-.pagination .pagin-prev a .icon {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.pagination .pagin-item {
-  background: white;
-  border: none;
-  padding: 0.3rem 0.8rem !important;
-  box-shadow: 0 1rem 2rem -0.8rem rgba(0, 0, 0, 0.15);
-  color: #474d4e;
-  font-size: 1.7rem;
-  transition: all 0.2s ease;
-}
-
-.pagination .pagin-item.is-active {
-  background: #f39200;
-}
-
-.pagination .pagin-item a {
-  transition: all 0.2s ease;
-  width: 100%;
-  height: 100%;
-}
-
-.pagination .pagin-item:hover {
-  background: #f39200;
-}
-
-.pagination .pagin-item:hover a {
-  color: white;
-}
-
-.pagination .pagin-item .mod-catal .catal-ed-main .catal-ed-main-stand-title {
-  color: black;
-  line-height: 2.3rem;
-  margin-top: -0.5rem;
-}
-
-.pagination .pagin-item .mod-catal .catal-ed-main .catal-ed-main-stand {
-  padding: 2rem 2.5rem;
-  float: none;
-  margin-left: 0;
-  background-color: white;
-}
-
-.pagination .pagin-item .mod-catal .catal-ed-main .catal-ed-main-stand-ref .icon-catal {
-  color: #634e42;
-}
-
-.pagination .pagin-item .mod-catal a {
-  color: #634e42;
-}
-
-.pagination .pagin-item .mod-catal .catal-ed-group {
-  border: 0 none;
-  margin-top: 4rem;
-}
-
-.pagination .pagin-item .mod-catal.catal-nav-affix .catal-nav-affix-link:focus,
-.pagination .pagin-item .mod-catal.catal-nav-affix .catal-nav-affix-link:hover,
-.pagination .pagin-item .mod-catal.catal-nav-affix .current .catal-nav-affix-link,
-.pagination .pagin-item .mod-catal.catal-nav-affix
-.catal-nav-affix-item.is-active
-.catal-nav-affix-link {
-  color: black;
-  font-size: 1.5rem;
-}
-
-.pagination .pagin-item .mod-catal .catal-ed-main .catal-ed-main-media {
-  display: none;
-}
-
-.pagination .pagin-item .mod-catal .catal-ed-main {
-  margin-top: 9.5rem;
-  border: 1px solid #e0e0e0;
-  background-color: transparent;
-  padding: 0;
+.pagination {
+  border: 0;
   display: flex;
-}
-
-.pagination .pagin-item .mod-catal .catal-ed-main .catal-ed-main-stand {
-  order: 2;
-  margin-left: auto;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
-.pagination .pagin-item .mod-catal .catal-ed-main a {
-  font-size: 1.8rem;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
-  color: #6e6e6e;
-  background: transparent;
+.pagination .pagin-item {
+  border-radius: 80px;
+  background-color: transparent;
+  color: #0b1626;
+  box-shadow: none;
+  text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  padding: 1rem !important;
+}
+
+.pagination .pagin-item a {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.pagination .pagin-item.is-active {
+  background-color: #0b1626;
+  color: white;
+}
+
+.pagination .pagin-item:hover {
+  background-color: #0b1626;
+  color: white;
+}
+
+.pagination .pagin-item.pagin-next {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pagination .pagin-item.pagin-next:after {
+  display: block;
+  content: "";
+  width: 12px;
+  height: 14px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/pagination-next.svg);
+  background-repeat: no-repeat;
+}
+
+.pagination .pagin-item.pagin-prev {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pagination .pagin-item.pagin-prev:before {
+  display: block;
+  content: "";
+  width: 12px;
+  height: 14px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/pagination-prev.svg);
+  background-repeat: no-repeat;
 }
 
 /********* page single-exposant ****************/
