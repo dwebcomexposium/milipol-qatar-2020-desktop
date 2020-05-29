@@ -6642,7 +6642,6 @@ h1.main-title  {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-form {
@@ -6653,6 +6652,7 @@ h1.main-title  {
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title {
   display: flex;
   flex-direction: column;
+  margin-top: 0;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside .sr-main-title .sr-term {
