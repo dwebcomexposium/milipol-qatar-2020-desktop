@@ -6441,8 +6441,7 @@ h1.main-title  {
   color: white;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-next,
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item .pagin-prev {
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-next {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6455,6 +6454,12 @@ h1.main-title  {
   height: 14px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/pagination-next.svg);
   background-repeat: no-repeat;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev:before {
