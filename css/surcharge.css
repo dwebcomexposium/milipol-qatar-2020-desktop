@@ -971,6 +971,8 @@ abbr[title] {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   color: white;
   padding: 0.8rem 1.2rem 0.9rem 1.2rem;
+  display: flex;
+  align-items: center;
 }
 
 .site-banner > .inside .ls-trigger:focus {
@@ -979,9 +981,14 @@ abbr[title] {
 
 .site-banner > .inside .ls-trigger::after {
   margin-left: 0.2rem;
-  border-width: 0.5rem 0.3rem 0 0.3rem;
-  top: 0.3rem;
-  border-color: #252525 transparent transparent transparent;
+  display: block;
+  content: "";
+  width: 10px;
+  height: 6px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-down-gold.svg);
+  background-repeat: no-repeat;
+  top: 0;
+  border: 0;
 }
 
 .site-banner > .inside button.gsf-trigger.js-toggle-trigger.unstyled {
@@ -1178,7 +1185,7 @@ abbr[title] {
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2:first-child {
-  border-top: 1px solid #a6945d;
+  border-top: 5px solid #a6945d;
   padding-top: 1.5rem;
 }
 
@@ -1198,28 +1205,22 @@ abbr[title] {
   display: none;
 }
 
-.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2:first-child .mn-link::before {
-  top: 62%;
-}
-
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2:last-child {
   padding-bottom: 1.5rem;
 }
 
-.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2:last-child .mn-link::before {
-  top: 38%;
-}
-
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link {
-  padding: 0.6rem 2.8rem 0.6rem 5.3rem;
+  padding: 0.6rem 2.8rem 0.6rem 2.3rem;
   line-height: 2.4rem;
   background-color: transparent;
   font-family: "Univers LT Std", sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 10px;
   letter-spacing: 0.17px;
   text-transform: none;
+  display: flex;
+  align-items: center;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link::before {
@@ -1229,9 +1230,6 @@ abbr[title] {
   height: 6px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
-  position: absolute;
-  left: 3rem;
-  top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   transition: all 0.275s ease;
@@ -1798,6 +1796,7 @@ abbr[title] {
   border: 2px solid rgba(11, 22, 38, 0.13);
   top: 90px;
   left: 220px;
+  width: 250px;
 }
 
 .body-corpo.front #zone2 .prepare {
@@ -1835,10 +1834,11 @@ abbr[title] {
 }
 
 .body-corpo.front #zone2 .prepare .links .ql-item span {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Univers LT Std", sans-serif;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 12px;
+  letter-spacing: 0.2px;
   color: #0b1626;
 }
 
@@ -2114,6 +2114,20 @@ abbr[title] {
   justify-content: center;
 }
 
+.body-corpo.front #zone2 .conference-program .cta .btn {
+  width: 276px;
+  display: flex;
+}
+
+.body-corpo.front #zone2 .conference-program .cta .btn span {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  margin-right: auto;
+}
+
 .body-corpo.front #zone2 .contacts-list {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/speakers-background.svg);
   background-repeat: no-repeat;
@@ -2189,10 +2203,40 @@ abbr[title] {
 .body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link .main-title {
   text-align: center;
   margin-bottom: 20px;
+  color: #0b1626;
+  text-transform: capitalize;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 16px;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link .link-view-all {
   align-self: flex-end;
+  text-transform: uppercase;
+  color: #0b1626;
+  letter-spacing: 0.2px;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link .link-view-all i {
+  display: none;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link .link-view-all::after {
+  display: block;
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  background-repeat: no-repeat;
+  margin-left: auto;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery {
@@ -2201,7 +2245,7 @@ abbr[title] {
   justify-content: center;
   align-items: center;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .slider-content {
@@ -2245,28 +2289,46 @@ abbr[title] {
   float: none;
 }
 
-.body-corpo.front #zone2 .list-articles .inside .grid-la-list {
+.body-corpo.front #zone2 .list-articles .inside .main-title-with-link .btn {
+  width: 276px;
+  display: flex;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+}
+
+.body-corpo.front #zone2 .list-articles .inside .main-title-with-link .btn img {
+  margin-left: auto;
+}
+
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination {
+  margin-top: 50px;
+}
+
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list {
   justify-content: space-evenly;
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.body-corpo.front #zone2 .list-articles .inside .grid-la-list .gla-item {
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item {
   margin-left: 0;
   min-height: 475px;
   background-color: white;
   padding: 10px;
 }
 
-.body-corpo.front #zone2 .list-articles .inside .grid-la-list .gla-item a img {
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a img {
   width: 100%;
 }
 
-.body-corpo.front #zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content {
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content {
   display: flex;
 }
 
-.body-corpo.front #zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content .gla-item-title {
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-title {
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -2276,13 +2338,13 @@ abbr[title] {
   color: #7b1228;
 }
 
-.body-corpo.front #zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content .gla-item-btn {
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-btn {
   order: 2;
   margin-top: 0;
   align-self: flex-end;
 }
 
-.body-corpo.front #zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more {
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more {
   background-color: transparent;
   border: 0;
   font-family: "Univers LT Std", sans-serif;
@@ -2294,7 +2356,7 @@ abbr[title] {
   color: #0b1626;
 }
 
-.body-corpo.front #zone2 .list-articles .inside .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more i::after {
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more i::after {
   content: "";
   width: 22px;
   height: 6px;
@@ -2374,6 +2436,20 @@ abbr[title] {
 .body-corpo.front #zone2 .business-areas .cta {
   display: flex;
   justify-content: center;
+}
+
+.body-corpo.front #zone2 .business-areas .cta .btn {
+  width: 276px;
+  display: flex;
+}
+
+.body-corpo.front #zone2 .business-areas .cta .btn span {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  margin-right: auto;
 }
 
 .body-corpo.front #zone2 .discover-qatar {
