@@ -736,6 +736,10 @@ abbr[title] {
   color: #0b1626 !important;
 }
 
+.site-banner .is-open .mn-link.mn-link {
+  background-color: transparent;
+}
+
 .site-banner .mn-menu-item:not(:last-child) {
   margin-right: 15px;
 }
