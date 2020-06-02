@@ -736,6 +736,18 @@ abbr[title] {
   color: #0b1626 !important;
 }
 
+.site-banner .mn-menu-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.site-banner .mn-menu-item .mn-link:hover {
+  background-color: transparent;
+}
+
+.site-banner .mn-link-text::before {
+  display: none;
+}
+
 .site-banner > .inside {
   width: 100%;
   max-width: initial;
@@ -1138,7 +1150,7 @@ abbr[title] {
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu {
-  padding-top: 4.5rem;
+  padding-top: 0;
   background: #ffffff;
   z-index: 0;
   min-width: 28rem;
@@ -1162,7 +1174,7 @@ abbr[title] {
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2:first-child {
-  border-top: 1px solid #e7e7e7;
+  border-top: 1px solid #a6945d;
   padding-top: 1.5rem;
 }
 
@@ -1179,6 +1191,7 @@ abbr[title] {
   border-top: 1px solid #e7e7e7;
   -webkit-transform: rotate(45deg) translateX(-75%);
           transform: rotate(45deg) translateX(-75%);
+  display: none;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2:first-child .mn-link::before {
@@ -1196,13 +1209,22 @@ abbr[title] {
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link {
   padding: 0.6rem 2.8rem 0.6rem 5.3rem;
   line-height: 2.4rem;
+  background-color: transparent;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0.17px;
+  text-transform: none;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link::before {
   content: "";
-  width: 1.5rem;
-  height: 2px;
-  background-color: #0b8e36;
+  display: block;
+  width: 22px;
+  height: 6px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  background-repeat: no-repeat;
   position: absolute;
   left: 3rem;
   top: 50%;
@@ -1217,6 +1239,11 @@ abbr[title] {
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link:hover::before {
   width: 2.5rem;
+}
+
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu span.mn-link-text {
+  color: #0b1626;
+  margin-left: 10px;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu span.mn-link-text::before {
