@@ -1082,20 +1082,6 @@ header.site-banner .global-search-form .gsf-label {
   background-color: transparent;
 }
 
-.site-banner > .inside .main-navigation:before {
-  content: "";
-  background-image: url("/theme/milipolqatar_desktop_2020_git/img/logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  width: 35.5rem;
-  height: 16rem;
-  display: block;
-  position: fixed;
-  left: 200px;
-  top: 20px;
-}
-
 .site-banner > .inside .main-navigation + .main-navigation {
   margin: 0 2rem;
   transition: all 0.2s ease;
@@ -1181,7 +1167,7 @@ header.site-banner .global-search-form .gsf-label {
   justify-content: flex-end;
   width: 80%;
   list-style: none;
-  /*logo SIMA*/
+  /*logo*/
   /*BTN EXPOSANT/BADGE*/
 }
 
@@ -1310,6 +1296,22 @@ header.site-banner .global-search-form .gsf-label {
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-submenu {
   background: white;
+}
+
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-855024 {
+  background-image: none;
+  width: auto;
+  height: auto;
+  margin-right: 27rem;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-855024 a {
+  text-indent: -100rem;
+  content: url("/theme/milipolqatar_desktop_2020_git/img/logo.png");
+  width: 325px;
+  margin: -1.5rem 0;
 }
 
 /* end site-banner*/
@@ -2785,10 +2787,6 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 #zone4 .article-focus .inside .af-title {
-  display: none;
-}
-
-#zone4 .article-focus .inside p {
   display: none;
 }
 
