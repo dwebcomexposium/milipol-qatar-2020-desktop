@@ -527,7 +527,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .layout-2-col {
-  display: block;
+  display: flex;
 }
 
 .block-page {
