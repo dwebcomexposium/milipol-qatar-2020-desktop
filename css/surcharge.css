@@ -627,23 +627,6 @@ header.site-banner .global-search-form .gsf-label {
   color: white !important;
 }
 
-.btn.btn-orange {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #f39200 50%, #252525 50%);
-}
-
-.btn.btn-orange:hover {
-  background-position: 0 100%;
-}
-
-.btn.btn-orange.btn-orange-color-white {
-  color: white;
-}
-
-.btn.btn-orange.btn-orange-color-white:hover {
-  color: white !important;
-}
-
 .edito-item-btn {
   display: flex;
   justify-content: center;
@@ -1623,6 +1606,7 @@ header.site-banner .global-search-form .gsf-label {
 
 #zone1 .cta-arrow {
   background-color: #f7f8f8;
+  margin-top: 0;
 }
 
 #zone1 .cta-arrow .ql-list {
@@ -7990,7 +7974,7 @@ body.error404 .site-wrapper #zone4 {
 
 body.error404 .site-wrapper .intro {
   max-width: 130rem;
-  margin: 8rem auto 4rem;
+  margin: 25rem auto 4rem;
 }
 
 body.error404 .site-wrapper .intro .ezxmltext-field {
@@ -8000,9 +7984,33 @@ body.error404 .site-wrapper .intro .ezxmltext-field {
   position: relative;
 }
 
+body.error404 .site-wrapper .intro .ezxmltext-field h2 {
+  color: #7b1228;
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field .button-container p {
+  margin-top: 0;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field .button-container p:not(:last-child) {
+  margin-right: 15px;
+}
+
 body.error404 .site-wrapper .ep-intro .main-title {
   position: relative;
-  padding: 23rem 0 4rem;
+  padding: 13rem 0 4rem;
 }
 
 body.error404 .ep-form-wrap {
