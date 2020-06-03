@@ -40,8 +40,7 @@ a {
 
 .wrapper,
 .site-wrapper {
-  max-width: initial;
-  margin: 58rem auto 0 auto;
+  max-width: 100% !important;
   padding: 0;
   box-shadow: none;
 }
@@ -238,15 +237,11 @@ h2 {
 .site-banner .global-search-form {
   display: block;
   position: absolute;
-  top: 21px;
+  top: 0;
   right: 105px;
   width: 21px;
   height: 21px;
   z-index: 21;
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/zoom.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .block-title {
@@ -362,7 +357,7 @@ abbr[title] {
 #cxpmClientAccountWidget {
   position: absolute !important;
   top: 20px;
-  right: 50px;
+  right: 60px;
 }
 
 #cxpmClientAccountWidget .widget-icon {
@@ -408,8 +403,8 @@ abbr[title] {
   background-repeat: no-repeat;
   content: "" !important;
   display: block;
-  width: 16px;
-  height: 21px;
+  width: 20px;
+  height: 29px;
   background-position: center;
   background-size: 100%;
 }
@@ -437,10 +432,46 @@ abbr[title] {
   letter-spacing: 0.2px;
   color: rgba(247, 248, 248, 0.53);
   text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.breadcrumb-nav .bn-item-link:not([href]) {
+  text-decoration: none;
 }
 
 .breadcrumb-nav .icon {
   font-size: 0.8rem;
+}
+
+.site-banner .global-search-form.is-visible .gsf-trigger {
+  background-color: rgba(178, 180, 192, 0.1);
+  display: block;
+  height: 63px;
+}
+
+.site-banner .gsf-fields {
+  background-color: #e7e7e7;
+  padding: 1px;
+  margin-right: -2px;
+  top: 70px !important;
+}
+
+.site-banner .gsf-submit-btn {
+  background-color: #7b1228;
+  padding: 0 1.7rem;
+  font-size: 1.4rem;
+}
+
+.site-banner .gsf-submit-btn:focus, .site-banner .gsf-submit-btn:hover {
+  background-color: #252525;
+}
+
+header.site-banner .global-search-form .gsf-fields .form-txt {
+  min-height: 6.1rem;
+}
+
+header.site-banner .global-search-form .gsf-label {
+  margin-top: 0;
 }
 
 #zone3.zone {
@@ -489,6 +520,15 @@ abbr[title] {
 #zone3.zone ul li a svg {
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.layout-2-col [id="zone2"] {
+  width: 100%;
+}
+
+.block-page {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 @-webkit-keyframes pulsate {
@@ -572,6 +612,7 @@ abbr[title] {
 .btn.btn-red {
   background-size: 100% 200%;
   background-image: linear-gradient(to bottom, #7b1228 50%, #252525 50%);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .btn.btn-red:hover {
@@ -746,6 +787,11 @@ abbr[title] {
 
 .site-banner .mn-menu-item .mn-link:hover {
   background-color: transparent;
+}
+
+.site-banner .mn-menu-item .mn-link.is-active {
+  background-color: transparent;
+  border-bottom: 2px solid #9a1c36;
 }
 
 .site-banner .mn-link-text::before {
@@ -956,8 +1002,8 @@ abbr[title] {
   background-image: url("/theme/milipolqatar_desktop_2020_git/img/avatar.svg");
   background-repeat: no-repeat;
   background-position: center center;
-  width: 16px;
-  height: 21px;
+  width: 21px;
+  height: 30px;
   background-size: 100%;
   display: inline-block;
 }
@@ -968,7 +1014,10 @@ abbr[title] {
 }
 
 .site-banner > .inside .ls-trigger {
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
   color: white;
   padding: 0.8rem 1.2rem 0.9rem 1.2rem;
   display: flex;
@@ -997,10 +1046,13 @@ abbr[title] {
   right: 0;
   margin: 0;
   padding: 0;
-  height: 3rem;
+  height: 70px;
   display: block;
   width: 3.5rem;
   text-align: center;
+  margin-right: 17px;
+  display: flex;
+  align-items: center;
 }
 
 .site-banner > .inside button.gsf-trigger.js-toggle-trigger.unstyled .icon.icon-search {
@@ -1009,10 +1061,10 @@ abbr[title] {
 
 .site-banner > .inside button.gsf-trigger.js-toggle-trigger.unstyled .icon.icon-search::before {
   content: "";
-  background-image: url("/theme/milipolqatar_desktop_2020_git/images/icon-search.svg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/zoom.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1.5rem;
+  background-size: 2.5rem;
   width: 3.5rem;
   height: 3rem;
   display: block;
@@ -1243,6 +1295,10 @@ abbr[title] {
   width: 2.5rem;
 }
 
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link.is-active {
+  border-bottom: none;
+}
+
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu span.mn-link-text {
   color: #0b1626;
   margin-left: 10px;
@@ -1280,6 +1336,7 @@ abbr[title] {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .site-footer .first-container .userAccount-newsletter {
@@ -1418,6 +1475,7 @@ abbr[title] {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-top: 25px;
 }
 
 .site-footer .second-container .logos .left-text {
@@ -1427,9 +1485,13 @@ abbr[title] {
 .site-footer .second-container .logos .left-text p {
   font-family: "Univers LT Std", sans-serif;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 22px;
   color: rgba(247, 248, 248, 0.53);
+}
+
+.site-footer .second-container .logos .center-logo img {
+  max-width: 160px;
 }
 
 .site-footer .second-container .logos .right-logos .first-logo {
@@ -1449,6 +1511,14 @@ abbr[title] {
   padding: 15px 0;
   text-align: center;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer .third-container a:not(:last-child) {
+  margin-right: 15px;
 }
 
 /* pages */
@@ -1474,6 +1544,7 @@ abbr[title] {
   text-transform: uppercase;
   color: #a6945d;
   margin-bottom: 15px;
+  z-index: 1;
 }
 
 .intro-home h2 {
@@ -1485,6 +1556,7 @@ abbr[title] {
   margin-bottom: 30px;
   max-width: 1015px;
   text-align: center;
+  z-index: 1;
 }
 
 .intro-home h2 span {
@@ -1749,7 +1821,7 @@ abbr[title] {
   top: 200px;
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 26px;
   color: #3c4451;
   max-width: 350px;
@@ -1780,13 +1852,14 @@ abbr[title] {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
   display: block;
-  margin-left: 50px;
+  margin-left: auto;
 }
 
 .body-corpo.front #zone2 .edito-about .inside .lien1,
 .body-corpo.front #zone2 .discover-qatar .inside .lien1 {
   top: 90px;
   border: 2px solid transparent;
+  width: 207px;
 }
 
 .body-corpo.front #zone2 .edito-about .inside .lien2,
@@ -1796,7 +1869,7 @@ abbr[title] {
   border: 2px solid rgba(11, 22, 38, 0.13);
   top: 90px;
   left: 220px;
-  width: 250px;
+  width: 207px;
 }
 
 .body-corpo.front #zone2 .prepare {
@@ -1854,6 +1927,11 @@ abbr[title] {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.2s ease;
+}
+
+.body-corpo.front #zone2 .quicklinks .ql-list .ql-item:hover {
+  padding-right: 5rem;
 }
 
 .body-corpo.front #zone2 .quicklinks .ql-list .ql-item a {
@@ -1931,7 +2009,10 @@ abbr[title] {
 }
 
 .body-corpo.front #zone2 .conference-program {
-  margin: 50px 0;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/program-background.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding: 50px 0;
 }
 
 .body-corpo.front #zone2 .conference-program h2 {
@@ -1965,6 +2046,7 @@ abbr[title] {
   padding: 10px 20px;
   margin: 0px 2px;
   display: inline-block;
+  opacity: 0.6;
 }
 
 .body-corpo.front #zone2 .conference-program .tabs .tab .date {
@@ -2040,6 +2122,10 @@ abbr[title] {
   margin-bottom: 10px;
 }
 
+.body-corpo.front #zone2 .conference-program .panel-content.active {
+  border: 2px solid #a6945d;
+}
+
 .body-corpo.front #zone2 .conference-program .panel-content .hour {
   background-color: white;
   padding: 20px 10px;
@@ -2100,6 +2186,7 @@ abbr[title] {
 .body-corpo.front #zone2 .conference-program #one:checked ~ .tabs #one-tab,
 .body-corpo.front #zone2 .conference-program #two:checked ~ .tabs #two-tab,
 .body-corpo.front #zone2 .conference-program #three:checked ~ .tabs #three-tab {
+  opacity: 1;
   border-bottom: 3px solid #7b1228;
 }
 
@@ -2129,12 +2216,13 @@ abbr[title] {
 }
 
 .body-corpo.front #zone2 .contacts-list {
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/speakers-background.svg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/speakers-background.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
   background-color: #f7f8f8;
   padding: 50px;
+  margin-top: 0;
 }
 
 .body-corpo.front #zone2 .contacts-list .block-title {
@@ -2162,6 +2250,7 @@ abbr[title] {
   align-items: center;
   justify-content: space-between;
   max-width: 350px;
+  width: 350px;
   background-color: white;
   padding-bottom: 0;
 }
@@ -2173,6 +2262,11 @@ abbr[title] {
 .body-corpo.front #zone2 .contacts-list .cl-content .cl-item .cl-item-photo {
   margin-right: 20px;
   padding: 10px;
+  min-width: 148px;
+}
+
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item .cl-item-content {
+  padding-right: 15px;
 }
 
 .body-corpo.front #zone2 .contacts-list .cl-content .cl-item .cl-item-content .cl-item-title {
@@ -2183,14 +2277,20 @@ abbr[title] {
   letter-spacing: 0.25px;
   color: #7b1228;
   margin-bottom: 23px;
+  text-transform: uppercase;
 }
 
-.body-corpo.front #zone2 .contacts-list .cl-content .cl-item .cl-item-content .cl-item-cl-item-subtitle {
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item .cl-item-content .cl-item-subtitle {
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 26px;
   color: #7b8799;
+  text-transform: capitalize;
+}
+
+.body-corpo.front #zone2 .partner {
+  position: relative;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link {
@@ -2223,6 +2323,8 @@ abbr[title] {
   min-width: 180px;
   display: flex;
   align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link .link-view-all i {
@@ -2246,6 +2348,7 @@ abbr[title] {
   align-items: center;
   max-width: 1440px;
   margin: 50px auto 0 auto;
+  padding-top: 15px;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .slider-content {
@@ -2254,6 +2357,37 @@ abbr[title] {
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .slider-content .pg-item {
   border: 1px solid #d8d8d8;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .slider-content .pg-item .pg-item-link:hover {
+  text-decoration: none;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .slider-content .pg-item a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .slider-content .pg-item a .pg-item-title {
+  background-color: #7b1228;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  width: 130px;
+  margin: 0px auto;
+  position: relative;
+  top: -13px;
+  padding: 2px;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .pg-pagin-nb {
+  display: none;
 }
 
 .body-corpo.front #zone2 .list-articles {
@@ -2318,6 +2452,7 @@ abbr[title] {
   min-height: 475px;
   background-color: white;
   padding: 10px;
+  box-shadow: none;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a img {
@@ -2338,6 +2473,10 @@ abbr[title] {
   color: #7b1228;
 }
 
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-desc {
+  text-align: left;
+}
+
 .body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-btn {
   order: 2;
   margin-top: 0;
@@ -2354,14 +2493,27 @@ abbr[title] {
   letter-spacing: 0.2px;
   text-transform: uppercase;
   color: #0b1626;
+  display: flex;
+  align-items: center;
+}
+
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more i:before {
+  display: none;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more i::after {
+  display: block;
   content: "";
-  width: 22px;
-  height: 6px;
+  width: 21px;
+  height: 9px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
+  margin-left: 15px;
+}
+
+.body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-btn .gla-btn-read-more .icon {
+  display: block;
+  margin-right: 0;
 }
 
 .body-corpo.front #zone2 .business-areas {
@@ -5561,10 +5713,6 @@ h1.main-title  {
   line-height: 50px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col #zone2 .article-wrapper {
-  margin-bottom: 15rem;
-}
-
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside h1 {
   font-family: "Museo 700", sans-serif !important;
   font-size: 41px;
@@ -5627,9 +5775,11 @@ h1.main-title  {
   line-height: 34px;
   border-bottom: 1px solid #a6945d;
   padding-bottom: 30px;
+  margin-top: 150px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content {
+  margin-bottom: 150px;
   /* figure.fr */
   /*btn 1 et 2 */
   /*btn 3 et 4 */
@@ -6332,10 +6482,6 @@ h1.main-title  {
   background: transparent;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col {
-  display: block;
-}
-
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside .main-title-with-link {
   margin-bottom: 180px !important;
 }
@@ -6407,6 +6553,7 @@ h1.main-title  {
   max-width: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-content {
@@ -6736,6 +6883,34 @@ h1.main-title  {
   color: #0b1626;
 }
 
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li::before,
+.body-corpo.error404:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li::before,
+.body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li::before,
+.body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li::before,
+.body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li ul li::before {
+  content: "";
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/little-arrow-right-gold.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3.5rem;
+  height: 3rem;
+  display: block;
+  -webkit-transform: none;
+          transform: none;
+  background-color: transparent;
+  margin-top: 0;
+}
+
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1,
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper h1 {
   height: 21rem;
@@ -6844,10 +7019,6 @@ h1.main-title  {
   background-color: #f7f8f8;
 }
 
-.content851830 .site-wrapper {
-  max-width: 116rem !important;
-}
-
 .content851830 .site-wrapper .main-title-with-link h2 {
   color: #252525;
   text-align: center;
@@ -6865,6 +7036,11 @@ h1.main-title  {
   left: 50%;
   margin-left: -2rem;
   bottom: -1rem;
+}
+
+.content851830 .site-wrapper .partner-list {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery {
@@ -6938,12 +7114,14 @@ h1.main-title  {
 
 .block-page.faq .fc-item {
   border: 0;
-  background-color: #f6f9f9;
+  background-color: rgba(11, 22, 38, 0.05);
   margin-bottom: 4px;
+  padding: 0;
 }
 
 .block-page.faq .fc-item-content {
   background-color: #f7f8f8;
+  padding: 2rem !important;
 }
 
 .block-page.faq .fc-item-content ul {
@@ -6962,10 +7140,7 @@ h1.main-title  {
   vertical-align: middle;
   color: #a6945d;
   margin-left: auto;
-}
-
-.block-page.faq .faq-content {
-  box-shadow: 0 2rem 3.5rem -2.5rem rgba(0, 0, 0, 0.2);
+  margin-right: 0;
 }
 
 .block-page.faq h2.fc-title {
@@ -7800,6 +7975,39 @@ h1.main-title  {
 
 .parent691061 #downloads .event-ed-pr-list {
   margin: 0 !important;
+}
+
+body.error404 .intro-home {
+  display: none;
+}
+
+body.error404 .site-wrapper #zone1 {
+  display: none;
+}
+
+body.error404 .site-wrapper #zone4 {
+  display: none;
+}
+
+body.error404 .site-wrapper .intro {
+  max-width: 130rem;
+  margin: 8rem auto 4rem;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field {
+  max-width: 79rem;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+
+body.error404 .site-wrapper .ep-intro .main-title {
+  position: relative;
+  padding: 23rem 0 4rem;
+}
+
+body.error404 .ep-form-wrap {
+  display: none;
 }
 
 
