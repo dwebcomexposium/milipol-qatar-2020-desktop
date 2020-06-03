@@ -526,6 +526,10 @@ header.site-banner .global-search-form .gsf-label {
   width: 100%;
 }
 
+.layout-2-col {
+  display: block;
+}
+
 .block-page {
   max-width: 1440px;
   margin: 0 auto;
@@ -5696,6 +5700,11 @@ h1.main-title  {
   line-height: 50px;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col #zone2 .article-wrapper {
+  margin: 0 auto;
+  max-width: 730px;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside h1 {
   font-family: "Museo 700", sans-serif !important;
   font-size: 41px;
@@ -6501,6 +6510,10 @@ h1.main-title  {
   background-color: #0b8e36;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles {
+  max-width: 730px;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .intro {
   color: #7b1228;
   font-family: "Univers LT Std", sans-serif;
@@ -6901,6 +6914,7 @@ h1.main-title  {
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result {
   width: 100%;
+  max-width: 730px;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .box-light .inside {
