@@ -5940,43 +5940,43 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote {
   margin: 7rem 0 5rem;
+  background: url("/theme/milipolqatar_desktop_2020_git/img/blockquote-bg.svg");
   position: relative;
+  background-color: #0b1626;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote::before {
   content: "";
-  background: url("/theme/milipolqatar_desktop_2020_git/img/apostrophes-v2020.svg");
+  background: url("/theme/milipolqatar_desktop_2020_git/img/quotes.svg");
   position: absolute;
   width: 4.2rem;
   height: 2.7rem;
-  top: 0;
-  left: 1rem;
-}
-
-@media screen and (max-width: 1199px) {
-  .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote::before {
-    width: 5.8rem;
-    height: 3.7rem;
-    left: -1rem;
-  }
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote p {
-  color: black;
-  font-style: italic;
-  line-height: 3.6rem;
-  font-size: 2.16rem;
+  color: white;
+  border: 0;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 39px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote .important1 {
-  font-size: 1.4rem;
-  text-align: right;
+  text-align: center;
   color: #575757;
   padding: 1rem 2rem 1rem 0rem !important;
   opacity: 1;
-  font-style: normal;
   background: none;
-  border: none;
+  border: 0;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote .icon-quote {
+  display: none;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.fr {
@@ -6116,13 +6116,6 @@ h1.main-title  {
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip:focus, .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip:hover {
   background-color: #e4e4e4;
   color: black;
-}
-
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.important1 {
-  background: #f5f5f5;
-  padding: 2rem 3rem;
-  border-bottom: 3px solid #0b8e36 !important;
-  margin-top: 1rem;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 {
