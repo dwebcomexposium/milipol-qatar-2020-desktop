@@ -5786,6 +5786,7 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li:before {
   background: #7b1228;
+  border-radius: 50px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li a {
@@ -6631,6 +6632,7 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li:before {
   background: #7b1228;
+  border-radius: 50px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li a {
@@ -7016,6 +7018,7 @@ h1.main-title  {
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li:before,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li:before {
   background: #7b1228;
+  border-radius: 50px;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .content-list-bullet li a,
