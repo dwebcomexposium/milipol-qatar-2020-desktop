@@ -569,6 +569,8 @@ header.site-banner .global-search-form .gsf-label {
 
 /* Components */
 .btn {
+  display: flex;
+  align-items: center;
   padding: 2rem 3rem;
   min-width: 16rem;
   font-size: 2rem;
@@ -604,6 +606,10 @@ header.site-banner .global-search-form .gsf-label {
   background-position: 0 100%;
 }
 
+.btn.btn-white-grey:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+}
+
 .btn.btn-gold {
   background-size: 100% 200%;
   background-image: linear-gradient(to bottom, #a6945d 50%, #252525 50%);
@@ -611,6 +617,10 @@ header.site-banner .global-search-form .gsf-label {
 
 .btn.btn-gold:hover {
   background-position: 0 100%;
+}
+
+.btn.btn-gold:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
 }
 
 .btn.btn-red {
@@ -629,6 +639,19 @@ header.site-banner .global-search-form .gsf-label {
 
 .btn.btn-red.btn-yellow-color-white:hover {
   color: white !important;
+}
+
+.btn.btn-red:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
+}
+
+.btn:after {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
 }
 
 .edito-item-btn {
@@ -2513,7 +2536,7 @@ header.site-banner .global-search-form .gsf-label {
   background-position: center bottom;
   background-size: 60%;
   background-color: #f7f8f8;
-  padding: 150px;
+  padding: 150px 150px 50px 150px;
 }
 
 .body-corpo.front #zone2 .business-areas .block-title {
@@ -2533,7 +2556,6 @@ header.site-banner .global-search-form .gsf-label {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 30px;
 }
 
 .body-corpo.front #zone2 .business-areas .item-list a {
@@ -2579,6 +2601,7 @@ header.site-banner .global-search-form .gsf-label {
 .body-corpo.front #zone2 .business-areas .cta {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .body-corpo.front #zone2 .business-areas .cta .btn {
@@ -5702,7 +5725,6 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col #zone2 .article-wrapper {
   margin: 0 auto;
-  max-width: 730px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside h1 {
@@ -5737,6 +5759,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-title {
+  max-width: 730px;
   margin-bottom: 3rem;
 }
 
@@ -5767,11 +5790,13 @@ h1.main-title  {
   line-height: 34px;
   border-bottom: 1px solid #a6945d;
   padding-bottom: 30px;
-  margin-top: 150px;
+  margin: 0.5rem auto;
+  max-width: 730px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content {
-  margin-bottom: 150px;
+  max-width: 730px;
+  margin: 0 auto 150px auto;
   /* figure.fr */
   /*btn 1 et 2 */
   /*btn 3 et 4 */
@@ -6242,44 +6267,85 @@ h1.main-title  {
   margin: 3rem 0;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item {
   max-width: none;
-  max-height: 26.4rem;
+  max-height: 202px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a:hover .an-item-content {
-  padding-bottom: 5rem;
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link {
+  height: 202px;
+  width: 540px;
+  margin: 0 auto;
+  background-color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a .an-item-content {
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:after {
+  content: "\A";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(11, 22, 38, 0.65);
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content {
   width: 100%;
   padding: 1.5rem 2rem;
-  background: rgba(11, 142, 54, 0.9);
-  font-size: 2.1rem;
-  color: white;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   transition: all 0.2s ease;
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item a img {
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .an-item-title {
+  font-family: "Museo 700", sans-serif !important;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 0.4px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .an-item-publication {
+  display: none;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .icon {
+  display: none;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content:after {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link img {
   width: 100%;
-}
-
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item-previous a .an-item-content {
-  text-align: left;
-  padding-left: 2rem;
-}
-
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item-next a .an-item-content {
-  text-align: right;
-  padding-right: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
 }
 
 .body-corpo.sima #main::before {
@@ -7090,6 +7156,10 @@ h1.main-title  {
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title {
   display: none;
+}
+
+.block-page.faq {
+  max-width: 730px;
 }
 
 .block-page.faq .faq-main-title {
@@ -8007,19 +8077,85 @@ body.error404 .site-wrapper .intro .ezxmltext-field h2 {
   text-align: center;
 }
 
-body.error404 .site-wrapper .intro .ezxmltext-field .button-container {
+body.error404 .site-wrapper .intro .ezxmltext-field p {
+  text-align: center;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #3c4451;
+  margin: 50px 0;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field ul {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
 
-body.error404 .site-wrapper .intro .ezxmltext-field .button-container p {
+body.error404 .site-wrapper .intro .ezxmltext-field ul li {
   margin-top: 0;
 }
 
-body.error404 .site-wrapper .intro .ezxmltext-field .button-container p:not(:last-child) {
+body.error404 .site-wrapper .intro .ezxmltext-field ul li:not(:last-child) {
   margin-right: 15px;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field ul li:first-child a {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  background: #7b1228;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.2px;
+  padding: 1.8rem 2.8rem;
+  display: inline-block;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 207px;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field ul li:first-child a:after {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
+  margin-left: auto;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field ul li:last-child a {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  padding: 1.8rem 2.8rem;
+  color: #0b1626;
+  border: 2px solid rgba(11, 22, 32, 0.13);
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 207px;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field ul li:last-child a:after {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  margin-left: auto;
 }
 
 body.error404 .site-wrapper .ep-intro .main-title {
