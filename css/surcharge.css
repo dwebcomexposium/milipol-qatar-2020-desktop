@@ -535,6 +535,38 @@ header.site-banner .global-search-form .gsf-label {
   margin: 0 auto;
 }
 
+.content-list-bullet li:before {
+  background: #7b1228;
+}
+
+.content-list-bullet li a {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #0b1626;
+}
+
+.content-list-bullet li ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-list-bullet li ul li::before {
+  content: "";
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/little-arrow-right-gold.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3.5rem;
+  height: 3rem;
+  display: block;
+  -webkit-transform: none;
+          transform: none;
+  background-color: transparent;
+  margin-top: 0;
+}
+
 @-webkit-keyframes pulsate {
   0% {
     -webkit-transform: scale(0.1, 0.1) translate(-50%, -50%);
@@ -6271,7 +6303,7 @@ h1.main-title  {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item {
@@ -6280,6 +6312,7 @@ h1.main-title  {
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 40%;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link {
