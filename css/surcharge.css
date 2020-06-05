@@ -1664,7 +1664,7 @@ header.site-banner .global-search-form .gsf-label {
   margin-right: 15px;
 }
 
-.site-footer .third-container #btn-scroll-top {
+.site-footer #btn-scroll-top {
   width: 50px;
   height: 50px;
   background-color: #7b1228;
@@ -1680,7 +1680,7 @@ header.site-banner .global-search-form .gsf-label {
   border: 1px solid #0b1626;
 }
 
-.site-footer .third-container #btn-scroll-top:before {
+.site-footer #btn-scroll-top:before {
   content: url("/theme/milipolqatar_desktop_2020_git/img/arrow-top-header.svg");
 }
 
@@ -6010,7 +6010,7 @@ h1.main-title  {
   line-height: 34px;
   border-bottom: 1px solid #a6945d;
   padding-bottom: 30px;
-  margin: 14rem auto 50px auto;
+  margin: 16rem auto 50px auto;
   max-width: 730px;
 }
 
