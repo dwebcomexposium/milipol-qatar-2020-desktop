@@ -1617,6 +1617,26 @@ header.site-banner .global-search-form .gsf-label {
   margin-right: 15px;
 }
 
+.site-footer .third-container #btn-scroll-top {
+  width: 50px;
+  height: 50px;
+  background-color: #7b1228;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  margin: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0b1626;
+}
+
+.site-footer .third-container #btn-scroll-top:before {
+  content: url("/theme/milipolqatar_desktop_2020_git/img/arrow-top-header.svg");
+}
+
 /* pages */
 .intro-home {
   display: flex;
@@ -5941,7 +5961,7 @@ h1.main-title  {
   line-height: 34px;
   border-bottom: 1px solid #a6945d;
   padding-bottom: 30px;
-  margin: 0.5rem auto;
+  margin: 14rem auto 50px auto;
   max-width: 730px;
 }
 
@@ -7263,11 +7283,13 @@ h1.main-title  {
   padding: 2.5rem;
 }
 
-.content851830 #main {
+.content851830 #main,
+.content855217 #main {
   background-color: #f7f8f8;
 }
 
-.content851830 .site-wrapper .main-title-with-link h2 {
+.content851830 .site-wrapper .main-title-with-link h2,
+.content855217 .site-wrapper .main-title-with-link h2 {
   color: #252525;
   text-align: center;
   position: relative;
@@ -7275,7 +7297,8 @@ h1.main-title  {
   float: none;
 }
 
-.content851830 .site-wrapper .main-title-with-link h2::after {
+.content851830 .site-wrapper .main-title-with-link h2::after,
+.content855217 .site-wrapper .main-title-with-link h2::after {
   content: "";
   background-color: #f39200;
   width: 4rem;
@@ -7286,17 +7309,20 @@ h1.main-title  {
   bottom: -1rem;
 }
 
-.content851830 .site-wrapper .partner-list {
+.content851830 .site-wrapper .partner-list,
+.content855217 .site-wrapper .partner-list {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.content851830 .site-wrapper .partner-list .partner-gallery {
+.content851830 .site-wrapper .partner-list .partner-gallery,
+.content855217 .site-wrapper .partner-list .partner-gallery {
   margin-top: 120px;
   padding: 100px 0;
 }
 
-.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group {
+.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group {
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -7304,13 +7330,15 @@ h1.main-title  {
   flex-wrap: wrap;
 }
 
-.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item {
+.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item {
   width: 21%;
   border-bottom: 0 none;
   margin: 1.5% 1.5%;
 }
 
-.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link {
+.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link {
   background: white;
   display: block;
   padding: 4rem;
@@ -7322,24 +7350,28 @@ h1.main-title  {
   border: 2px solid rgba(242, 108, 74, 0);
 }
 
-.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link:hover {
+.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link:hover,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link:hover {
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 15px 35px -25px rgba(0, 0, 0, 0.25);
   outline-color: rgba(123, 18, 40, 0.4);
   outline-offset: 1.4rem;
   border: 2px solid #7b1228;
 }
 
-.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust {
+.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust {
   height: auto;
   margin-bottom: 0;
 }
 
-.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img {
+.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img {
   max-height: none;
   max-width: 100%;
 }
 
-.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title {
+.content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title {
   display: none;
 }
 
