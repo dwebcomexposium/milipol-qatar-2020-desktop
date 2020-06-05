@@ -2933,11 +2933,6 @@ header.site-banner .global-search-form .gsf-label {
   display: none;
 }
 
-#zone4 .article-focus :nth-child(1) p:first-child {
-  background-image: none;
-  display: none;
-}
-
 #zone4 .article-focus :nth-child(1) a {
   position: static;
   background-image: none;
