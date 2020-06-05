@@ -477,6 +477,45 @@ header.site-banner .global-search-form .gsf-label {
   margin-top: 0;
 }
 
+.gla-item {
+  margin-bottom: 5rem !important;
+}
+
+.gla-item > a:hover,
+.gla-item > a:focus {
+  color: #7b1228;
+}
+
+.gla-item > a:hover .gla-item-content,
+.gla-item > a:focus .gla-item-content {
+  background-color: white;
+}
+
+.gla-item > a:hover .gla-item-content .gla-item-title,
+.gla-item > a:focus .gla-item-content .gla-item-title {
+  color: #7b1228 !important;
+}
+
+.gla-item > a:hover .gla-item-content .gla-btn-read-more,
+.gla-item > a:focus .gla-item-content .gla-btn-read-more {
+  color: #7b1228 !important;
+}
+
+.gla-item > a:hover .gla-item-content .gla-btn-read-more:hover,
+.gla-item > a:focus .gla-item-content .gla-btn-read-more:hover {
+  background-color: transparent;
+}
+
+.gla-item > a:hover .gla-item-content,
+.gla-item > a:focus .gla-item-content {
+  background-color: white;
+}
+
+.gla-item > a:hover .gla-item-content .gla-item-title,
+.gla-item > a:focus .gla-item-content .gla-item-title {
+  color: #252525 !important;
+}
+
 #zone3.zone {
   position: fixed;
   right: 0;
@@ -616,7 +655,7 @@ header.site-banner .global-search-form .gsf-label {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
-  border: 0 none;
+  border: 1px solid transparent;
 }
 
 @media screen and (max-width: 1520px) {
@@ -637,12 +676,13 @@ header.site-banner .global-search-form .gsf-label {
 
 .btn.btn-white-grey {
   background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, white 50%, #252525 50%);
+  background-image: linear-gradient(to bottom, white 50%, #7b1228 50%);
   color: #0b1626;
 }
 
 .btn.btn-white-grey:hover {
   background-position: 0 100%;
+  border: 1px solid white;
 }
 
 .btn.btn-white-grey:after {
@@ -656,6 +696,7 @@ header.site-banner .global-search-form .gsf-label {
 
 .btn.btn-gold:hover {
   background-position: 0 100%;
+  border: 1px solid white;
 }
 
 .btn.btn-gold:after {
@@ -670,6 +711,7 @@ header.site-banner .global-search-form .gsf-label {
 
 .btn.btn-red:hover {
   background-position: 0 100%;
+  border: 1px solid white;
 }
 
 .btn.btn-red.btn-yellow-color-white {
@@ -1491,13 +1533,14 @@ header.site-banner .global-search-form .gsf-label {
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit {
   position: absolute;
-  top: 35px;
+  top: 34px;
   left: 530px;
   margin-top: 0;
 }
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button {
   border: 0;
+  padding: 0.5rem 0.2rem;
 }
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button .icon {
@@ -1506,7 +1549,7 @@ header.site-banner .global-search-form .gsf-label {
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button::before {
   content: "";
-  background-image: url("/theme/milipolqatar_desktop_2020_git/img/little-arrow-right-white.svg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 3.5rem;
@@ -1516,6 +1559,10 @@ header.site-banner .global-search-form .gsf-label {
           transform: none;
   background-color: transparent;
   margin-top: 0;
+}
+
+.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button:hover {
+  background-color: #a6945d;
 }
 
 .site-footer .first-container .follow-us {
@@ -2364,7 +2411,6 @@ header.site-banner .global-search-form .gsf-label {
   margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .body-corpo.front #zone2 .contacts-list .cl-content .cl-item {
@@ -2376,6 +2422,7 @@ header.site-banner .global-search-form .gsf-label {
   width: 350px;
   background-color: white;
   padding-bottom: 0;
+  margin-left: 15px;
 }
 
 .body-corpo.front #zone2 .contacts-list .cl-content .cl-item .cl-item-illust {
@@ -2636,6 +2683,7 @@ header.site-banner .global-search-form .gsf-label {
 
 .body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-desc {
   text-align: left;
+  color: #3c4451;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-btn {
