@@ -51,7 +51,7 @@ a {
 }
 
 h1 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 51px;
   font-weight: 700;
   line-height: 61px;
@@ -59,7 +59,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
@@ -67,7 +67,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 33px;
@@ -75,7 +75,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 15px;
   font-weight: 700;
   line-height: 18px;
@@ -443,6 +443,7 @@ abbr[title] {
 
 .breadcrumb-nav .icon {
   font-size: 0.8rem;
+  color: #a6945d;
 }
 
 .site-banner .global-search-form.is-visible .gsf-trigger {
@@ -955,11 +956,29 @@ header.site-banner .global-search-form .gsf-label {
   margin-right: 10px;
 }
 
-.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 span.txt-btn {
-  margin-right: 10px;
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a i {
+  display: none;
 }
 
-.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791:focus span.txt-btn, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791:hover span.txt-btn {
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a span.txt-btn {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a span.txt-btn:after {
+  content: "";
+  width: 25px;
+  height: 8px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: 10px;
+}
+
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a:focus span.txt-btn, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a:hover span.txt-btn {
   color: #7b1228;
 }
 
@@ -967,11 +986,29 @@ header.site-banner .global-search-form .gsf-label {
   border: 1px solid #7b1228;
 }
 
-.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 span.txt-btn {
-  margin-right: 10px;
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a i {
+  display: none;
 }
 
-.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792:focus span.txt-btn, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792:hover span.txt-btn {
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a span.txt-btn {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a span.txt-btn:after {
+  content: "";
+  width: 25px;
+  height: 8px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-red.svg);
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: 10px;
+}
+
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a:focus span.txt-btn, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a:hover span.txt-btn {
   color: #7b1228;
 }
 
@@ -1223,17 +1260,6 @@ header.site-banner .global-search-form .gsf-label {
   background: transparent;
 }
 
-.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:nth-last-child(-n + 2) {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  transition: all 0.2s ease;
-}
-
-.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1:nth-last-child(-n + 2):hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
-}
-
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-link {
   font-family: "Univers LT Std", sans-serif;
   font-size: 1.5rem;
@@ -1322,7 +1348,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link:hover {
-  padding-left: 6.3rem;
+  padding-left: 4.3rem;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link:hover::before {
@@ -1385,8 +1411,11 @@ header.site-banner .global-search-form .gsf-label {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 2rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.site-footer .first-container .block-page {
+  margin: initial;
 }
 
 .site-footer .first-container .userAccount-newsletter {
@@ -1408,7 +1437,7 @@ header.site-banner .global-search-form .gsf-label {
   display: flex;
   margin-right: 80px;
   max-width: 150px;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 29px;
@@ -1497,7 +1526,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .site-footer .first-container .follow-us .text {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 29px;
@@ -1535,7 +1564,6 @@ header.site-banner .global-search-form .gsf-label {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 2rem;
 }
 
 .site-footer .second-container .logos {
@@ -1617,7 +1645,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .intro-home h2 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 51px;
   font-weight: 700;
   line-height: 61px;
@@ -1762,7 +1790,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 #zone1 .opening-in .text {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 40px;
@@ -1844,7 +1872,7 @@ header.site-banner .global-search-form .gsf-label {
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  line-height: 18px;
+  line-height: 18px !important;
   letter-spacing: 0.25px;
   color: #7b1228;
   text-transform: uppercase;
@@ -1876,7 +1904,7 @@ header.site-banner .global-search-form .gsf-label {
   left: 50%;
   top: 120px;
   margin-top: 0;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 33px;
@@ -1932,6 +1960,11 @@ header.site-banner .global-search-form .gsf-label {
   width: 207px;
 }
 
+.body-corpo.front #zone2 .edito-about .inside .lien1:after,
+.body-corpo.front #zone2 .discover-qatar .inside .lien1:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
+}
+
 .body-corpo.front #zone2 .edito-about .inside .lien2,
 .body-corpo.front #zone2 .discover-qatar .inside .lien2 {
   background-color: white;
@@ -1953,7 +1986,7 @@ header.site-banner .global-search-form .gsf-label {
 .body-corpo.front #zone2 .prepare .text-left {
   max-width: 160px;
   margin-right: 150px;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 29px;
@@ -2066,7 +2099,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .body-corpo.front #zone2 .video h2 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 40px;
@@ -2087,7 +2120,7 @@ header.site-banner .global-search-form .gsf-label {
 
 .body-corpo.front #zone2 .conference-program h2 {
   text-align: center;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 40px;
@@ -2172,7 +2205,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .body-corpo.front #zone2 .conference-program .panel-title {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 23px;
   font-weight: 700;
   line-height: 28px;
@@ -2211,7 +2244,7 @@ header.site-banner .global-search-form .gsf-label {
 .body-corpo.front #zone2 .conference-program .panel-content .hour .begin,
 .body-corpo.front #zone2 .conference-program .panel-content .hour .finish {
   color: #0b1626;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 19px;
   font-weight: 700;
   line-height: 13px;
@@ -2296,7 +2329,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .body-corpo.front #zone2 .contacts-list .block-title {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 16px;
@@ -2346,7 +2379,7 @@ header.site-banner .global-search-form .gsf-label {
   line-height: 18px;
   letter-spacing: 0.25px;
   color: #7b1228;
-  margin-bottom: 23px;
+  margin-bottom: 7px;
   text-transform: uppercase;
 }
 
@@ -2375,7 +2408,7 @@ header.site-banner .global-search-form .gsf-label {
   margin-bottom: 20px;
   color: #0b1626;
   text-transform: capitalize;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 16px;
@@ -2456,6 +2489,10 @@ header.site-banner .global-search-form .gsf-label {
   padding: 2px;
 }
 
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin {
+  border-top: 0;
+}
+
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .pg-pagin-nb {
   display: none;
 }
@@ -2466,7 +2503,7 @@ header.site-banner .global-search-form .gsf-label {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: contain;
-  padding: 50px;
+  padding: 50px 50px 100px 50px;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .main-title-with-link {
@@ -2475,18 +2512,50 @@ header.site-banner .global-search-form .gsf-label {
   align-items: center;
   max-width: 1440px;
   margin: 0 auto !important;
+  position: relative;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .main-title-with-link .main-title {
   text-align: center;
   margin-bottom: 20px;
   float: none;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 16px;
   text-transform: capitalize;
   color: #0b1626;
+}
+
+.body-corpo.front #zone2 .list-articles .inside .main-title-with-link a {
+  width: 276px;
+  display: flex;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  position: absolute;
+  bottom: -610px;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #7b1228 50%, #252525 50%);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 2rem 3rem;
+  align-items: center;
+  min-width: 16rem;
+  text-transform: uppercase;
+  color: white;
+  border: 0 none;
+}
+
+.body-corpo.front #zone2 .list-articles .inside .main-title-with-link a:after {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
 .body-corpo.front #zone2 .list-articles .inside .main-title-with-link .link-view-all {
@@ -2541,6 +2610,8 @@ header.site-banner .global-search-form .gsf-label {
   letter-spacing: 0.25px;
   text-transform: uppercase;
   color: #7b1228;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-desc {
@@ -2596,7 +2667,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .body-corpo.front #zone2 .business-areas .block-title {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 16px;
@@ -2636,7 +2707,7 @@ header.site-banner .global-search-form .gsf-label {
 
 .body-corpo.front #zone2 .business-areas .item-list .item p {
   color: white;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -2681,9 +2752,8 @@ header.site-banner .global-search-form .gsf-label {
 .body-corpo.front #zone2 .key-numbers {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1110px;
   margin: 0 auto;
   z-index: 1;
   position: relative;
@@ -2695,7 +2765,7 @@ header.site-banner .global-search-form .gsf-label {
   flex-direction: column;
   margin-top: 45px;
   color: #0b1626;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
   line-height: 29px;
@@ -2720,6 +2790,7 @@ header.site-banner .global-search-form .gsf-label {
   text-align: center;
   margin-left: 40px;
   margin-top: -70px;
+  width: 78%;
 }
 
 .body-corpo.front #zone2 .key-numbers .container-numbers .link {
@@ -2788,7 +2859,7 @@ header.site-banner .global-search-form .gsf-label {
 .body-corpo.front #zone2 .key-numbers .text-bg p {
   margin: 0;
   margin-top: -20px;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 138px;
   font-weight: 700;
   line-height: 104px;
@@ -2860,6 +2931,7 @@ header.site-banner .global-search-form .gsf-label {
 
 #zone4 .article-focus :nth-child(1) p {
   background-image: none;
+  display: none;
 }
 
 #zone4 .article-focus :nth-child(1) a {
@@ -2879,7 +2951,7 @@ header.site-banner .global-search-form .gsf-label {
   padding: 20px;
   width: 245px;
   background-color: #7b1228;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 20px 0 black;
   border: none;
 }
 
@@ -2897,15 +2969,8 @@ header.site-banner .global-search-form .gsf-label {
   display: none;
 }
 
-#zone4 .article-focus :nth-child(2) p {
-  background-image: none;
-}
-
-#zone4 .article-focus :nth-child(2) a {
-  position: static;
-  background-image: none;
-  width: 100%;
-  background-color: #7b1228;
+#zone4 .article-focus:last-child a {
+  background-color: #a6945d;
 }
 
 .content743324 #main,
@@ -5773,7 +5838,7 @@ h1.main-title  {
   text-align: center;
   color: white;
   margin-bottom: 15rem;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
@@ -5784,7 +5849,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside h1 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
@@ -5806,6 +5871,10 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
   color: #7b1228;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet {
+  margin-left: 20px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li:before {
@@ -5909,7 +5978,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content h2 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
@@ -5917,7 +5986,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content h3 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 33px;
@@ -5925,7 +5994,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content h4 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 15px;
   font-weight: 700;
   line-height: 18px;
@@ -6145,7 +6214,7 @@ h1.main-title  {
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content ul li::before {
   width: 6px;
   height: 6px;
-  background: #0b8e36;
+  background: #7b1228;
   border-radius: 50px;
 }
 
@@ -6289,7 +6358,7 @@ h1.main-title  {
   position: absolute;
   width: 2.5rem;
   height: 0.25rem;
-  background: #0b8e36;
+  background: #7b1228;
   left: 14.5rem;
   bottom: -1.7rem;
 }
@@ -6404,7 +6473,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .an-item-title {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 24px;
@@ -6634,7 +6703,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside h1 {
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
@@ -6744,7 +6813,7 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-content .gla-item-title {
   color: #0b1626;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 33px;
@@ -7144,7 +7213,7 @@ h1.main-title  {
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-group .sr-group-title {
   text-align: center;
   color: #7b1228;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
@@ -7157,7 +7226,7 @@ h1.main-title  {
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-item-title a {
   color: #0b1626;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 33px;
@@ -8187,7 +8256,7 @@ body.error404 .site-wrapper .intro .ezxmltext-field {
 
 body.error404 .site-wrapper .intro .ezxmltext-field h2 {
   color: #7b1228;
-  font-family: "Museo 700", sans-serif !important;
+  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
