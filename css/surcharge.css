@@ -2925,11 +2925,15 @@ header.site-banner .global-search-form .gsf-label {
   width: 100%;
 }
 
-#zone4 .article-focus .inside .af-title {
+#zone4 .article-focus .inside .af-content .af-title {
   display: none;
 }
 
-#zone4 .article-focus :nth-child(1) p {
+#zone4 .article-focus .inside .af-content :nth-child(3) {
+  display: none;
+}
+
+#zone4 .article-focus :nth-child(1) p:first-child {
   background-image: none;
   display: none;
 }
