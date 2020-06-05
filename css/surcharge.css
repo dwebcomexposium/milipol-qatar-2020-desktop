@@ -5943,6 +5943,7 @@ h1.main-title  {
   width: 100%;
   height: auto;
   order: 2;
+  margin-bottom: -10rem;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-title > .inside h1 {
