@@ -652,8 +652,12 @@ header.site-banner .global-search-form .gsf-label {
   padding: 2rem 3rem;
   min-width: 16rem;
   font-size: 2rem;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
   color: white;
   border: 1px solid transparent;
 }
@@ -830,6 +834,204 @@ header.site-banner .global-search-form .gsf-label {
 
 .popin .popin-container .popin-close:focus, .popin .popin-container .popin-close:hover {
   color: #f39200;
+}
+
+.content-slide p {
+  color: #ccd0ea;
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+  font-family: "Museo 700", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.previous_btn {
+  content: url(/theme/milipolqatar_desktop_2020_git/img/arrow-testimonial-left.svg);
+}
+
+.next_btn {
+  content: url(/theme/milipolqatar_desktop_2020_git/img/arrow-testimonial-right.svg);
+}
+
+.slide_buttons {
+  bottom: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .slide_buttons {
+    bottom: 4rem;
+  }
+}
+
+hr {
+  background-color: #a6945d !important;
+  height: 2px !important;
+  width: 60px;
+  margin: 30px auto !important;
+}
+
+.author-slide p {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #a6945d;
+  letter-spacing: 0.25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.author-slide p span {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #3c4451;
+  letter-spacing: 0.2px;
+}
+
+.slider-perso-container {
+  background: #050924;
+  width: 100vw !important;
+  margin-left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+          transform: translateX(-50%) !important;
+  padding: 7rem 0 3.5rem 0;
+  background-color: #151832;
+  background-image: url(/theme/milipol_insiders_git_desktop/img/pattern.png);
+  background-position: top 1px left;
+  position: relative;
+}
+
+@media screen and (max-width: 480px) {
+  .slider-perso-container {
+    padding: 5rem 6rem 15rem 6rem;
+  }
+}
+
+.slider-perso-container h2 {
+  color: white !important;
+  font-size: 3.2rem !important;
+  line-height: 42px;
+  margin-bottom: 2rem;
+  text-align: center !important;
+}
+
+@media screen and (max-width: 480px) {
+  .slider-perso-container h2 {
+    font-size: 3rem !important;
+    line-height: 3.8rem !important;
+  }
+}
+
+.slider-perso-container .quotes {
+  margin: 0 auto 25px auto;
+  display: flex;
+}
+
+.slider-perso-container .slider-perso {
+  margin: 0 auto;
+  max-width: 570px;
+}
+
+.slider-perso-container .slider-perso .slide_viewer {
+  min-height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-perso-container .slider-perso .slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slider-perso-container .slider-perso .slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.slider-perso-container .slider-perso .slide:first-child {
+  display: block;
+}
+
+.slider-perso-container .slider-perso .slide_buttons {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.slider-perso-container .slider-perso a.slide_btn {
+  color: #484849 !important;
+  font-size: 25px;
+  margin: 0 0.075em;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none !important;
+}
+
+.slider-perso-container .slider-perso .slide_btn.active,
+.slider-perso-container .slider-perso .slide_btn:hover {
+  color: #7b1228 !important;
+  cursor: pointer;
+}
+
+.slider-perso-container .slider-perso .directional_nav {
+  margin: 0 auto;
+  max-width: 940px;
+  display: flex;
+  top: -340px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  max-width: calc(116rem + 10rem);
+}
+
+@media screen and (max-width: 1024px) {
+  .slider-perso-container .slider-perso .directional_nav {
+    display: none;
+  }
+}
+
+.slider-perso-container .slider-perso .previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin-right: auto;
+  top: 0;
+}
+
+.slider-perso-container .slider-perso .next_btn {
+  bottom: 0;
+  right: 100px;
+  top: 0;
+  margin-left: 50px;
+}
+
+.slider-perso-container .slider-perso .previous_btn,
+.slider-perso-container .slider-perso .next_btn {
+  cursor: pointer;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slider-perso-container .slider-perso .previous_btn:hover,
+.slider-perso-container .slider-perso .next_btn:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .slider-perso-container .slider-perso .previous_btn {
+    left: 50px;
+  }
+  .slider-perso-container .slider-perso .next_btn {
+    right: 50px;
+  }
 }
 
 /* Layouts */
@@ -6077,9 +6279,15 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote {
   margin: 7rem 0 5rem;
+  width: 100vw !important;
+  margin-left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+          transform: translateX(-50%) !important;
   background: url("/theme/milipolqatar_desktop_2020_git/img/blockquote-bg.svg");
   position: relative;
   background-color: #0b1626;
+  padding: 50px;
+  max-width: initial;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote::before {
@@ -6101,15 +6309,23 @@ h1.main-title  {
   font-size: 27px;
   font-weight: 600;
   line-height: 39px;
+  max-width: 730px;
+  margin: 50px auto;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote .important1 {
   text-align: center;
-  color: #575757;
   padding: 1rem 2rem 1rem 0rem !important;
   opacity: 1;
   background: none;
   border: 0;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #3c4451;
+  letter-spacing: 0.2px;
+  margin: 15px auto;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote .icon-quote {
@@ -6482,6 +6698,63 @@ h1.main-title  {
   margin-left: 0.6rem;
   display: inline;
   color: black;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know {
+  width: 100vw !important;
+  margin-left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+          transform: translateX(-50%) !important;
+  background-color: rgba(11, 22, 38, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1110px !important;
+  padding: 50px;
+  margin: 50px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-left {
+  width: 330px;
+  padding: 0 50px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-right .title {
+  color: #0b1626;
+  font-family: "Museo 700", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  margin-bottom: 15px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-right .content {
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #3c4451;
+  margin-bottom: 15px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-right .cta {
+  max-width: 250px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-right .cta .btn {
+  width: 100%;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .separator {
+  width: 100vw !important;
+  margin-left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+          transform: translateX(-50%) !important;
+  max-width: initial;
+  height: 2px;
+  background-color: #a6945d;
+  margin: 100px 0;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation {
