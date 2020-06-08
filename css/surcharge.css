@@ -1223,8 +1223,17 @@ hr {
   margin-left: 10px;
 }
 
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a:focus, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a:hover {
+  background-color: #a6945d;
+  border: transparent;
+}
+
 .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a:focus span.txt-btn, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a:hover span.txt-btn {
-  color: #7b1228;
+  color: white;
+}
+
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a:focus span.txt-btn:after, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851791 a:hover span.txt-btn:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
 .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 {
@@ -1253,8 +1262,17 @@ hr {
   margin-left: 10px;
 }
 
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a:focus, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a:hover {
+  background-color: #7b1228;
+  border: transparent;
+}
+
 .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a:focus span.txt-btn, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a:hover span.txt-btn {
-  color: #7b1228;
+  color: white;
+}
+
+.site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a:focus span.txt-btn:after, .site-banner > .inside .quicklinks ul.ql-list.unstyled .ql-item.linkid851792 a:hover span.txt-btn:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
 .site-banner > .inside .quicklinks ul.ql-list.unstyled .btn-primary {
@@ -1272,7 +1290,7 @@ hr {
 }
 
 .site-banner > .inside .quicklinks ul.ql-list.unstyled .btn-primary:focus, .site-banner > .inside .quicklinks ul.ql-list.unstyled .btn-primary:hover {
-  color: #7b1228;
+  color: #a6945d;
 }
 
 .site-banner > .inside .quicklinks ul.ql-list.unstyled .btn-primary .txt-btn {
@@ -1515,6 +1533,10 @@ hr {
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-link .mn-link-text {
   color: white;
+}
+
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-link .mn-link-text:hover {
+  color: #a6945d;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu {
@@ -1865,6 +1887,10 @@ hr {
 
 .site-footer .third-container a:not(:last-child) {
   margin-right: 15px;
+}
+
+.site-footer .third-container a:hover {
+  color: #a6945d;
 }
 
 .site-footer #btn-scroll-top {
@@ -2626,6 +2652,15 @@ hr {
   background-color: white;
   padding-bottom: 0;
   margin-left: 15px;
+}
+
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item:hover {
+  background-color: #7b1228;
+  cursor: pointer;
+}
+
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item:hover .cl-item-title {
+  color: white !important;
 }
 
 .body-corpo.front #zone2 .contacts-list .cl-content .cl-item .cl-item-illust {
@@ -7615,55 +7650,65 @@ h1.main-title  {
 
 .content851830 .site-wrapper .main-title-with-link h2,
 .content855217 .site-wrapper .main-title-with-link h2 {
-  color: #252525;
+  color: white;
   text-align: center;
   position: relative;
   margin-bottom: 3rem;
   float: none;
-}
-
-.content851830 .site-wrapper .main-title-with-link h2::after,
-.content855217 .site-wrapper .main-title-with-link h2::after {
-  content: "";
-  background-color: #f39200;
-  width: 4rem;
-  height: 0.3rem;
-  position: absolute;
-  left: 50%;
-  margin-left: -2rem;
-  bottom: -1rem;
+  text-transform: capitalize;
 }
 
 .content851830 .site-wrapper .partner-list,
-.content855217 .site-wrapper .partner-list {
+.content851830 .site-wrapper .institutionnal,
+.content851830 .site-wrapper .other,
+.content855217 .site-wrapper .partner-list,
+.content855217 .site-wrapper .institutionnal,
+.content855217 .site-wrapper .other {
   max-width: 1440px;
   margin: 0 auto;
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery,
-.content855217 .site-wrapper .partner-list .partner-gallery {
+.content851830 .site-wrapper .institutionnal .partner-gallery,
+.content851830 .site-wrapper .other .partner-gallery,
+.content855217 .site-wrapper .partner-list .partner-gallery,
+.content855217 .site-wrapper .institutionnal .partner-gallery,
+.content855217 .site-wrapper .other .partner-gallery {
   margin-top: 120px;
-  padding: 100px 0;
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group,
-.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group {
+.content851830 .site-wrapper .institutionnal .partner-gallery .pg-item-group,
+.content851830 .site-wrapper .other .partner-gallery .pg-item-group,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group,
+.content855217 .site-wrapper .institutionnal .partner-gallery .pg-item-group,
+.content855217 .site-wrapper .other .partner-gallery .pg-item-group {
   text-align: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item,
-.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item {
+.content851830 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item,
+.content851830 .site-wrapper .other .partner-gallery .pg-item-group .pg-item,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item,
+.content855217 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item,
+.content855217 .site-wrapper .other .partner-gallery .pg-item-group .pg-item {
   width: 21%;
   border-bottom: 0 none;
   margin: 1.5% 1.5%;
+  margin-left: 15px;
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link,
-.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link {
+.content851830 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link,
+.content851830 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link,
+.content855217 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link,
+.content855217 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link {
   background: white;
   display: block;
   padding: 4rem;
@@ -7676,7 +7721,11 @@ h1.main-title  {
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link:hover,
-.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link:hover {
+.content851830 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link:hover,
+.content851830 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link:hover,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link:hover,
+.content855217 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link:hover,
+.content855217 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link:hover {
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 15px 35px -25px rgba(0, 0, 0, 0.25);
   outline-color: rgba(123, 18, 40, 0.4);
   outline-offset: 1.4rem;
@@ -7684,19 +7733,31 @@ h1.main-title  {
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust,
-.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust {
+.content851830 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust,
+.content851830 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust,
+.content855217 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust,
+.content855217 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust {
   height: auto;
   margin-bottom: 0;
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img,
-.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img {
+.content851830 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img,
+.content851830 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img,
+.content855217 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img,
+.content855217 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-illust img {
   max-height: none;
   max-width: 100%;
 }
 
 .content851830 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title,
-.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title {
+.content851830 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title,
+.content851830 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title,
+.content855217 .site-wrapper .partner-list .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title,
+.content855217 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title,
+.content855217 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link .pg-item-title {
   display: none;
 }
 
