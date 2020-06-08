@@ -1505,16 +1505,14 @@ hr {
   max-width: 100%;
   box-shadow: none;
   border: none;
-  width: 100%;
-  padding: 0 2rem;
+  width: auto;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 80%;
+  justify-content: center;
   list-style: none;
+  flex-wrap: nowrap;
   /*logo*/
   /*BTN EXPOSANT/BADGE*/
 }
@@ -1642,10 +1640,10 @@ hr {
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-855024 {
   background-image: none;
   width: auto;
-  height: auto;
-  margin-right: 47rem;
   top: -50px;
-  margin-bottom: -50px;
+  left: -150px;
+  margin-bottom: 0;
+  height: 0;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-855024 a {
@@ -1653,6 +1651,7 @@ hr {
   content: url("/theme/milipolqatar_desktop_2020_git/img/logo.png");
   width: 325px;
   margin: -1.5rem 0;
+  max-width: 292px;
 }
 
 /* end site-banner*/
