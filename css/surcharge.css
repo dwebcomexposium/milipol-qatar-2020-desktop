@@ -898,9 +898,10 @@ hr {
   -webkit-transform: translateX(-50%) !important;
           transform: translateX(-50%) !important;
   padding: 7rem 0 3.5rem 0;
-  background-color: #151832;
-  background-image: url(/theme/milipol_insiders_git_desktop/img/pattern.png);
-  background-position: top 1px left;
+  background-color: #0b1626;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/blockquote-bg.svg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -6284,6 +6285,8 @@ h1.main-title  {
   -webkit-transform: translateX(-50%) !important;
           transform: translateX(-50%) !important;
   background: url("/theme/milipolqatar_desktop_2020_git/img/blockquote-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
   position: relative;
   background-color: #0b1626;
   padding: 50px;
