@@ -519,7 +519,7 @@ header.site-banner .global-search-form .gsf-label {
 #zone3.zone {
   position: fixed;
   right: 0;
-  top: 154px;
+  top: 188px;
   z-index: 100;
   background-color: rgba(11, 22, 38, 0.9);
   padding: 10px;
@@ -733,7 +733,7 @@ header.site-banner .global-search-form .gsf-label {
 .btn:after {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-repeat: no-repeat;
   display: block;
   margin-left: auto;
@@ -1608,7 +1608,7 @@ hr {
   content: "";
   display: block;
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
   -webkit-transform: translateY(-50%);
@@ -2073,7 +2073,7 @@ hr {
 #zone1 .cta-arrow .ql-list .ql-item a:before {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
 }
@@ -2253,7 +2253,7 @@ hr {
 .body-corpo.front #zone2 .discover-qatar .inside p a:after {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
   display: block;
@@ -2358,7 +2358,7 @@ hr {
 .body-corpo.front #zone2 .quicklinks .ql-list .ql-item:after {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
 }
@@ -2754,17 +2754,13 @@ hr {
   display: block;
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
   margin-left: auto;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   max-width: 1440px;
   margin: 50px auto 0 auto;
   padding-top: 15px;
@@ -2806,11 +2802,71 @@ hr {
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin {
-  border-top: 0;
+  position: initial !important;
+  border: 0;
 }
 
-.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .pg-pagin-nb {
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn {
+  width: 1600px;
+  display: flex;
+  position: absolute;
+  top: 130px;
+  left: -70px;
+  z-index: 1000;
+  margin: 0 auto;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .pg-pagin-nb {
   display: none;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .slider-btn-prev {
+  margin-right: auto;
+  background: none;
+  border: 0;
+  outline: 0;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .slider-btn-prev i {
+  display: none;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .slider-btn-prev::after {
+  display: block;
+  content: "";
+  width: 22px;
+  height: 30px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/little-arrow-left-gold.svg);
+  background-repeat: no-repeat;
+  margin-left: 0;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .slider-btn-prev:hover {
+  color: transparent;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .slider-btn-next {
+  margin-left: auto;
+  background: none;
+  border: 0;
+  outline: 0;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .slider-btn-next i {
+  display: none;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .slider-btn-next::after {
+  display: block;
+  content: "";
+  width: 22px;
+  height: 30px;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/little-arrow-right-gold.svg);
+  background-repeat: no-repeat;
+}
+
+.body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn .slider-btn-next:hover {
+  color: transparent;
 }
 
 .body-corpo.front #zone2 .list-articles {
@@ -2867,7 +2923,7 @@ hr {
 .body-corpo.front #zone2 .list-articles .inside .main-title-with-link a:after {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-repeat: no-repeat;
   display: block;
   margin-left: auto;
@@ -6527,7 +6583,7 @@ h1.main-title  {
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe:after {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-repeat: no-repeat;
   display: block;
   margin-left: auto;
@@ -6922,7 +6978,7 @@ h1.main-title  {
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content:after {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-repeat: no-repeat;
   display: block;
   margin-left: auto;
@@ -7271,7 +7327,7 @@ h1.main-title  {
   display: block;
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
   margin-left: 10px;
@@ -8784,7 +8840,7 @@ body.error404 .site-wrapper .intro .ezxmltext-field ul li:first-child a {
 body.error404 .site-wrapper .intro .ezxmltext-field ul li:first-child a:after {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-repeat: no-repeat;
   display: block;
   margin-left: auto;
@@ -8812,7 +8868,7 @@ body.error404 .site-wrapper .intro .ezxmltext-field ul li:last-child a {
 body.error404 .site-wrapper .intro .ezxmltext-field ul li:last-child a:after {
   content: "";
   width: 22px;
-  height: 6px;
+  height: 8px;
   background-repeat: no-repeat;
   display: block;
   margin-left: auto;
