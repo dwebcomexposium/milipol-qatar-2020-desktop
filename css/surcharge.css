@@ -1815,12 +1815,21 @@ hr {
   align-items: center;
 }
 
-.site-footer .first-container .follow-us .nav-social li:not(:last-child) {
+.site-footer .first-container .follow-us .nav-social a:not(:last-child) {
   margin-right: 4px;
+  max-width: 40px;
+  padding: 9px;
+  background-color: black;
+  border-radius: 5px;
 }
 
-.site-footer .first-container .follow-us .nav-social li img {
-  width: 40px;
+.site-footer .first-container .follow-us .nav-social a img {
+  width: 30px;
+  height: 22px;
+}
+
+.site-footer .first-container .follow-us .nav-social a:hover {
+  background-color: #a6945d;
 }
 
 .site-footer .first-container .follow-us .nav-social h2 {
@@ -6446,43 +6455,83 @@ h1.main-title  {
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 {
   margin-top: 3rem;
   margin-bottom: 5rem;
+  max-width: 250px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a {
-  color: white;
-  padding: 1.8rem 2.8rem;
+  display: flex;
   text-decoration: none;
+  padding: 2rem 3rem;
+  min-width: 16rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  color: white;
   background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #0b8e36 50%, #252525 50%);
+  background-image: linear-gradient(to bottom, #7b1228 50%, #0b1626 50%);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a:hover, .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a:focus {
+@media screen and (max-width: 1520px) {
+  .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a {
+    padding: 1.5rem;
+  }
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a:hover {
   background-position: 0 100%;
-  text-decoration: none;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 {
   margin-bottom: 5rem;
+  max-width: 250px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2,
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe {
-  padding: 1.8rem 2.8rem;
-  font-size: 1.3rem;
-  color: black;
-  border: 3px solid #e4e4e4;
-  text-transform: uppercase;
-  font-family: "Overpass", Helvetica, Arial, sans-serif;
-  background-color: transparent;
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  padding: 2rem 3rem;
+  min-width: 16rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  color: white;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #7b1228 50%, #0b1626 50%);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2:focus, .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2:hover,
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe:focus,
+@media screen and (max-width: 1520px) {
+  .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2,
+  .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe {
+    padding: 1.5rem;
+  }
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2:hover,
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe:hover {
-  background-color: #0b8e36;
-  border-color: #0b8e36;
-  color: white;
+  background-position: 0 100%;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2:after,
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe:after {
+  content: "";
+  width: 22px;
+  height: 6px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 {
@@ -6508,7 +6557,7 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip:focus, .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip:hover {
   background-color: #e4e4e4;
-  color: black;
+  color: #0b1626;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 {
@@ -6517,22 +6566,22 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf {
-  font-size: 1.6rem;
-  color: black;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  color: white;
   text-decoration: none;
+  text-transform: uppercase;
   position: relative;
-  border: 3px solid #e4e4e4;
   padding: 2rem 3rem 2rem 6rem;
-  background-image: url("/theme/milipolqatar_desktop_2020_git/img/icon-pdf.svg");
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/arrow-down-white.svg");
   background-repeat: no-repeat;
   background-position: left 2.5rem center;
+  background-color: #7b1228;
   margin: -1rem 0;
   display: inline-block;
-}
-
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:focus, .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:hover {
-  background-color: #e4e4e4;
-  background-position: left 2.5rem center;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content ul li::before {
