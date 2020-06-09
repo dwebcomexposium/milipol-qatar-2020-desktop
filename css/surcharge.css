@@ -1063,6 +1063,10 @@ hr {
   margin: 0;
 }
 
+.site-banner.is-stuck > .inside .main-navigation .mn-menu-item-855024 a {
+  content: url("/theme/milipolqatar_desktop_2020_git/img/logo-milipol-qata-black.svg") !important;
+}
+
 .site-banner.is-stuck .intro-home {
   display: none;
 }
@@ -1643,12 +1647,11 @@ hr {
   top: -50px;
   left: -150px;
   margin-bottom: 0;
-  height: 0;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-menu-item-855024 a {
   text-indent: -100rem;
-  content: url("/theme/milipolqatar_desktop_2020_git/img/logo.png");
+  content: url("/theme/milipolqatar_desktop_2020_git/img/logo-milipol-qata-white.svg");
   width: 325px;
   margin: -1.5rem 0;
   max-width: 292px;
