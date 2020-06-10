@@ -1602,6 +1602,7 @@ hr {
   text-transform: none;
   display: flex;
   align-items: center;
+  height: 10px;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link::before {
@@ -1614,6 +1615,7 @@ hr {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   transition: all 0.275s ease;
+  margin-top: 8px;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link:hover {
@@ -1907,7 +1909,7 @@ hr {
 .site-footer #btn-scroll-top {
   width: 50px;
   height: 50px;
-  background-color: #7b1228;
+  background-color: #a6945d;
   cursor: pointer;
   position: fixed;
   right: 0;
@@ -1917,7 +1919,6 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #0b1626;
 }
 
 .site-footer #btn-scroll-top:before {
@@ -2157,7 +2158,7 @@ hr {
   display: flex;
   flex-direction: column-reverse;
   position: relative;
-  max-width: 1440px;
+  max-width: 1110px;
   margin: auto;
 }
 
@@ -2174,7 +2175,7 @@ hr {
 .body-corpo.front #zone2 .edito-about .inside h2,
 .body-corpo.front #zone2 .discover-qatar .inside h2 {
   position: absolute;
-  left: 50%;
+  left: 55%;
   top: 80px;
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
@@ -2208,7 +2209,7 @@ hr {
 .body-corpo.front #zone2 .edito-about .inside h3,
 .body-corpo.front #zone2 .discover-qatar .inside h3 {
   position: absolute;
-  left: 50%;
+  left: 55%;
   top: 120px;
   margin-top: 0;
   font-family: "Museo 700", sans-serif;
@@ -2222,7 +2223,7 @@ hr {
 .body-corpo.front #zone2 .edito-about .inside p,
 .body-corpo.front #zone2 .discover-qatar .inside p {
   position: absolute;
-  left: 50%;
+  left: 55%;
   top: 200px;
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
@@ -2280,6 +2281,37 @@ hr {
   top: 90px;
   left: 220px;
   width: 207px;
+}
+
+.body-corpo.front #zone2 .discover-qatar .inside {
+  flex-direction: column;
+}
+
+.body-corpo.front #zone2 .discover-qatar .inside img {
+  position: relative;
+  left: 50%;
+}
+
+.body-corpo.front #zone2 .discover-qatar .inside h2 {
+  left: 0;
+  position: absolute;
+}
+
+.body-corpo.front #zone2 .discover-qatar .inside h3 {
+  left: 0;
+}
+
+.body-corpo.front #zone2 .discover-qatar .inside p {
+  top: 160px;
+  left: 0;
+}
+
+.body-corpo.front #zone2 .discover-qatar .inside .lien1 {
+  top: 60px;
+}
+
+.body-corpo.front #zone2 .discover-qatar .inside .lien2 {
+  top: 60px;
 }
 
 .body-corpo.front #zone2 .prepare {
@@ -2876,6 +2908,12 @@ hr {
   background-position: left bottom;
   background-size: contain;
   padding: 50px 50px 100px 50px;
+  width: 100vw !important;
+  margin-left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+  transform: translateX(-50%) !important;
+  position: relative;
+  max-width: initial;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .main-title-with-link {
@@ -2932,6 +2970,10 @@ hr {
 
 .body-corpo.front #zone2 .list-articles .inside .main-title-with-link .link-view-all {
   float: none;
+}
+
+.body-corpo.front #zone2 .list-articles .inside .main-title-with-link .link-view-all i {
+  display: none;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .main-title-with-link .btn {
@@ -6965,6 +7007,7 @@ h1.main-title  {
   line-height: 24px;
   color: #fff;
   letter-spacing: 0.4px;
+  max-width: 450px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .an-item-publication {
@@ -7260,6 +7303,7 @@ h1.main-title  {
   border-bottom: 1px solid #a6945d;
   padding-bottom: 15px;
   margin-bottom: 50px;
+  margin-top: 200px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list {
