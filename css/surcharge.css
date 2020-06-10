@@ -1089,7 +1089,7 @@ hr {
 
 .site-banner .mn-menu-item .mn-link.is-active {
   background-color: transparent;
-  border-bottom: 2px solid #9a1c36;
+  border-bottom: 4px solid #9a1c36;
 }
 
 .site-banner .mn-link-text::before {
@@ -1517,6 +1517,7 @@ hr {
   justify-content: center;
   list-style: none;
   flex-wrap: nowrap;
+  height: 52px;
   /*logo*/
   /*BTN EXPOSANT/BADGE*/
 }
@@ -1531,6 +1532,7 @@ hr {
   font-weight: 700;
   line-height: 18px;
   text-transform: uppercase;
+  height: 52px;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-link .mn-link-text {
@@ -1546,6 +1548,7 @@ hr {
   background: #ffffff;
   z-index: 0;
   min-width: 28rem;
+  top: 48px;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu::after {
@@ -1657,6 +1660,7 @@ hr {
   width: 325px;
   margin: -1.5rem 0;
   max-width: 292px;
+  height: 120px !important;
 }
 
 /* end site-banner*/
