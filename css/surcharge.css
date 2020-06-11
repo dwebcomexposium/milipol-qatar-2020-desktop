@@ -2362,17 +2362,12 @@ hr {
 .body-corpo.front #zone2 .prepare {
   padding: 55px 0;
   background-color: #f7f8f8;
-}
-
-.body-corpo.front #zone2 .prepare .container-prepare {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1120px;
-  margin: 0 auto;
 }
 
-.body-corpo.front #zone2 .prepare .container-prepare .text-left {
+.body-corpo.front #zone2 .prepare .text-left {
   max-width: 160px;
   margin-right: 50px;
   font-family: "Museo 700", sans-serif;
@@ -2382,7 +2377,7 @@ hr {
   color: #0b1626;
 }
 
-.body-corpo.front #zone2 .prepare .container-prepare .text-left span {
+.body-corpo.front #zone2 .prepare .text-left span {
   font-family: "Univers LT Std", sans-serif;
   font-size: 23px;
   font-weight: 600;
@@ -2390,15 +2385,15 @@ hr {
   color: #9a1c36;
 }
 
-.body-corpo.front #zone2 .prepare .container-prepare .links {
+.body-corpo.front #zone2 .prepare .links {
   margin-top: 0;
 }
 
-.body-corpo.front #zone2 .prepare .container-prepare .links .ql-item:not(:last-child) {
+.body-corpo.front #zone2 .prepare .links .ql-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.body-corpo.front #zone2 .prepare .container-prepare .links .ql-item span {
+.body-corpo.front #zone2 .prepare .links .ql-item span {
   font-family: "Univers LT Std", sans-serif;
   font-size: 12px;
   font-weight: 600;
@@ -2824,8 +2819,21 @@ hr {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
 }
 
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item.last-item:hover {
+  background-color: #a6945d;
+}
+
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item.last-item:hover p {
+  color: white;
+}
+
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item.last-item:hover p:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
+}
+
 .body-corpo.front #zone2 .partner {
   position: relative;
+  margin: 5rem auto;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link {
