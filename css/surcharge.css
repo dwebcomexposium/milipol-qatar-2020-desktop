@@ -277,7 +277,7 @@ h2 {
 .cc-cookies {
   top: auto;
   bottom: 0;
-  background-color: #0b8e36;
+  background-color: #7b1228;
   color: white;
   font-size: 1.4rem;
   padding: 2rem 0;
@@ -289,19 +289,19 @@ h2 {
 }
 
 .cc-cookies .cc-cookie-accept {
-  background-color: white;
-  color: #252525;
+  background-color: #a6945d;
+  color: white;
   font-weight: normal;
   padding: 1rem 2.5rem;
 }
 
 .cc-cookies .cc-cookie-accept:hover {
-  background-color: #f39200;
+  background-color: #0b1626;
   color: white;
 }
 
 .cc-cookies .cc-cookie-link {
-  color: #06471b;
+  color: #a6945d;
 }
 
 .is-contentPusher {
@@ -679,14 +679,17 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .btn.btn-white-grey {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, white 50%, #7b1228 50%);
+  background-color: white;
   color: #0b1626;
 }
 
 .btn.btn-white-grey:hover {
-  background-position: 0 100%;
   border: 1px solid white;
+  background-color: #7b1228;
+}
+
+.btn.btn-white-grey:hover span {
+  color: white !important;
 }
 
 .btn.btn-white-grey:after {
@@ -694,13 +697,11 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .btn.btn-gold {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #a6945d 50%, #252525 50%);
+  background-color: #a6945d;
 }
 
 .btn.btn-gold:hover {
-  background-position: 0 100%;
-  border: 1px solid white;
+  border: 1px solid transparent;
 }
 
 .btn.btn-gold:after {
@@ -708,14 +709,16 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .btn.btn-red {
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #7b1228 50%, #252525 50%);
+  background-color: #7b1228;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .btn.btn-red:hover {
-  background-position: 0 100%;
-  border: 1px solid white;
+  background-color: #7f142a;
+}
+
+.btn.btn-red:hover span {
+  color: white !important;
 }
 
 .btn.btn-red.btn-yellow-color-white {
@@ -1623,6 +1626,7 @@ hr {
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link:hover {
   padding-left: 4.3rem;
+  color: #7b1228;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link:hover::before {
@@ -1631,6 +1635,10 @@ hr {
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link.is-active {
   border-bottom: none;
+}
+
+.site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link .mn-link-text:hover {
+  color: #7b1228;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu span.mn-link-text {
@@ -2715,7 +2723,6 @@ hr {
 }
 
 .body-corpo.front #zone2 .contacts-list .cl-content .cl-item .cl-item-photo {
-  margin-right: 20px;
   padding: 10px;
   min-width: 148px;
 }
@@ -6979,6 +6986,10 @@ h1.main-title  {
   background-color: #0b1626;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:hover:after {
+  background: rgba(11, 22, 38, 0.65);
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:after {
   content: "\A";
   position: absolute;
@@ -6986,7 +6997,7 @@ h1.main-title  {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(11, 22, 38, 0.65);
+  background: rgba(154, 28, 54, 0.65);
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content {
@@ -7337,6 +7348,10 @@ h1.main-title  {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item a:hover .gla-item-title {
+  color: #7b1228 !important;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-content {
   position: static;
   display: flex;
@@ -7417,10 +7432,6 @@ h1.main-title  {
   align-items: center;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item a:hover {
-  color: #7b1228;
-}
-
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item a .icon {
   display: none;
 }
@@ -7432,6 +7443,9 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item:hover {
   background-color: #0b1626;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item:hover a {
   color: white;
 }
 
@@ -7440,6 +7454,7 @@ h1.main-title  {
   flex-direction: row;
   align-items: center;
   margin-left: auto;
+  text-transform: capitalize;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-next:after {
@@ -7457,6 +7472,7 @@ h1.main-title  {
   flex-direction: row;
   align-items: center;
   margin-right: auto;
+  text-transform: capitalize;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev:before {
@@ -7885,8 +7901,6 @@ h1.main-title  {
 .content855217 .site-wrapper .institutionnal .partner-gallery .pg-item-group .pg-item .pg-item-link:hover,
 .content855217 .site-wrapper .other .partner-gallery .pg-item-group .pg-item .pg-item-link:hover {
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 15px 35px -25px rgba(0, 0, 0, 0.25);
-  outline-color: rgba(123, 18, 40, 0.4);
-  outline-offset: 1.4rem;
   border: 2px solid #7b1228;
 }
 
@@ -7995,13 +8009,18 @@ h1.main-title  {
 }
 
 .block-page.faq h3.fc-item-title .fc-item-link {
-  padding: 2rem;
+  padding: 3rem;
   transition: all 0.3s ease-in-out;
   color: #0b1626 !important;
   text-transform: uppercase;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
 }
 
 .block-page.faq .fc-item-content {
