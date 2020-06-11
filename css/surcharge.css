@@ -3107,6 +3107,7 @@ hr {
   background-color: white;
   padding: 10px;
   box-shadow: none;
+  width: 350px;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list .gla-item a img {
@@ -6456,6 +6457,10 @@ h1.main-title  {
   color: white;
   line-height: 5.6rem;
   margin-bottom: 3rem;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-title .at-publication {
+  display: none;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-intro {
