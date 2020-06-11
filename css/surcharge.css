@@ -522,7 +522,7 @@ header.site-banner .global-search-form .gsf-label {
   top: 188px;
   z-index: 100;
   background-color: rgba(11, 22, 38, 0.9);
-  padding: 10px;
+  padding: 7px;
   padding-left: 10px !important;
 }
 
@@ -538,6 +538,8 @@ header.site-banner .global-search-form .gsf-label {
 
 #zone3.zone ul li {
   margin-bottom: 1.5rem;
+  padding: 5px;
+  border-radius: 2px;
 }
 
 #zone3.zone ul li h2 {
@@ -549,6 +551,7 @@ header.site-banner .global-search-form .gsf-label {
           transform: rotate(180deg);
   color: white;
   letter-spacing: 0.2px;
+  text-transform: uppercase;
   font-family: "Univers LT Std", sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -562,6 +565,10 @@ header.site-banner .global-search-form .gsf-label {
 #zone3.zone ul li a svg {
   height: 1.5rem;
   width: 1.5rem;
+}
+
+#zone3.zone ul li:not(:first-child):hover {
+  background-color: #a6945d;
 }
 
 .layout-2-col [id="zone2"] {
@@ -702,6 +709,7 @@ header.site-banner .global-search-form .gsf-label {
 
 .btn.btn-gold:hover {
   border: 1px solid transparent;
+  background-color: #897947;
 }
 
 .btn.btn-gold:after {
@@ -1937,6 +1945,10 @@ hr {
   content: url("/theme/milipolqatar_desktop_2020_git/img/arrow-top-header.svg");
 }
 
+.site-footer #btn-scroll-top:hover {
+  background-color: #897947;
+}
+
 /* pages */
 .intro-home {
   display: flex;
@@ -2089,6 +2101,10 @@ hr {
   height: 8px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   background-repeat: no-repeat;
+}
+
+#zone1 .cta-arrow .ql-list .ql-item a:hover {
+  color: #7b1228;
 }
 
 #zone1 .cta-arrow .ql-list .ql-item.linkid851795 a {
@@ -2285,6 +2301,11 @@ hr {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
+.body-corpo.front #zone2 .edito-about .inside .lien1:hover,
+.body-corpo.front #zone2 .discover-qatar .inside .lien1:hover {
+  background-color: #7f142a;
+}
+
 .body-corpo.front #zone2 .edito-about .inside .lien2,
 .body-corpo.front #zone2 .discover-qatar .inside .lien2 {
   background-color: white;
@@ -2293,6 +2314,17 @@ hr {
   top: 90px;
   left: 220px;
   width: 207px;
+}
+
+.body-corpo.front #zone2 .edito-about .inside .lien2:hover,
+.body-corpo.front #zone2 .discover-qatar .inside .lien2:hover {
+  background-color: #7f142a;
+  color: white;
+}
+
+.body-corpo.front #zone2 .edito-about .inside .lien2:hover:after,
+.body-corpo.front #zone2 .discover-qatar .inside .lien2:hover:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside {
@@ -2386,6 +2418,10 @@ hr {
 
 .body-corpo.front #zone2 .quicklinks .ql-list .ql-item:hover {
   padding-right: 5rem;
+}
+
+.body-corpo.front #zone2 .quicklinks .ql-list .ql-item:hover a span {
+  color: #7b1228;
 }
 
 .body-corpo.front #zone2 .quicklinks .ql-list .ql-item a {
@@ -2803,6 +2839,11 @@ hr {
   margin-left: auto;
 }
 
+.body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link .link-view-all:hover {
+  background-color: transparent;
+  color: #7b1228;
+}
+
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery {
   max-width: 1440px;
   margin: 50px auto 0 auto;
@@ -2977,6 +3018,10 @@ hr {
   display: block;
   margin-left: auto;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
+}
+
+.body-corpo.front #zone2 .list-articles .inside .main-title-with-link a:hover {
+  background-color: #7f142a;
 }
 
 .body-corpo.front #zone2 .list-articles .inside .main-title-with-link .link-view-all {
@@ -3390,12 +3435,20 @@ hr {
   margin-left: auto;
 }
 
+#zone4 .article-focus :nth-child(1) a:hover {
+  background-color: #7f142a;
+}
+
 #zone4 .article-focus :nth-child(1) i {
   display: none;
 }
 
 #zone4 .article-focus:last-child a {
   background-color: #a6945d;
+}
+
+#zone4 .article-focus:last-child a:hover {
+  background-color: #897947 !important;
 }
 
 .content743324 #main,
@@ -6580,8 +6633,7 @@ h1.main-title  {
   line-height: 12px;
   letter-spacing: 0.2px;
   color: white;
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #7b1228 50%, #0b1626 50%);
+  background-color: #7b1228;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -6592,7 +6644,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a:hover {
-  background-position: 0 100%;
+  background-color: #7f142a;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 {
@@ -6615,8 +6667,7 @@ h1.main-title  {
   line-height: 12px;
   letter-spacing: 0.2px;
   color: white;
-  background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, #7b1228 50%, #0b1626 50%);
+  background-color: #7b1228;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -6629,7 +6680,7 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2:hover,
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe:hover {
-  background-position: 0 100%;
+  background-color: #7f142a;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2:after,
@@ -6691,6 +6742,10 @@ h1.main-title  {
   margin: -1rem 0;
   display: inline-block;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:hover {
+  background-color: #7f142a;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content ul li::before {
@@ -6987,7 +7042,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:hover:after {
-  background: rgba(11, 22, 38, 0.65);
+  background: rgba(154, 28, 54, 0.65);
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:after {
@@ -6997,7 +7052,7 @@ h1.main-title  {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(154, 28, 54, 0.65);
+  background: rgba(11, 22, 38, 0.65);
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content {
@@ -7441,6 +7496,10 @@ h1.main-title  {
   color: white;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.is-active:hover {
+  background-color: #7b1228;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item:hover {
   background-color: #0b1626;
 }
@@ -7467,6 +7526,14 @@ h1.main-title  {
   margin-left: 10px;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-next:hover {
+  background-color: transparent;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-next:hover a {
+  color: #7b1228;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev {
   display: flex;
   flex-direction: row;
@@ -7483,6 +7550,14 @@ h1.main-title  {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/pagination-prev.svg);
   background-repeat: no-repeat;
   margin-right: 10px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev:hover {
+  background-color: transparent;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev:hover a {
+  color: #7b1228;
 }
 
 .content743330 .article-content h3 + p + ul,
@@ -8902,6 +8977,7 @@ body.error404 .site-wrapper .intro .ezxmltext-field ul li:first-child a {
   display: flex;
   align-items: center;
   width: 207px;
+  border: 2px solid transparent;
 }
 
 body.error404 .site-wrapper .intro .ezxmltext-field ul li:first-child a:after {
@@ -8913,6 +8989,10 @@ body.error404 .site-wrapper .intro .ezxmltext-field ul li:first-child a:after {
   margin-left: auto;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
   margin-left: auto;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field ul li:first-child a:hover {
+  background-color: #7f142a;
 }
 
 body.error404 .site-wrapper .intro .ezxmltext-field ul li:last-child a {
@@ -8941,6 +9021,15 @@ body.error404 .site-wrapper .intro .ezxmltext-field ul li:last-child a:after {
   margin-left: auto;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
   margin-left: auto;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field ul li:last-child a:hover {
+  background-color: #7b1228;
+  color: white;
+}
+
+body.error404 .site-wrapper .intro .ezxmltext-field ul li:last-child a:hover:after {
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
 body.error404 .site-wrapper .ep-intro .main-title {
