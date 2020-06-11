@@ -2790,6 +2790,7 @@ hr {
 .body-corpo.front #zone2 .contacts-list .cl-content .cl-item.last-item {
   background-color: transparent;
   border: 1px solid #a6945d;
+  height: 149px;
 }
 
 .body-corpo.front #zone2 .contacts-list .cl-content .cl-item.last-item p {
