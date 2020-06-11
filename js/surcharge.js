@@ -181,6 +181,87 @@
     $('#showMoreAreas').hide()
   });
 
+  // Dynamic counter
+
+  function getTimeRemaining(endtime) {
+    const total = Date.parse(endtime) - Date.parse(new Date());
+    const seconds = Math.floor((total / 1000) % 60);
+    const minutes = Math.floor((total / 1000 / 60) % 60);
+    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(total / (1000 * 60 * 60 * 24));
+    const months = Math.floor(total / (1000 * 60 * 60 * 24) % 12);
+
+    return {
+      total,
+      months,
+      days,
+      hours,
+      minutes,
+      seconds
+    };
+  }
+
+  function initializeClock(id, endtime) {
+    const clock = document.getElementById(id);
+    const monthsSpan = clock.querySelector('.months p');
+    const daysSpan = clock.querySelector('.days p');
+    const hoursSpan = clock.querySelector('.hours p');
+    // const minutesSpan = clock.querySelector('.minutes p');
+    // const secondsSpan = clock.querySelector('.seconds p');
+
+    function updateClock() {
+      const t = getTimeRemaining(endtime);
+
+      monthsSpan.innerHTML = t.months;
+      daysSpan.innerHTML = t.days;
+      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+      // minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+      // secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+      if (t.total <= 0) {
+        clearInterval(timeinterval);
+      }
+    }
+
+    updateClock();
+    const timeinterval = setInterval(updateClock, 1000);
+  }
+
+  const deadline = 'October 26 2020';
+  initializeClock('container-dates', deadline);
+
+
+
+  // $(function () {
+  //   var calcNewYear = setInterval(function () {
+  //     date_future = new Date(new Date().getFullYear() + 1, 0, 1);
+  //     date_now = new Date();
+
+  //     seconds = Math.floor((date_future - (date_now)) / 1000);
+  //     minutes = Math.floor(seconds / 60);
+  //     hours = Math.floor(minutes / 60);
+  //     days = Math.floor(hours / 24);
+  //     months = Math.floor(days / 12);
+
+  //     months = days * 31 * 12
+  //     hours = hours - (days * 24);
+  //     minutes = minutes - (days * 24 * 60) - (hours * 60);
+  //     seconds = seconds - (days * 24 * 60 * 60) - (hours * 60 * 60) - (minutes * 60);
+
+  //     $("#container-dates").text("Time until new year:\nDays: " + days + " Hours: " + hours + " Minutes: " + minutes + " Seconds: " + seconds);
+  //   }, 1000);
+  // });
+
+  // add last item to contacts-list section
+
+  $('.contacts-list .cl-content').append($("<a href='#' class='cl-item last-item'></div>").html('<p>See all speakers</p>'));
+
   milipolJS.init();
 
 })(jQuery);
+
+// var months;
+// months = (d2.getFullYear() - d1.getFullYear()) * 12;
+// months -= d1.getMonth();
+// months += d2.getMonth();
+// return months <= 0 ? 0 : months;
