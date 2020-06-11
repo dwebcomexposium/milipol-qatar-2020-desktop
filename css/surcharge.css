@@ -2056,7 +2056,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1440px;
+  max-width: 1120px;
   margin: auto;
 }
 
@@ -2178,6 +2178,7 @@ hr {
 
 .body-corpo.front #zone2 .edito-about,
 .body-corpo.front #zone2 .discover-qatar {
+  max-width: 1120px;
   padding: 50px 0;
 }
 
@@ -2186,7 +2187,7 @@ hr {
   display: flex;
   flex-direction: column-reverse;
   position: relative;
-  max-width: 1110px;
+  max-width: 1120px;
   margin: auto;
 }
 
@@ -2333,7 +2334,7 @@ hr {
 
 .body-corpo.front #zone2 .discover-qatar .inside img {
   position: relative;
-  left: 50%;
+  left: 52%;
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside h2 {
@@ -2359,16 +2360,21 @@ hr {
 }
 
 .body-corpo.front #zone2 .prepare {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 55px 0;
   background-color: #f7f8f8;
 }
 
-.body-corpo.front #zone2 .prepare .text-left {
+.body-corpo.front #zone2 .prepare .container-prepare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.body-corpo.front #zone2 .prepare .container-prepare .text-left {
   max-width: 160px;
-  margin-right: 150px;
+  margin-right: 50px;
   font-family: "Museo 700", sans-serif;
   font-size: 33px;
   font-weight: 700;
@@ -2376,7 +2382,7 @@ hr {
   color: #0b1626;
 }
 
-.body-corpo.front #zone2 .prepare .text-left span {
+.body-corpo.front #zone2 .prepare .container-prepare .text-left span {
   font-family: "Univers LT Std", sans-serif;
   font-size: 23px;
   font-weight: 600;
@@ -2384,15 +2390,15 @@ hr {
   color: #9a1c36;
 }
 
-.body-corpo.front #zone2 .prepare .links {
+.body-corpo.front #zone2 .prepare .container-prepare .links {
   margin-top: 0;
 }
 
-.body-corpo.front #zone2 .prepare .links .ql-item:not(:last-child) {
+.body-corpo.front #zone2 .prepare .container-prepare .links .ql-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.body-corpo.front #zone2 .prepare .links .ql-item span {
+.body-corpo.front #zone2 .prepare .container-prepare .links .ql-item span {
   font-family: "Univers LT Std", sans-serif;
   font-size: 12px;
   font-weight: 600;
@@ -2417,7 +2423,7 @@ hr {
 }
 
 .body-corpo.front #zone2 .quicklinks .ql-list .ql-item:hover {
-  padding-right: 5rem;
+  padding-right: 1rem;
 }
 
 .body-corpo.front #zone2 .quicklinks .ql-list .ql-item:hover a span {
@@ -2519,7 +2525,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1120px;
   margin: auto;
 }
 
@@ -2727,7 +2733,7 @@ hr {
 
 .body-corpo.front #zone2 .contacts-list .cl-content {
   display: flex;
-  max-width: 1110px;
+  max-width: 1120px;
   margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
@@ -2825,7 +2831,7 @@ hr {
 .body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link {
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
+  max-width: 1120px;
   margin: 0 auto !important;
 }
 
@@ -2876,7 +2882,7 @@ hr {
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery {
-  max-width: 1440px;
+  max-width: 1120px;
   margin: 50px auto 0 auto;
   padding-top: 15px;
 }
@@ -2922,11 +2928,11 @@ hr {
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery .pg-pagin .slider-pagin-btn {
-  width: 1600px;
+  width: 1240px;
   display: flex;
   position: absolute;
   top: 130px;
-  left: -70px;
+  left: 100px;
   z-index: 1000;
   margin: 0 auto;
 }
@@ -3003,7 +3009,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1120px;
   margin: 0 auto !important;
   position: relative;
 }
@@ -3082,8 +3088,8 @@ hr {
 }
 
 .body-corpo.front #zone2 .list-articles .inside .cxp-pagination .grid-la-list {
-  justify-content: space-evenly;
-  max-width: 1440px;
+  justify-content: space-between;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -3180,7 +3186,7 @@ hr {
 
 .body-corpo.front #zone2 .business-areas .item-list {
   display: flex;
-  max-width: 1110px;
+  max-width: 1120px;
   margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
@@ -3255,7 +3261,7 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 1110px;
+  max-width: 1120px;
   margin: 0 auto;
   z-index: 1;
   position: relative;
@@ -3319,7 +3325,7 @@ hr {
 }
 
 .body-corpo.front #zone2 .key-numbers .container-numbers .link:last-child {
-  margin-right: -80px;
+  margin-right: -90px;
 }
 
 .body-corpo.front #zone2 .key-numbers .container-numbers .link:after {
