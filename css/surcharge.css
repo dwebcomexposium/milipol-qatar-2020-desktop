@@ -2787,6 +2787,36 @@ hr {
   text-transform: capitalize;
 }
 
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item.last-item {
+  background-color: transparent;
+  border: 1px solid #a6945d;
+}
+
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item.last-item p {
+  display: flex;
+  width: 100%;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+  color: #a6945d;
+  text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+}
+
+.body-corpo.front #zone2 .contacts-list .cl-content .cl-item.last-item p:after {
+  content: "";
+  width: 22px;
+  height: 8px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+}
+
 .body-corpo.front #zone2 .partner {
   position: relative;
 }
