@@ -5350,7 +5350,6 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item.is-premium .mod-catal .catal-ex-item {
-  border-bottom: 1px solid #e2e2e2;
   margin: 0px 0px;
   padding: 5rem;
   background: white;
@@ -5449,6 +5448,11 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .catal-ex-item.is-premium .mod-catal .catal-ed-main .catal-ed-main-cat-item {
   margin-right: 25px;
+}
+
+.mod-catal h1,
+.mod-catal .h1-like {
+  border-bottom: 0;
 }
 
 .mod-catal .catal-ex-item.is-top-premium {
@@ -5814,8 +5818,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ed-activity .catal-ed-activity-link {
   background-color: white;
   border-radius: 50px;
-  padding: 1.4rem 2.4rem;
-  font-size: 1.4rem;
+  padding: 0.4rem 1.4rem;
   color: black;
 }
 
@@ -5833,6 +5836,7 @@ body.exposer #main .site-wrapper {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   color: black;
   font-size: 3rem;
+  border: 0;
 }
 
 .mod-catal .catal-ex-item-title a {
@@ -6102,22 +6106,6 @@ body.exposer #main .site-wrapper {
   padding-top: 4.5rem;
 }
 
-.exhibitor-details .site-wrapper.wrapper::before {
-  content: "";
-  display: block;
-  background-color: black;
-  width: calc(100% - 4rem);
-  margin: 0 2rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 36rem;
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/bg-12.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
-}
-
 .exhibitor-details .site-wrapper.wrapper #zone1 {
   position: relative;
   z-index: 1;
@@ -6155,20 +6143,11 @@ body.exposer #main .site-wrapper {
 
 .exhibitor-details .catal-ed-group-title h2 {
   color: #7b1228;
-  font-size: 4.4rem;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  position: relative;
-  padding-left: 6.2rem;
-}
-
-.exhibitor-details .catal-ed-group-title h2::before {
-  content: "";
-  position: absolute;
-  background: #7b1228;
-  width: 4rem;
-  height: 0.4rem;
-  bottom: 35px;
-  left: 0%;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 .exhibitor-details .mod-catal.catal-nav-affix {
@@ -6213,10 +6192,11 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main {
-  border: 2px solid #7b1228;
+  border: 0;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  max-width: 88rem !important;
+  max-width: 730px !important;
   margin: 0;
   padding: 1.5rem;
 }
@@ -6260,22 +6240,23 @@ body.exposer #main .site-wrapper {
   padding: 1rem;
 }
 
-.exhibitor-details .mod-catal.catal-ex-details .catal-ed-activity-group h3 {
-  margin-right: 15.5rem;
-}
-
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-activity-group .catal-ed-activity-title {
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  font-size: 2.9rem;
-  color: black;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #0b1626;
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-activity-group .catal-ed-activity-link {
   color: white;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  font-size: 1.6rem;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.2px;
   background: #7b1228;
-  border-radius: 0;
+  border-radius: 3px;
 }
 
 .exhibitor-details #zone3 .catal-nav-affix {
@@ -6287,8 +6268,15 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-other-ex {
-  max-width: 116rem !important;
-  margin: 0 auto !important;
+  padding: 50px;
+  background-color: white;
+  padding: 50px 50px 100px 50px;
+  width: 100vw !important;
+  margin-left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+  transform: translateX(-50%) !important;
+  position: relative;
+  max-width: initial;
 }
 
 .exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary {
@@ -6305,7 +6293,7 @@ body.exposer #main .site-wrapper {
 .exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-item .catal-other-ex-actions .btn-primary span::before {
   content: "";
   position: absolute;
-  background: #0b8e36;
+  background: #7b1228;
   width: 1.3rem;
   height: 0.3rem;
   bottom: 0.7rem;
@@ -6313,21 +6301,18 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-other-ex h2 {
-  color: #7b1228;
-  font-size: 4.4rem;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  font-family: "Museo 700", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #0b1626;
   position: relative;
-  padding-left: 6.2rem;
+  text-align: center;
 }
 
-.exhibitor-details .mod-catal.catal-other-ex h2::before {
-  content: "";
-  position: absolute;
-  background: #7b1228;
-  width: 4rem;
-  height: 0.4rem;
-  bottom: 35px;
-  left: 0%;
+.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-list {
+  max-width: 116rem;
+  margin: 0 auto;
 }
 
 .exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-list .catal-other-ex-item a.catal-other-ex-link .catal-other-ex-txt {
