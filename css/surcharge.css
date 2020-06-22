@@ -6315,13 +6315,22 @@ body.exposer #main .site-wrapper {
   margin: 0 auto;
 }
 
+.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-list .catal-other-ex-item a.catal-other-ex-link img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-list .catal-other-ex-item a.catal-other-ex-link .catal-other-ex-txt {
   background: #ffffff;
-  border: 1px solid #e7e7e7;
-  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.09);
+  border: 0;
   height: 0;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  color: black;
+  color: #0b1626;
+  font-family: "Museo 700", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 25px;
+  text-transform: capitalize;
 }
 
 .mod-catal.catal-nav-ex .catal-nav-ex-link span {
