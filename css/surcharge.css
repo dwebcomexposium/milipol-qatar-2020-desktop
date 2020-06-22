@@ -27,10 +27,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
-  font-family: "Overpass", Helvetica, Arial, sans-serif;
+  font-family: "Univers LT Std";
   color: #474747;
   overflow-x: hidden;
   background-color: white;
+}
+
+body.catalogue {
+  font-family: "Univers LT Std";
 }
 
 a {
@@ -2094,7 +2098,7 @@ hr {
 }
 
 #zone1 .cta-arrow .ql-list .ql-item a {
-  padding: 0 100px;
+  padding: 0 70px;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -4190,48 +4194,14 @@ body.exposer #main .site-wrapper {
   margin-top: 21rem;
 }
 
-.content228663 {
-  background: transparent;
-}
-
-.content228663 #main::before {
-  content: "";
-  display: block;
-  background-color: black;
-  width: calc(100% - 4rem);
-  margin: 0 2rem;
-  position: absolute;
-  left: 0;
-  height: 35rem;
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/bg-12.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.content228663 #main::after {
-  content: "";
-  display: block;
-  background-color: white;
-  width: 100%;
-  margin: 0;
-  position: absolute;
-  left: 0;
-  top: 14.5rem;
-  height: 38rem;
-  z-index: -1;
-}
-
-.content228663 #main .site-wrapper.wrapper {
-  background: transparent;
-}
-
-.content228663 h1 {
+.content44005 h1 {
   font-size: 5.2rem;
   color: white;
   line-height: 5.6rem;
   max-width: 116rem;
-  margin: 5rem auto 2.5rem auto;
+  margin: 5rem auto 2.5rem auto !important;
   padding-top: 1rem;
+  border: 0;
 }
 
 .exhibitor-details .layout-2-col {
@@ -4240,7 +4210,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-form-zone {
-  max-width: 116rem;
+  max-width: 980px;
   margin: 0 auto;
   margin-bottom: 4rem;
   border: 0 none;
@@ -4248,15 +4218,30 @@ body.exposer #main .site-wrapper {
   background-color: white;
   border-radius: 0;
   box-shadow: 0 1.5rem 3.5rem -2.5rem rgba(0, 0, 0, 0.25);
-  margin-bottom: 5.5rem;
+  margin-bottom: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .mod-catal .main-search .esf-intro-title {
-  color: #f39200;
-  font-size: 3.6rem;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  color: #7b1228;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mod-catal .main-search .esf-intro-title:after {
+  content: "";
+  height: 2px;
+  width: 60px;
+  background-color: #7b1228;
+  display: block;
+  position: relative;
+  margin: 20px auto 0 auto;
 }
 
 .mod-catal .esf-search-line {
@@ -4272,6 +4257,7 @@ body.exposer #main .site-wrapper {
   font-style: normal;
   padding-top: 1rem;
   width: 60%;
+  background-color: #f7f8f8;
 }
 
 .mod-catal
@@ -4326,6 +4312,7 @@ body.exposer #main .site-wrapper {
   font-size: 1.6rem;
   color: #6e6e6e;
   cursor: pointer;
+  background-color: #f7f8f8;
 }
 
 .mod-catal .esf-search-line .form-select {
@@ -4360,20 +4347,26 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-search-line #esf-btn-search {
-  width: 17.5%;
+  width: 21%;
   border: 0 none;
-  background-color: #f39200;
-  font-size: 2rem;
-  text-transform: none;
+  background-color: #7b1228;
+  text-transform: uppercase;
   padding: 0 5px 0 0;
-  border: 1px solid #f39200;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.2px;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border-color: #dbdbdb;
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
+  background-repeat: no-repeat;
+  background-position: 140px center;
+  transition: none;
 }
 
 .mod-catal .esf-search-line #esf-btn-search:hover {
-  background-color: white;
-  color: #f39200;
-  border-color: #dbdbdb;
+  background-color: #0b1626;
+  color: white;
 }
 
 .catalogue .esf-search-plus {
@@ -4388,7 +4381,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
-  color: black;
+  color: #7b1228;
 }
 
 .mod-catal.myselection {
@@ -4416,16 +4409,15 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal.exhibitor-search-form a {
-  color: #2a2a2a;
+  color: rgba(11, 22, 38, 0.5);
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 .mod-catal.catal-ex-blocs .catal-ex-item.is-premium .catal-ex-item-img {
   display: none;
-}
-
-.mod-catal.catal-ex-blocs .catal-ex-item.is-premium .catal-ex-item-title a {
-  font-size: 2.2rem;
-  line-height: 3.1rem;
 }
 
 .mod-catal.catal-ex-blocs .catal-ex-item-title a {
@@ -4434,7 +4426,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal.exhibitor-search-form a:hover {
-  color: #634e42;
+  color: #7b1228;
 }
 
 .mod-catal .block-title {
@@ -4482,7 +4474,7 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .esf-as-header {
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2a2a2a;
@@ -4498,8 +4490,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-as-header:hover {
-  background-color: #f39200;
-  border-color: #f39200;
+  background-color: #7b1228;
   color: white;
 }
 
@@ -4518,16 +4509,18 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-as-header p {
-  font-size: 1.5rem;
   letter-spacing: 0;
   margin: 0 8px;
-  font-family: "Overpass", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  color: #0b1626;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 5rem;
 }
 
 .mod-catal .esf-as-header:after,
 .mod-catal .esf-as-header:before {
-  background: #f39200;
+  background: #7b1228;
   border-radius: 0;
   height: 3px;
   width: 18px;
@@ -4541,7 +4534,6 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-as-activated-filters {
-  background-color: #f8f8f8;
   padding: 12px 18px 14px 18px;
 }
 
@@ -4567,6 +4559,17 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .esf-as-af-filters .icon-catal-cross {
   color: #2a2a2a;
+}
+
+.mod-catal .catal-ex-item-tag {
+  top: 20px;
+  left: 270px;
+}
+
+.mod-catal .catal-ex-item-tag .catal-ex-item-tag-premium {
+  background: #a6945d !important;
+  color: white !important;
+  text-transform: capitalize !important;
 }
 
 .mod-catal
@@ -4619,7 +4622,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .esf-as-heading {
   font-size: 14px;
   padding: 14px 18px;
-  color: #f39200;
+  color: #7b1228;
   font-size: 2rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
@@ -4711,14 +4714,19 @@ body.exposer #main .site-wrapper {
   color: #2a2a2a;
 }
 
+.mod-catal .esf-results-zone {
+  background-color: #0b1626 !important;
+}
+
 .mod-catal .esf-results-zone .esf-results-alpha-list .current {
   background: transparent;
   border-radius: 50px;
   /*border: 1px solid rgba(255,255,255,0.5);*/
-  background-color: white;
+  background-color: #7b1228;
   color: #634e42;
   width: 29px;
   text-align: center;
+  color: white !important;
 }
 
 .mod-catal
@@ -4740,7 +4748,7 @@ body.exposer #main .site-wrapper {
   position: absolute;
   width: 1.5rem !important;
   height: 1.5rem !important;
-  color: #f39200;
+  color: #7b1228;
   border-radius: 5rem;
   background-position: center !important;
   background-color: transparent !important;
@@ -4803,11 +4811,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item-title {
-  font-size: 34px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   margin-bottom: 10px;
-  line-height: 40px;
 }
 
 .mod-catal .form-select {
@@ -4838,8 +4842,8 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .btn-primary:focus,
 .mod-catal .btn-primary:hover {
-  background-color: #f39200 !important;
-  border-color: #f39200 !important;
+  background-color: #7b1228 !important;
+  border-color: #7b1228 !important;
   color: white;
   outline: none;
 }
@@ -4867,7 +4871,7 @@ body.exposer #main .site-wrapper {
   width: 3rem;
   line-height: 1.2rem;
   margin-top: -1.5rem;
-  color: #f39200 !important;
+  color: #7b1228 !important;
   top: 2.7rem !important;
   line-height: 3rem;
   transition: all 0.25s ease;
@@ -4877,28 +4881,38 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item {
   border-bottom: 1px solid #e2e2e2;
   margin: 0px 0px;
-  padding: 5rem;
+  padding: 1rem;
   background: white;
+  margin-bottom: 20px;
 }
 
 .mod-catal .catal-ex-item .catal-ex-item-country {
-  color: #6e6e6e;
-  font-size: 2.3rem;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  color: #3c4451;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 .mod-catal .catal-ex-item .catal-ex-item-stand-title {
-  color: #6e6e6e;
+  color: #3c4451;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
 }
 
 .mod-catal .catal-ex-item .catal-ex-item-stand-item {
-  color: #6e6e6e;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  color: #0b1626;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 26px;
 }
 
 .mod-catal .catal-ex-item.is-premium {
   background: white;
-  border: 0.2rem solid #f39200;
+  border: 0.2rem solid #7b1228;
   color: #6e6e6e;
   position: relative;
 }
@@ -4908,7 +4922,7 @@ body.exposer #main .site-wrapper {
   display: block;
   right: 0;
   top: 0;
-  background-color: #f39200;
+  background-color: #7b1228;
   content: "EXPOSANT SPONSORISÉ";
   padding: 0.8rem 1.5rem;
   font-size: 1.2rem;
@@ -4924,9 +4938,12 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
-  font-size: 5.2rem;
-  color: #f39200;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  color: #0b1626 !important;
+  text-transform: capitalize !important;
+  font-family: "Museo 700", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px !important;
 }
 
 .mod-catal .catal-ex-item.is-premium p {
@@ -4949,7 +4966,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-item {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
-  color: #f39200;
+  color: #7b1228;
 }
 
 .mod-catal.catal-ex-blocs .catal-ex-item {
@@ -5076,6 +5093,10 @@ body.exposer #main .site-wrapper {
   color: 80ba27;
 }
 
+.mod-catal .crd-select .crd-toggle {
+  background: white;
+}
+
 .mod-catal .catal-ex-item-cat-icon {
   margin-top: -8px;
   height: 45px;
@@ -5108,8 +5129,8 @@ body.exposer #main .site-wrapper {
 }
 
 .catal-ex-item-buttons .btn-primary:hover {
-  background: #f39200;
-  border: 0.1rem solid #f39200;
+  background: #7b1228;
+  border: 0.1rem solid #7b1228;
 }
 
 .catal-ex-item-buttons .btn-primary:hover span {
@@ -5171,7 +5192,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item-title a:focus,
 .mod-catal .catal-ex-item-title a:hover {
   text-decoration: none;
-  color: #f39200;
+  color: #7b1228;
 }
 
 .mod-catal .catal-ex-item-desc,
@@ -5189,9 +5210,12 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item-title a {
-  color: black;
-  font-size: 4rem;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  font-family: "Museo 700", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px !important;
+  color: #0b1626;
+  text-transform: capitalize;
 }
 
 .mod-catal .catal-ex-item-stand-item .icon-catal {
@@ -5258,11 +5282,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item.is-premium .mod-catal .catal-ex-item-title {
-  font-size: 34px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   margin-bottom: 10px;
-  line-height: 40px;
 }
 
 .mod-catal .catal-ex-item.is-premium .mod-catal .form-select {
@@ -5431,9 +5451,12 @@ body.exposer #main .site-wrapper {
   margin-right: 25px;
 }
 
+.mod-catal .catal-ex-item.is-top-premium {
+  border: 2px solid #a6945d;
+}
+
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
-  color: #634e42;
-  font-size: 4rem;
+  color: #a6945d;
 }
 
 .mod-catal.catal-pr-details .edito .btn-primary .animation-txt {
@@ -5443,6 +5466,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item-content {
   width: 100%;
   padding-left: 1.7rem;
+  padding-top: 4rem;
 }
 
 .mod-catal.catal-pr-details .edito .btn-primary .icon-catal {
@@ -5463,7 +5487,7 @@ body.exposer #main .site-wrapper {
   width: 30px;
   height: 30px;
   margin-top: -15px;
-  color: #f39200;
+  color: #7b1228;
   top: 50%;
   line-height: 30px;
   transition: all 0.25s ease;
@@ -5644,8 +5668,8 @@ body.exposer #main .site-wrapper {
 }
 
 .catal-ex-details .mod-catal .catal-ex-item-buttons .btn-primary:hover {
-  background-color: #f39200;
-  border-color: #f39200;
+  background-color: #7b1228;
+  border-color: #7b1228;
 }
 
 .mod-catal.catal-nav-affix .catal-nav-affix-list {
@@ -5812,17 +5836,15 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item-title a {
-  color: #252525;
-  font-size: 4rem;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  color: #0b1626;
 }
 
 /*ajout style*/
 /*est-result-zone*/
 .mod-catal .esf-results-zone {
   border-bottom: 0 none;
-  background: #f39200;
-  max-width: 116rem;
+  background: #7b1228;
+  max-width: 980px;
   margin: 0 auto;
 }
 
@@ -5843,7 +5865,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-results-zone .esf-results-alpha-filter .esf-results-alpha-list .current {
-  color: #f39200;
+  color: #7b1228;
   font-size: 1.8rem;
   font-family: "Overpass", Helvetica, Arial, sans-serif;
   width: 6rem;
@@ -5872,8 +5894,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
-  color: #634e42;
-  font-size: 4rem;
+  color: #a6945d;
 }
 
 .mod-catal.catal-pr-details .edito .btn-primary .animation-txt {
@@ -5924,7 +5945,7 @@ body.exposer #main .site-wrapper {
 
 /*esf-advanced-search*/
 .esf-advanced-search .esf-as-header {
-  background: #e2e2e2;
+  background: white;
 }
 
 .esf-advanced-search .esf-as-header:hover p {
@@ -5989,11 +6010,11 @@ body.exposer #main .site-wrapper {
 }
 
 .esf-as-filters {
-  border: 0.2rem solid #f39200;
+  border: 0.2rem solid #7b1228;
 }
 
 .esf-as-filters .esf-as-list-filters .current a {
-  background: #f39200;
+  background: #7b1228;
 }
 
 /*end esf-advanced-search*/
@@ -6133,7 +6154,7 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .catal-ed-group-title h2 {
-  color: #f39200;
+  color: #7b1228;
   font-size: 4.4rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   position: relative;
@@ -6143,7 +6164,7 @@ body.exposer #main .site-wrapper {
 .exhibitor-details .catal-ed-group-title h2::before {
   content: "";
   position: absolute;
-  background: #f39200;
+  background: #7b1228;
   width: 4rem;
   height: 0.4rem;
   bottom: 35px;
@@ -6192,7 +6213,7 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main {
-  border: 2px solid #f39200;
+  border: 2px solid #7b1228;
   display: flex;
   flex-direction: column;
   max-width: 88rem !important;
@@ -6224,7 +6245,7 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url span {
-  color: #f39200 !important;
+  color: #7b1228 !important;
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name {
@@ -6235,7 +6256,7 @@ body.exposer #main .site-wrapper {
   color: white;
   font-size: 1.6rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
-  background: #f39200;
+  background: #7b1228;
   padding: 1rem;
 }
 
@@ -6253,7 +6274,7 @@ body.exposer #main .site-wrapper {
   color: white;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
-  background: #f39200;
+  background: #7b1228;
   border-radius: 0;
 }
 
@@ -6292,7 +6313,7 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-other-ex h2 {
-  color: #f39200;
+  color: #7b1228;
   font-size: 4.4rem;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   position: relative;
@@ -6302,7 +6323,7 @@ body.exposer #main .site-wrapper {
 .exhibitor-details .mod-catal.catal-other-ex h2::before {
   content: "";
   position: absolute;
-  background: #f39200;
+  background: #7b1228;
   width: 4rem;
   height: 0.4rem;
   bottom: 35px;
@@ -6339,14 +6360,14 @@ h1.main-title  {
   margin-bottom: 2.5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) #main {
+.body-corpo:not(.front):not(.content374293):not(.content743324) #main {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/articles-bg.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: auto;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) #main::before {
+.body-corpo:not(.front):not(.content374293):not(.content743324) #main::before {
   content: "";
   display: block;
   background-color: #7b1228;
@@ -6361,11 +6382,11 @@ h1.main-title  {
   z-index: 1;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) #main .block.block-page.social-sharing {
+.body-corpo:not(.front):not(.content374293):not(.content743324) #main .block.block-page.social-sharing {
   display: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper {
   max-width: 90rem;
   margin: 14rem auto 0 auto;
   box-shadow: none;
@@ -6373,16 +6394,16 @@ h1.main-title  {
   z-index: 2;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col {
   padding-top: 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col #zone2 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col #zone2 {
   font-size: 100% !important;
   font-size: 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col #zone2 h1 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col #zone2 h1 {
   text-align: center;
   color: white;
   margin-bottom: 15rem;
@@ -6392,11 +6413,11 @@ h1.main-title  {
   line-height: 50px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col #zone2 .article-wrapper {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col #zone2 .article-wrapper {
   margin: 0 auto;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside h1 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside h1 {
   font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
@@ -6406,31 +6427,31 @@ h1.main-title  {
   margin-bottom: 3rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .sm-item-title {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .sm-item-title {
   font-size: 2.6rem;
   color: #252525;
   margin: 3rem 0;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .sm-item-link {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .sm-item-link {
   color: #252525;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
   color: #7b1228;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet {
   margin-left: 20px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li:before {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li:before {
   background: #7b1228;
   border-radius: 50px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li a {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li a {
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -6438,13 +6459,13 @@ h1.main-title  {
   color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li ul li {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li ul li {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li ul li::before {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li ul li::before {
   content: "";
   background-image: url("/theme/milipolqatar_desktop_2020_git/img/little-arrow-right-gold.svg");
   background-repeat: no-repeat;
@@ -6458,24 +6479,24 @@ h1.main-title  {
   margin-top: 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-title {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-title {
   max-width: 730px;
   margin-bottom: 3rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-title > .inside {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-title > .inside {
   display: flex;
   flex-direction: column;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-title > .inside img {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-title > .inside img {
   width: 100%;
   height: auto;
   order: 2;
   margin-bottom: -10rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-title > .inside h1 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-title > .inside h1 {
   font-size: 5.2rem;
   margin-top: 0;
   color: white;
@@ -6483,11 +6504,11 @@ h1.main-title  {
   margin-bottom: 3rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-title .at-publication {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-title .at-publication {
   display: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-intro {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-intro {
   color: #7b1228;
   font-family: "Univers LT Std", sans-serif;
   font-size: 20px;
@@ -6499,7 +6520,7 @@ h1.main-title  {
   max-width: 730px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content {
   max-width: 730px;
   margin: 0 auto 150px auto;
   /* figure.fr */
@@ -6509,13 +6530,13 @@ h1.main-title  {
   /*tableau*/
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.important1:nth-child(2) {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.important1:nth-child(2) {
   border: 0;
   background: transparent;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content a,
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content a.externe {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content a,
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content a.externe {
   background: transparent;
   padding: 0;
   color: #7b1228;
@@ -6524,13 +6545,13 @@ h1.main-title  {
   text-decoration: underline;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content a:hover,
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content a.externe:hover {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content a:hover,
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content a.externe:hover {
   background-color: transparent;
   text-decoration: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content h2 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h2 {
   font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
@@ -6538,7 +6559,7 @@ h1.main-title  {
   color: #7b1228;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content h3 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h3 {
   font-family: "Museo 700", sans-serif;
   font-size: 28px;
   font-weight: 700;
@@ -6546,7 +6567,7 @@ h1.main-title  {
   color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content h4 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h4 {
   font-family: "Museo 700", sans-serif;
   font-size: 15px;
   font-weight: 700;
@@ -6555,12 +6576,12 @@ h1.main-title  {
   letter-spacing: 0.25px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content h5 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h5 {
   margin: 2rem 0;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote {
   margin: 7rem 0 5rem;
   width: 100vw !important;
   margin-left: 50% !important;
@@ -6575,7 +6596,7 @@ h1.main-title  {
   max-width: initial;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote::before {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote::before {
   content: "";
   background: url("/theme/milipolqatar_desktop_2020_git/img/quotes.svg");
   position: absolute;
@@ -6587,7 +6608,7 @@ h1.main-title  {
           transform: translateX(-50%);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote p {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote p {
   color: white;
   border: 0;
   font-family: "Univers LT Std", sans-serif;
@@ -6598,7 +6619,7 @@ h1.main-title  {
   margin: 50px auto;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote .important1 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote .important1 {
   text-align: center;
   padding: 1rem 2rem 1rem 0rem !important;
   opacity: 1;
@@ -6613,27 +6634,27 @@ h1.main-title  {
   margin: 15px auto;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content blockquote .icon-quote {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote .icon-quote {
   display: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.fr {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.fr {
   border: 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.fr img {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.fr img {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.fr figcaption {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.fr figcaption {
   margin-top: 20px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.fr figcaption strong {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.fr figcaption strong {
   display: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.fr figcaption p {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.fr figcaption p {
   text-transform: uppercase;
   font-family: "Univers LT Std", sans-serif;
   font-size: 12px;
@@ -6643,7 +6664,7 @@ h1.main-title  {
   color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.fr small {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.fr small {
   font-family: "Univers LT Std", sans-serif;
   font-size: 11px;
   font-weight: 600;
@@ -6651,25 +6672,25 @@ h1.main-title  {
   color: #3c4451;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.center {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.center {
   border: 0;
   text-align: left;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.center img {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.center img {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.center figcaption {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.center figcaption {
   margin-top: 20px;
   text-align: left;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.center figcaption strong {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.center figcaption strong {
   display: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.center figcaption p {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.center figcaption p {
   text-transform: uppercase;
   font-family: "Univers LT Std", sans-serif;
   font-size: 12px;
@@ -6679,7 +6700,7 @@ h1.main-title  {
   color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content figure.center small {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.center small {
   font-family: "Univers LT Std", sans-serif;
   font-size: 11px;
   font-weight: 600;
@@ -6688,13 +6709,13 @@ h1.main-title  {
   text-align: left;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus1 {
   margin-top: 3rem;
   margin-bottom: 5rem;
   max-width: 250px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus1 a {
   display: flex;
   text-decoration: none;
   padding: 2rem 3rem;
@@ -6712,22 +6733,22 @@ h1.main-title  {
 }
 
 @media screen and (max-width: 1500px) {
-  .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a {
+  .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus1 a {
     padding: 1.5rem;
   }
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus1 a:hover {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus1 a:hover {
   background-color: #7f142a;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 {
   margin-bottom: 5rem;
   max-width: 250px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2,
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.lien2,
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -6746,19 +6767,19 @@ h1.main-title  {
 }
 
 @media screen and (max-width: 1500px) {
-  .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2,
-  .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe {
+  .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.lien2,
+  .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe {
     padding: 1.5rem;
   }
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2:hover,
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe:hover {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.lien2:hover,
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe:hover {
   background-color: #7f142a;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.lien2:after,
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .focus2 a.externe:after {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.lien2:after,
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe:after {
   content: "";
   width: 22px;
   height: 8px;
@@ -6768,11 +6789,11 @@ h1.main-title  {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.style3 {
   margin-bottom: 5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.style3 a.lien4.zip {
   padding: 1.4rem 2.8rem;
   font-size: 1.3rem;
   color: gray;
@@ -6789,17 +6810,17 @@ h1.main-title  {
   position: relative;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip:focus, .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style3 a.lien4.zip:hover {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.style3 a.lien4.zip:focus, .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.style3 a.lien4.zip:hover {
   background-color: #e4e4e4;
   color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.style4 {
   margin-bottom: 4rem;
   margin-top: 4rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.style4 a.lien4.pdf {
   font-family: "Univers LT Std", sans-serif;
   font-size: 12px;
   font-weight: 600;
@@ -6818,27 +6839,27 @@ h1.main-title  {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:hover {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.style4 a.lien4.pdf:hover {
   background-color: #7f142a;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content ul li::before {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content ul li::before {
   width: 6px;
   height: 6px;
   background: #7b1228;
   border-radius: 50px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table1 tr:nth-child(1) {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table1 tr:nth-child(1) {
   background: #0b1626;
   color: white;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table1 tr:nth-child(1) td {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table1 tr:nth-child(1) td {
   border-color: #252525 !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table1 tr:nth-child(1) p {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table1 tr:nth-child(1) p {
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -6848,7 +6869,7 @@ h1.main-title  {
   text-transform: uppercase;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table1 tr td:nth-child(1) {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table1 tr td:nth-child(1) {
   border-right: 1px solid #e2e2e2 !important;
   text-align: center;
   border-bottom: 0 none;
@@ -6856,7 +6877,7 @@ h1.main-title  {
   padding: 1.2em;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table1 tr td:nth-child(1) p {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table1 tr td:nth-child(1) p {
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -6866,7 +6887,7 @@ h1.main-title  {
   text-transform: uppercase;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table1 tr td {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table1 tr td {
   border-right: 1px solid #e2e2e2 !important;
   text-align: center;
   border-bottom: 0 none;
@@ -6874,7 +6895,7 @@ h1.main-title  {
   padding: 1.2em;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table1 tr td p {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table1 tr td p {
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -6883,19 +6904,19 @@ h1.main-title  {
   color: #3c4451;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table3 tbody tr {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table3 tbody tr {
   background-color: initial;
   color: initial;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .table3 tbody tr td {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .table3 tbody tr td {
   border: 0 !important;
   border-right: initial;
   text-align: initial;
   border-color: initial !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -6903,12 +6924,12 @@ h1.main-title  {
 }
 
 @media screen and (max-width: 1299px) {
-  .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content {
+  .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content {
     justify-content: center;
   }
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item {
   display: flex;
   flex: 0 1 100%;
   max-width: 60rem;
@@ -6917,7 +6938,7 @@ h1.main-title  {
   border: 0 none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust {
   flex-basis: 15rem;
   min-width: 15rem;
   background-color: #efefef;
@@ -6928,12 +6949,12 @@ h1.main-title  {
   padding: 0 !important;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust img {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust img {
   height: auto;
   width: 15rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content {
   background: white;
   border: 0.1rem solid #e2e2e2;
   position: relative;
@@ -6941,7 +6962,7 @@ h1.main-title  {
   flex-basis: 100%;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .h3-like {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .h3-like {
   color: #252525;
   padding-left: 14.5rem;
   font-size: 2.2rem;
@@ -6950,7 +6971,7 @@ h1.main-title  {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
   color: #6e6e6e;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
   padding-left: 14.5rem;
@@ -6964,7 +6985,7 @@ h1.main-title  {
   min-height: 2.1rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle:before {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle:before {
   content: "";
   position: absolute;
   width: 2.5rem;
@@ -6974,7 +6995,7 @@ h1.main-title  {
   bottom: -1.7rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address {
   padding-top: 8.3rem;
   line-height: 2.1rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
@@ -6982,44 +7003,44 @@ h1.main-title  {
   font-size: 1.6rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address .cl-item-country {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address .cl-item-country {
   margin-top: 1rem;
   display: block;
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   color: #252525;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-desc {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-desc {
   font-size: 1.6rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email {
   margin: 0.3rem 0 0 0;
   padding-top: 0;
   font-size: 1.5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email .label {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email .label {
   font-size: 1.5rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email span.__cf_email__ {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email span.__cf_email__ {
   font-size: 1.4rem;
   margin-left: 0.5rem;
   color: #0b8e36;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
   margin: 0 0 -2rem 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone .label {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone .label {
   font-size: 1.5rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone span:nth-child(2) {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone span:nth-child(2) {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   margin-left: 0.6rem;
@@ -7027,7 +7048,7 @@ h1.main-title  {
   color: black;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .did-you-know {
   width: 100vw !important;
   margin-left: 50% !important;
   -webkit-transform: translateX(-50%) !important;
@@ -7042,12 +7063,12 @@ h1.main-title  {
   margin: 50px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-left {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .did-you-know .container-left {
   width: 330px;
   padding: 0 50px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-right .title {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .did-you-know .container-right .title {
   color: #0b1626;
   font-family: "Museo 700", sans-serif;
   font-size: 28px;
@@ -7056,7 +7077,7 @@ h1.main-title  {
   margin-bottom: 15px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-right .content {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .did-you-know .container-right .content {
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -7065,15 +7086,15 @@ h1.main-title  {
   margin-bottom: 15px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-right .cta {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .did-you-know .container-right .cta {
   max-width: 250px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .did-you-know .container-right .cta .btn {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .did-you-know .container-right .cta .btn {
   width: 100%;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .separator {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .separator {
   width: 100vw !important;
   margin-left: 50% !important;
   -webkit-transform: translateX(-50%) !important;
@@ -7084,22 +7105,22 @@ h1.main-title  {
   margin: 100px 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation {
   margin-bottom: 10rem;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside {
   margin: 3rem 0;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item {
   max-width: none;
   max-height: 202px;
   display: flex;
@@ -7108,18 +7129,18 @@ h1.main-title  {
   width: 40%;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link {
   height: 202px;
   width: 540px;
   margin: 0 auto;
   background-color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:hover:after {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:hover:after {
   background: rgba(154, 28, 54, 0.65);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:after {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link:after {
   content: "\A";
   position: absolute;
   width: 100%;
@@ -7129,7 +7150,7 @@ h1.main-title  {
   background: rgba(11, 22, 38, 0.65);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content {
   width: 100%;
   padding: 1.5rem 2rem;
   position: absolute;
@@ -7144,7 +7165,7 @@ h1.main-title  {
   z-index: 1;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .an-item-title {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .an-item-title {
   font-family: "Museo 700", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -7154,15 +7175,15 @@ h1.main-title  {
   max-width: 450px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .an-item-publication {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .an-item-publication {
   display: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .icon {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content .icon {
   display: none;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content:after {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link .an-item-content:after {
   content: "";
   width: 22px;
   height: 8px;
@@ -7172,7 +7193,7 @@ h1.main-title  {
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link img {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-navigation .inside .unstyled .an-item .an-item-link img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
