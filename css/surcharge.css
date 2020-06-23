@@ -4313,6 +4313,8 @@ body.exposer #main .site-wrapper {
   color: #6e6e6e;
   cursor: pointer;
   background-color: #f7f8f8;
+  height: 100%;
+  border-right: 1px solid #dbdbdb;
 }
 
 .mod-catal .esf-search-line .form-select {
@@ -4378,6 +4380,21 @@ body.exposer #main .site-wrapper {
   margin: 16px 0 0 0;
   padding: 0 28px;
   margin-left: auto;
+}
+
+.catalogue .esf-search-plus .esf-search-plus-txt {
+  display: flex;
+  align-items: center;
+}
+
+.catalogue .esf-search-plus .esf-search-plus-txt:after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-repeat: repeat;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/grey-loupe.svg");
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
@@ -4815,7 +4832,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .form-select {
-  border: 1px solid #e9e9e9;
+  border: 1px solid #dbdbdb;
 }
 
 .catal-results-selectboxes .form-item .form-select select {
@@ -4830,6 +4847,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item-buttons,
 .mod-catal .catal-ex-item-buttons-small {
   float: none;
+  display: none;
 }
 
 .mod-catal .btn-primary {
@@ -4912,7 +4930,7 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .catal-ex-item.is-premium {
   background: white;
-  border: 0.2rem solid #7b1228;
+  border: 2px solid #a6945d;
   color: #6e6e6e;
   position: relative;
 }
@@ -4920,13 +4938,18 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item.is-premium::after {
   position: absolute;
   display: block;
-  right: 0;
-  top: 0;
-  background-color: #7b1228;
-  content: "EXPOSANT SPONSORISÉ";
-  padding: 0.8rem 1.5rem;
+  top: 20px;
+  left: 270px;
+  background-color: #a6945d;
+  content: "Sponsorisé";
+  padding: 0.3rem 1.2rem;
+  border-radius: 3px;
   font-size: 1.2rem;
   color: white;
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-content {
+  padding-top: 6rem;
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-country {
@@ -4939,11 +4962,15 @@ body.exposer #main .site-wrapper {
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
   color: #0b1626 !important;
-  text-transform: capitalize !important;
+  text-transform: lowercase !important;
   font-family: "Museo 700", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 33px !important;
+}
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:first-letter {
+  text-transform: capitalize !important;
 }
 
 .mod-catal .catal-ex-item.is-premium p {
@@ -5215,6 +5242,10 @@ body.exposer #main .site-wrapper {
   font-weight: 700;
   line-height: 33px !important;
   color: #0b1626;
+  text-transform: lowercase;
+}
+
+.mod-catal .catal-ex-item-title a:first-letter {
   text-transform: capitalize;
 }
 
@@ -5230,8 +5261,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item.is-premium {
-  background-color: #d9d9d9;
-  border: 1px solid #634e42;
+  border: 2px solid #a6945d;
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-img {
@@ -5459,8 +5489,12 @@ body.exposer #main .site-wrapper {
   border: 2px solid #a6945d;
 }
 
+.mod-catal .catal-ex-item.is-top-premium .catal-ex-item-title a {
+  color: #a6945d !important;
+}
+
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {
-  color: #a6945d;
+  color: #a6945d !important;
 }
 
 .mod-catal.catal-pr-details .edito .btn-primary .animation-txt {
@@ -5561,7 +5595,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal.catal-other-ex .catal-other-ex-actions {
-  bottom: -5rem;
+  bottom: -7rem;
   left: 0;
 }
 
@@ -5692,9 +5726,12 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ed-main .catal-ed-main-stand-title {
-  color: black;
-  line-height: 2.3rem;
-  margin-top: -0.5rem;
+  color: #3c4451;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 39px;
+  padding: 0;
 }
 
 .mod-catal .catal-ed-main .catal-ed-main-stand {
@@ -5705,7 +5742,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ed-main .catal-ed-main-stand-ref .icon-catal {
-  color: #634e42;
+  display: none;
 }
 
 .mod-catal a {
@@ -5764,7 +5801,11 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ed-main .catal-ed-main-infos {
-  padding: 3rem 3rem 3rem 3.5rem;
+  padding: 0;
+  order: 3;
+  position: relative;
+  left: -300px;
+  top: 100px;
 }
 
 .mod-catal.catal-nav-affix {
@@ -5805,8 +5846,12 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ed-main .catal-ed-main-stand-ref {
-  font-size: 1.7rem;
-  margin-top: 0.3rem;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 39px;
+  color: #0b1626;
+  margin-top: 0;
 }
 
 .mod-catal .catal-ed-main-title {
@@ -5889,8 +5934,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item.is-premium {
-  background-color: #d9d9d9;
-  border: 1px solid #634e42;
+  border: 2px solid #a6945d;
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-img {
@@ -6130,6 +6174,8 @@ body.exposer #main .site-wrapper {
           transform: none;
   left: 0;
   margin-top: 3rem;
+  position: absolute;
+  top: 300px;
 }
 
 .exhibitor-details .site-wrapper.wrapper .layout-2-col .block.block-page.mod-catal {
@@ -6195,41 +6241,49 @@ body.exposer #main .site-wrapper {
   border: 0;
   background-color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   max-width: 730px !important;
   margin: 0;
-  padding: 1.5rem;
+  padding: 1rem;
+  min-height: 287px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand {
   margin: 0;
-  background: #d9d9d9;
   width: 100%;
-  margin: 2rem auto 0;
-  padding: 3.5rem;
-}
-
-.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand h2 {
-  font-size: 2.9rem;
-  color: #252525;
+  margin: 2rem 3rem;
+  padding: 0;
+  height: 70px;
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-main-address {
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  font-size: 2.3rem;
-  color: #6e6e6e;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #3c4451;
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url {
-  font-size: 2.3rem;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 0;
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url span {
   color: #7b1228 !important;
 }
 
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url i {
+  display: none;
+}
+
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name {
   margin-top: 1.5rem;
+  display: none;
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-stand-name a {
@@ -6238,6 +6292,13 @@ body.exposer #main .site-wrapper {
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
   background: #7b1228;
   padding: 1rem;
+}
+
+.exhibitor-details .mod-catal.catal-ex-details .catal-ed-main img {
+  height: 264px;
+  width: 264px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-activity-group .catal-ed-activity-title {
