@@ -6453,6 +6453,29 @@ body.exposer #main .site-wrapper {
   color: #0b1626;
 }
 
+.catalogue #zone3 {
+  position: initial;
+  background-color: transparent;
+}
+
+.catalogue #zone3 .catal-nav-affix {
+  background-color: transparent;
+}
+
+.catalogue #zone3 li a {
+  color: #0b1626 !important;
+  text-transform: uppercase;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+}
+
+.catalogue #zone3 li.is-active a {
+  color: #7b1228;
+}
+
 h1.main-title  {
   font-size: 5.2rem;
   margin-top: 5rem;
