@@ -6181,9 +6181,13 @@ body.exposer #main .site-wrapper {
   max-width: 730px;
 }
 
-.exhibitor-details .site-wrapper.wrapper .layout-2-col .mod-catal.catal-nav-ex a:nth-child(1) {
+.exhibitor-details .site-wrapper.wrapper .layout-2-col .mod-catal.catal-nav-ex a:nth-child(2) {
   margin-left: auto;
   margin-right: 20px;
+}
+
+.exhibitor-details .site-wrapper.wrapper .layout-2-col .mod-catal.catal-nav-ex a:nth-child(3) {
+  margin-left: auto;
 }
 
 .exhibitor-details .site-wrapper.wrapper .layout-2-col .block.block-page.mod-catal {
