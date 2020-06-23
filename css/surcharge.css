@@ -6107,8 +6107,15 @@ body.exposer #main .site-wrapper {
   color: white;
 }
 
+.pagination .pagin-item.is-active:hover {
+  background-color: #7b1228;
+}
+
 .pagination .pagin-item:hover {
   background-color: #0b1626;
+}
+
+.pagination .pagin-item:hover a {
   color: white;
 }
 
@@ -6127,6 +6134,18 @@ body.exposer #main .site-wrapper {
   background-repeat: no-repeat;
 }
 
+.pagination .pagin-item.pagin-next:hover {
+  background-color: transparent;
+}
+
+.pagination .pagin-item.pagin-next:hover a {
+  color: #7b1228;
+}
+
+.pagination .pagin-item.pagin-next i {
+  display: none;
+}
+
 .pagination .pagin-item.pagin-prev {
   display: flex !important;
   flex-direction: row;
@@ -6140,6 +6159,18 @@ body.exposer #main .site-wrapper {
   height: 14px;
   background-image: url(/theme/milipolqatar_desktop_2020_git/img/pagination-prev.svg);
   background-repeat: no-repeat;
+}
+
+.pagination .pagin-item.pagin-prev i {
+  display: none;
+}
+
+.pagination .pagin-item.pagin-prev:hover {
+  background-color: transparent;
+}
+
+.pagination .pagin-item.pagin-prev:hover a {
+  color: #7b1228;
 }
 
 /********* page single-exposant ****************/
@@ -7670,6 +7701,10 @@ h1.main-title  {
   background-color: transparent;
   display: flex;
   align-items: center;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item a:hover {
+  color: #7b1228;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item a .icon {
