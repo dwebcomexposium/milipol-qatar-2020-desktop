@@ -437,7 +437,6 @@ abbr[title] {
   line-height: 12px;
   letter-spacing: 0.2px;
   color: rgba(247, 248, 248, 0.53);
-  text-transform: uppercase;
   text-decoration: underline;
 }
 
@@ -542,7 +541,6 @@ header.site-banner .global-search-form .gsf-label {
 
 #zone3.zone ul li {
   margin-bottom: 1.5rem;
-  padding: 5px;
   border-radius: 2px;
 }
 
@@ -564,6 +562,8 @@ header.site-banner .global-search-form .gsf-label {
 
 #zone3.zone ul li a {
   color: white;
+  display: block;
+  padding: 7px;
 }
 
 #zone3.zone ul li a svg {
@@ -1563,7 +1563,7 @@ hr {
   background: #ffffff;
   z-index: 1;
   min-width: 28rem;
-  top: 48px;
+  top: 28px;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu::after {
@@ -5804,8 +5804,9 @@ body.exposer #main .site-wrapper {
   padding: 0;
   order: 3;
   position: relative;
-  left: -300px;
+  left: -240px;
   top: 100px;
+  width: 100%;
 }
 
 .mod-catal.catal-nav-affix {
@@ -6181,12 +6182,12 @@ body.exposer #main .site-wrapper {
   max-width: 730px;
 }
 
-.exhibitor-details .site-wrapper.wrapper .layout-2-col .mod-catal.catal-nav-ex a:nth-child(2) {
+.exhibitor-details .site-wrapper.wrapper .layout-2-col .mod-catal.catal-nav-ex #next_exhibitor {
   margin-left: auto;
   margin-right: 20px;
 }
 
-.exhibitor-details .site-wrapper.wrapper .layout-2-col .mod-catal.catal-nav-ex a:nth-child(3) {
+.exhibitor-details .site-wrapper.wrapper .layout-2-col .mod-catal.catal-nav-ex .btn-primary {
   margin-left: auto;
 }
 
@@ -6622,13 +6623,21 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h2 {
   font-family: "Museo 700", sans-serif;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 61px;
+  color: #0b1626;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h3 {
+  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
   color: #7b1228;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h3 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h4 {
   font-family: "Museo 700", sans-serif;
   font-size: 28px;
   font-weight: 700;
@@ -6636,18 +6645,14 @@ h1.main-title  {
   color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h4 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h5 {
   font-family: "Museo 700", sans-serif;
   font-size: 15px;
   font-weight: 700;
   line-height: 18px;
   color: #a6945d;
   letter-spacing: 0.25px;
-}
-
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h5 {
-  margin: 2rem 0;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote {
@@ -7115,6 +7120,22 @@ h1.main-title  {
   margin-left: 0.6rem;
   display: inline;
   color: black;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content ul li ul li::before {
+  -webkit-transform: none;
+          transform: none;
+  content: " ";
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  margin-right: 0;
+  margin-top: 0.75em;
+  margin-left: -1.15em;
+  vertical-align: top;
+  background-image: url("/theme/milipolqatar_desktop_2020_git/img/little-arrow-right-gold.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .did-you-know {
