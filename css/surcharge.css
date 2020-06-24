@@ -6855,9 +6855,8 @@ h1.main-title  {
   font-weight: 600;
   line-height: 12px;
   letter-spacing: 0.2px;
-  color: white;
-  background-color: #7b1228;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  color: #0b1626;
+  border: 2px solid #dfe1e3;
 }
 
 @media screen and (max-width: 1500px) {
@@ -6866,8 +6865,11 @@ h1.main-title  {
   }
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus1 a:hover {
-  background-color: #7f142a;
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus1 a.externe {
+  color: white;
+  background-color: #7b1228;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  border: 0;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 {
@@ -6875,8 +6877,7 @@ h1.main-title  {
   max-width: 250px;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.lien2,
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -6889,32 +6890,35 @@ h1.main-title  {
   font-weight: 600;
   line-height: 12px;
   letter-spacing: 0.2px;
-  color: white;
-  background-color: #7b1228;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  color: #0b1626;
+  border: 2px solid #dfe1e3;
 }
 
 @media screen and (max-width: 1500px) {
-  .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.lien2,
-  .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe {
+  .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a {
     padding: 1.5rem;
   }
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.lien2:hover,
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe:hover {
-  background-color: #7f142a;
-}
-
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.lien2:after,
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe:after {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a:after {
   content: "";
   width: 22px;
   height: 8px;
   background-repeat: no-repeat;
   display: block;
   margin-left: auto;
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg);
+  background-image: url(/theme/milipolqatar_desktop_2020_git/img/arrow-right-gold.svg);
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe {
+  color: white;
+  background-color: #7b1228;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  border: 0;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a.externe:hover {
+  background-color: #7f142a;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content p.style3 {
