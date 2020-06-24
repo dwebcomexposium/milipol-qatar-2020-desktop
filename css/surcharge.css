@@ -5098,6 +5098,14 @@ body.exposer #main .site-wrapper {
   width: 25rem;
 }
 
+.mod-catal .catal-ed-main .catal-ed-main-cat-title {
+  display: none;
+}
+
+.catal-ed-main-cat-list {
+  display: none;
+}
+
 .mod-catal.catal-ex-alone .catal-ex-item-cat:not(:empty) + .catal-ex-item-desc,
 .mod-catal.catal-ex:not(.catal-ex-array):not(.catal-ex-small-array)
 .catal-ex-item-cat:not(:empty)
