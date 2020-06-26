@@ -1798,32 +1798,18 @@ hr {
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit {
   position: absolute;
-  top: 34px;
+  top: 53px;
   left: 530px;
   margin-top: 0;
 }
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button {
   border: 0;
-  padding: 0.5rem 0.2rem;
+  padding: 0.9rem 0.2rem;
 }
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button .icon {
   display: none;
-}
-
-.site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button::before {
-  content: "";
-  background-image: url("/theme/milipolqatar_desktop_2020_git/img/arrow-right-white.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 3.5rem;
-  height: 3rem;
-  display: block;
-  -webkit-transform: none;
-          transform: none;
-  background-color: transparent;
-  margin-top: 0;
 }
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button:hover {
@@ -2071,6 +2057,7 @@ hr {
   font-size: 14px;
   font-weight: 600;
   line-height: 16px;
+  letter-spacing: 0.55px;
   color: white;
   text-transform: uppercase;
 }
@@ -2320,7 +2307,7 @@ hr {
 
 .body-corpo.front #zone2 .edito-about .inside .lien1,
 .body-corpo.front #zone2 .discover-qatar .inside .lien1 {
-  top: 90px;
+  top: 130px;
   border: 2px solid transparent;
   width: 207px;
 }
@@ -2340,7 +2327,7 @@ hr {
   background-color: white;
   color: #0b1626;
   border: 2px solid rgba(11, 22, 38, 0.13);
-  top: 90px;
+  top: 130px;
   left: 220px;
   width: 207px;
 }
@@ -2375,16 +2362,16 @@ hr {
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside p {
-  top: 160px;
+  top: 180px;
   left: 0;
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside .lien1 {
-  top: 60px;
+  top: 130px;
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside .lien2 {
-  top: 60px;
+  top: 130px;
 }
 
 .body-corpo.front #zone2 .prepare {
@@ -3239,11 +3226,15 @@ hr {
   display: block;
 }
 
+.body-corpo.front #zone2 .business-areas .item-list a .item-bg {
+  width: 256px;
+  position: absolute;
+}
+
 .body-corpo.front #zone2 .business-areas .item-list .item {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-image: url(/theme/milipolqatar_desktop_2020_git/img/business-areas-item-background.png);
   padding: 24px;
   width: 256px;
   height: 144px;
@@ -6374,9 +6365,9 @@ body.exposer #main .site-wrapper {
 
 .exhibitor-details #zone3 .catal-nav-affix {
   background: white !important;
-  position: relative;
-  top: 408.6px;
-  left: -430px;
+  position: relative !important;
+  top: 220.6px !important;
+  left: -430px !important;
   width: 250px;
 }
 
