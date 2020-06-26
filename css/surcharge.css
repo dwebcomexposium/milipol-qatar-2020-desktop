@@ -6377,10 +6377,15 @@ body.exposer #main .site-wrapper {
   position: relative;
   top: 408.6px;
   left: -430px;
+  width: 250px;
 }
 
 .exhibitor-details #zone3 .catal-nav-affix .catal-nav-affix-list:nth-child(2) .catal-nav-affix-item {
   background: red;
+}
+
+.exhibitor-details #zone3 .catal-nav-affix-list {
+  align-items: flex-start;
 }
 
 .exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item {
@@ -6389,12 +6394,16 @@ body.exposer #main .site-wrapper {
   margin-bottom: 0;
 }
 
-.exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item:not(:first-child) {
-  margin-top: 1.5rem;
+.exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item.is-active {
+  border-left: 2px solid #7b1228;
 }
 
-.exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item.js-active-item {
-  border-left: 2px solid #7b1228;
+.exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item.is-active a {
+  color: #7b1228;
+}
+
+.exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item:hover {
+  background-color: transparent;
 }
 
 .exhibitor-details .mod-catal.catal-other-ex {
