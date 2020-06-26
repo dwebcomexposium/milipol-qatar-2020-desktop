@@ -1798,14 +1798,14 @@ hr {
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit {
   position: absolute;
-  top: 53px;
+  top: 34px;
   left: 530px;
   margin-top: 0;
 }
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button {
   border: 0;
-  padding: 0.9rem 0.2rem;
+  padding: 0.8rem 0.2rem;
 }
 
 .site-footer .first-container .userAccount-newsletter .nf-main-content .inside .nf-form-item .nf-form-submit button .icon {
