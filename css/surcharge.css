@@ -6386,12 +6386,14 @@ body.exposer #main .site-wrapper {
 
 .exhibitor-details #zone3 .catal-nav-affix-list {
   align-items: flex-start;
+  max-width: 250px;
 }
 
 .exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item {
   padding: 20px;
   border-bottom: 1px solid #d8d8d8;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item.is-active {
