@@ -6297,7 +6297,7 @@ body.exposer #main .site-wrapper {
   max-width: 730px !important;
   margin: 0;
   padding: 1rem;
-  min-height: 287px;
+  min-height: 300px;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -6373,11 +6373,28 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details #zone3 .catal-nav-affix {
-  background: white;
+  background: white !important;
+  position: relative;
+  top: 408.6px;
+  left: -430px;
 }
 
 .exhibitor-details #zone3 .catal-nav-affix .catal-nav-affix-list:nth-child(2) .catal-nav-affix-item {
   background: red;
+}
+
+.exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item {
+  padding: 20px;
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 0;
+}
+
+.exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item.js-active-item {
+  border-left: 2px solid #7b1228;
 }
 
 .exhibitor-details .mod-catal.catal-other-ex {
