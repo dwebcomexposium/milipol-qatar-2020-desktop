@@ -6781,6 +6781,34 @@ h1.main-title  {
   background: none;
   border: 0;
   font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  color: #a6945d;
+  letter-spacing: 0.2px;
+  margin: 15px auto;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote .important1:before {
+  display: block;
+  height: 2px;
+  width: 60px;
+  position: relative;
+  margin: 0 auto;
+  top: -30px;
+  content: "";
+  background-color: #a6945d;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote .important2 {
+  text-align: center;
+  padding: 1rem 2rem 1rem 0rem !important;
+  opacity: 1;
+  background: none;
+  border: 0;
+  font-family: "Univers LT Std", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
