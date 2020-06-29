@@ -7990,7 +7990,8 @@ h1.main-title  {
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list,
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list {
-  margin-top: 280px;
+  max-width: 730px;
+  margin: 280px auto;
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title,
