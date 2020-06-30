@@ -7137,15 +7137,15 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item {
   display: flex;
+  flex-direction: column;
   flex: 0 1 100%;
-  max-width: 60rem;
+  max-width: 260px;
   margin: 0 auto 3.5rem auto;
   padding: 0;
   border: 0 none;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust {
-  flex-basis: 15rem;
   min-width: 15rem;
   background-color: #efefef;
   align-self: flex-start;
@@ -7153,56 +7153,54 @@ h1.main-title  {
   margin-right: -15rem;
   z-index: 1;
   padding: 0 !important;
+  width: 260px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-illust img {
   height: auto;
-  width: 15rem;
+  width: 100%;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content {
   background: white;
-  border: 0.1rem solid #e2e2e2;
   position: relative;
-  padding: 1.6rem 2.5rem 3.7rem !important;
+  padding: 1.6rem 0 3.7rem !important;
   flex-basis: 100%;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .h3-like {
-  color: #252525;
-  padding-left: 14.5rem;
-  font-size: 2.2rem;
   margin: 0;
-  line-height: 2.7rem;
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
+  color: #9a1c36;
+  letter-spacing: 0.25px;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle {
-  color: #6e6e6e;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
-  padding-left: 14.5rem;
-  font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 2.1rem !important;
+  color: #0b1626;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
   margin: 0;
   position: relative;
   text-transform: capitalize;
-  margin-top: 1rem;
   min-height: 2.1rem;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-subtitle:before {
   content: "";
   position: absolute;
-  width: 2.5rem;
-  height: 0.25rem;
-  background: #7b1228;
-  left: 14.5rem;
-  bottom: -1.7rem;
+  width: 50px;
+  height: 2px;
+  background: #a6945d;
+  bottom: -0.9rem;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-address {
-  padding-top: 8.3rem;
+  padding-top: 2.3rem;
   line-height: 2.1rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
   color: #6e6e6e;
@@ -7228,14 +7226,21 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email .label {
-  font-size: 1.5rem;
-  font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #3c4451;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content p.cl-item-email span.__cf_email__ {
   font-size: 1.4rem;
   margin-left: 0.5rem;
-  color: #0b8e36;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #3c4451;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone {
@@ -7247,11 +7252,13 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .cl-content .cl-item .cl-item-content .cl-item-phone span:nth-child(2) {
-  font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #3c4451;
   margin-left: 0.6rem;
   display: inline;
-  color: black;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content ul li {
