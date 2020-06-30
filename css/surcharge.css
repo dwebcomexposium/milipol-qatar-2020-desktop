@@ -7254,6 +7254,10 @@ h1.main-title  {
   color: black;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content ul li {
+  padding-left: 20px !important;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content ul li ul li::before {
   -webkit-transform: none;
           transform: none;
