@@ -6736,36 +6736,36 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h2 {
   font-family: "Museo 700", sans-serif;
-  font-size: 51px;
-  font-weight: 700;
-  line-height: 61px;
-  color: #0b1626;
-}
-
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h3 {
-  font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
   color: #9a1c36;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h4 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h3 {
   font-family: "Museo 700", sans-serif;
-  font-size: 28px;
+  font-size: 31px;
   font-weight: 700;
   line-height: 33px;
   color: #0b1626;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h5 {
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h4 {
   font-family: "Museo 700", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 18px;
   color: #a6945d;
   letter-spacing: 0.25px;
   text-transform: uppercase;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h5 {
+  font-family: "Museo 700", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #0b1626;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote {
