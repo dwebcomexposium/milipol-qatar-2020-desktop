@@ -39,7 +39,7 @@ body.catalogue {
 
 a {
   text-decoration: none;
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .wrapper,
@@ -67,7 +67,7 @@ h2 {
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 h3 {
@@ -486,7 +486,7 @@ header.site-banner .global-search-form .gsf-label {
 
 .gla-item > a:hover,
 .gla-item > a:focus {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .gla-item > a:hover .gla-item-content,
@@ -496,12 +496,12 @@ header.site-banner .global-search-form .gsf-label {
 
 .gla-item > a:hover .gla-item-content .gla-item-title,
 .gla-item > a:focus .gla-item-content .gla-item-title {
-  color: #7b1228 !important;
+  color: #9a1c36 !important;
 }
 
 .gla-item > a:hover .gla-item-content .gla-btn-read-more,
 .gla-item > a:focus .gla-item-content .gla-btn-read-more {
-  color: #7b1228 !important;
+  color: #9a1c36 !important;
 }
 
 .gla-item > a:hover .gla-item-content .gla-btn-read-more:hover,
@@ -589,7 +589,7 @@ header.site-banner .global-search-form .gsf-label {
 }
 
 .sr-term {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .content-list-bullet li:before {
@@ -993,7 +993,7 @@ hr {
 
 .slider-perso-container .slider-perso .slide_btn.active,
 .slider-perso-container .slider-perso .slide_btn:hover {
-  color: #7b1228 !important;
+  color: #9a1c36 !important;
   cursor: pointer;
 }
 
@@ -1639,7 +1639,7 @@ hr {
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link:hover {
   padding-left: 4.3rem;
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link:hover::before {
@@ -1651,7 +1651,7 @@ hr {
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu .mn-item-lvl-2 .mn-link .mn-link-text:hover {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .site-banner > .inside .main-navigation .mn-menu-line ul.mn-menu.mn-menu-lvl1.unstyled .mn-item-lvl-1 .mn-menu-submenu span.mn-link-text {
@@ -2134,7 +2134,7 @@ hr {
 }
 
 #zone1 .cta-arrow .ql-list .ql-item a:hover {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 #zone1 .cta-arrow .ql-list .ql-item.linkid851795 a {
@@ -2184,7 +2184,7 @@ hr {
   font-size: 63px;
   font-weight: 900;
   line-height: 75px;
-  color: #7b1228;
+  color: #9a1c1c;
 }
 
 #zone1 .opening-in .container-dates .date img {
@@ -2372,23 +2372,25 @@ hr {
 .body-corpo.front #zone2 .discover-qatar .inside h2 {
   left: 0;
   position: absolute;
+  top: 40px;
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside h3 {
   left: 0;
+  top: 80px;
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside p {
-  top: 180px;
+  top: 150px;
   left: 0;
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside .lien1 {
-  top: 130px;
+  top: 160px;
 }
 
 .body-corpo.front #zone2 .discover-qatar .inside .lien2 {
-  top: 130px;
+  top: 160px;
 }
 
 .body-corpo.front #zone2 .prepare {
@@ -2454,7 +2456,7 @@ hr {
 }
 
 .body-corpo.front #zone2 .quicklinks .ql-list .ql-item:hover a span {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .body-corpo.front #zone2 .quicklinks .ql-list .ql-item a {
@@ -2918,7 +2920,7 @@ hr {
 
 .body-corpo.front #zone2 .partner .box-dark .inside .main-title-with-link .link-view-all:hover {
   background-color: transparent;
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .body-corpo.front #zone2 .partner .box-dark .inside .partner-gallery {
@@ -4233,7 +4235,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .main-search .esf-intro-title {
-  color: #7b1228;
+  color: #9a1c36;
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -4407,7 +4409,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-title a:hover {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .mod-catal.myselection {
@@ -4452,7 +4454,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal.exhibitor-search-form a:hover {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .mod-catal .block-title {
@@ -4648,7 +4650,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .esf-as-heading {
   font-size: 14px;
   padding: 14px 18px;
-  color: #7b1228;
+  color: #9a1c36;
   font-size: 2rem;
   font-family: "NeutrifStudio-regular", Helvetica, Arial, sans-serif;
 }
@@ -4774,7 +4776,7 @@ body.exposer #main .site-wrapper {
   position: absolute;
   width: 1.5rem !important;
   height: 1.5rem !important;
-  color: #7b1228;
+  color: #9a1c36;
   border-radius: 5rem;
   background-position: center !important;
   background-color: transparent !important;
@@ -4898,7 +4900,7 @@ body.exposer #main .site-wrapper {
   width: 3rem;
   line-height: 1.2rem;
   margin-top: -1.5rem;
-  color: #7b1228 !important;
+  color: #9a1c36 !important;
   top: 2.7rem !important;
   line-height: 3rem;
   transition: all 0.25s ease;
@@ -5002,7 +5004,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item.is-premium .catal-ex-item-stand-item {
   font-family: "NeutrifStudio-bold", Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .mod-catal.catal-ex-blocs .catal-ex-item {
@@ -5236,7 +5238,7 @@ body.exposer #main .site-wrapper {
 .mod-catal .catal-ex-item-title a:focus,
 .mod-catal .catal-ex-item-title a:hover {
   text-decoration: none;
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .mod-catal .catal-ex-item-desc,
@@ -5542,7 +5544,7 @@ body.exposer #main .site-wrapper {
   width: 30px;
   height: 30px;
   margin-top: -15px;
-  color: #7b1228;
+  color: #9a1c36;
   top: 50%;
   line-height: 30px;
   transition: all 0.25s ease;
@@ -5932,7 +5934,7 @@ body.exposer #main .site-wrapper {
 }
 
 .mod-catal .esf-results-zone .esf-results-alpha-filter .esf-results-alpha-list .current {
-  color: #7b1228;
+  color: #9a1c36;
   font-size: 1.8rem;
   font-family: "Overpass", Helvetica, Arial, sans-serif;
   width: 6rem;
@@ -6112,7 +6114,7 @@ body.exposer #main .site-wrapper {
 }
 
 .pagination .pagin-item a:hover {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .pagination .pagin-item a .icon {
@@ -6156,7 +6158,7 @@ body.exposer #main .site-wrapper {
 }
 
 .pagination .pagin-item.pagin-next:hover a {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .pagination .pagin-item.pagin-next i {
@@ -6187,7 +6189,7 @@ body.exposer #main .site-wrapper {
 }
 
 .pagination .pagin-item.pagin-prev:hover a {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 /********* page single-exposant ****************/
@@ -6249,7 +6251,7 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .catal-ed-group-title h2 {
-  color: #7b1228;
+  color: #9a1c36;
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -6335,7 +6337,7 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url span {
-  color: #7b1228 !important;
+  color: #9a1c36 !important;
 }
 
 .exhibitor-details .mod-catal.catal-ex-details .catal-ed-main .catal-ed-main-infos .catal-ed-url i {
@@ -6410,7 +6412,7 @@ body.exposer #main .site-wrapper {
 }
 
 .exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item.is-active a {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .exhibitor-details #zone3 .catal-nav-affix-list .catal-nav-affix-item:hover {
@@ -6518,7 +6520,7 @@ body.exposer #main .site-wrapper {
 }
 
 .catalogue #zone3 li.is-active a {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 h1.main-title  {
@@ -6609,7 +6611,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet {
@@ -6617,7 +6619,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li:before {
-  background: #7b1228;
+  background: #9a1c36;
   border-radius: 50px;
 }
 
@@ -6679,7 +6681,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-intro {
-  color: #7b1228;
+  color: #9a1c36;
   font-family: "Univers LT Std", sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -6709,7 +6711,7 @@ h1.main-title  {
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content a.externe {
   background: transparent;
   padding: 0;
-  color: #7b1228;
+  color: #9a1c36;
   margin-top: 0.5rem;
   display: inline;
   text-decoration: underline;
@@ -6734,7 +6736,7 @@ h1.main-title  {
   font-size: 41px;
   font-weight: 700;
   line-height: 50px;
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h4 {
@@ -7089,7 +7091,7 @@ h1.main-title  {
   font-weight: 600;
   line-height: 18px;
   letter-spacing: 0.25px;
-  color: #7b1228;
+  color: #9a1c36;
   text-transform: uppercase;
 }
 
@@ -7652,7 +7654,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside .sm-item-link:hover {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .block-page .inside .content-list-bullet li:before {
@@ -7693,7 +7695,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .intro {
-  color: #7b1228;
+  color: #9a1c36;
   font-family: "Univers LT Std", sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -7732,13 +7734,14 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item a:hover .gla-item-title {
-  color: #7b1228 !important;
+  color: #9a1c36 !important;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-content {
   position: static;
   display: flex;
   flex-direction: column-reverse;
+  justify-content: flex-end;
   align-items: flex-start;
   margin-right: 50px;
 }
@@ -7780,7 +7783,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item .gla-item-desc {
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
   text-align: left;
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
@@ -7816,7 +7819,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item a:hover {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item a .icon {
@@ -7863,7 +7866,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-next:hover a {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev {
@@ -7889,7 +7892,7 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .pagination .pagin-item.pagin-prev:hover a {
-  color: #7b1228;
+  color: #9a1c36;
 }
 
 .content743330 .article-content h3 + p + ul,
@@ -8057,7 +8060,7 @@ h1.main-title  {
 .body-corpo.mentions-conditions-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title,
 .body-corpo.politique-protection-art:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title,
 .body-corpo.sitemap:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.article_list) #main .site-wrapper .sitemap .sm-list .sm-item-title {
-  color: #7b1228;
+  color: #9a1c36;
   text-transform: uppercase;
   font-family: "Univers LT Std", sans-serif;
   font-size: 15px;
@@ -8170,7 +8173,7 @@ h1.main-title  {
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-group .sr-group-title {
   text-align: center;
-  color: #7b1228;
+  color: #9a1c36;
   font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
@@ -8191,7 +8194,7 @@ h1.main-title  {
 }
 
 .body-corpo.search:not(.front):not(.content374293):not(.exposant):not(.article_list) #main .site-wrapper .search-result .sr-item-title a:hover {
-  color: #7b1228;
+  color: #9a1c36;
   text-decoration: none;
 }
 
@@ -8235,7 +8238,7 @@ h1.main-title  {
 
 .content851830 .site-wrapper .main-title-with-link h2,
 .content855217 .site-wrapper .main-title-with-link h2 {
-  color: #7b1228;
+  color: #9a1c36;
   position: relative;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -8410,7 +8413,7 @@ h1.main-title  {
 }
 
 .block-page.faq h2.fc-title {
-  color: #7b1228;
+  color: #9a1c36;
   text-transform: uppercase;
   letter-spacing: 0.25px;
   font-family: "Univers LT Std", sans-serif;
@@ -8424,7 +8427,7 @@ h1.main-title  {
 }
 
 .block-page.faq h3.fc-item-title:hover .fc-item-link {
-  color: #7b1228 !important;
+  color: #9a1c36 !important;
 }
 
 .block-page.faq h3.fc-item-title .fc-item-link {
@@ -8456,7 +8459,7 @@ h1.main-title  {
 
 .block-page.faq .fc-item-content p a {
   font-weight: 150 !important;
-  color: #7b1228;
+  color: #9a1c36;
   text-decoration: underline;
 }
 
@@ -9273,7 +9276,7 @@ body.error404 .site-wrapper .intro .ezxmltext-field {
 }
 
 body.error404 .site-wrapper .intro .ezxmltext-field h2 {
-  color: #7b1228;
+  color: #9a1c36;
   font-family: "Museo 700", sans-serif;
   font-size: 41px;
   font-weight: 700;
