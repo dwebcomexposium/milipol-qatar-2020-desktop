@@ -6547,10 +6547,21 @@ h1.main-title  {
   position: absolute;
   left: 0;
   height: 300px;
+  z-index: 1;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) #main:after {
+  content: "";
+  display: block;
   background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-general.svg");
   background-size: 300px;
   background-position: bottom right;
   background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 140px;
+  height: 300px;
   z-index: 1;
 }
 
@@ -7609,14 +7620,26 @@ h1.main-title  {
   content: "";
   display: block;
   background-color: #7b1228;
+  background: linear-gradient(180deg, #7b1228 10%, #9a1c36 100%);
   width: 100%;
   position: absolute;
   left: 0;
   height: 300px;
+  z-index: 1;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main:after {
+  content: "";
+  display: block;
   background-image: url("/theme/milipolqatar_desktop_2020_git/img/bg-general.svg");
   background-size: 300px;
   background-position: bottom right;
   background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 140px;
+  height: 300px;
   z-index: 1;
 }
 
