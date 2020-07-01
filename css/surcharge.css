@@ -6760,14 +6760,6 @@ h1.main-title  {
   text-transform: uppercase;
 }
 
-.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content h5 {
-  font-family: "Museo 700", sans-serif;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 33px;
-  color: #0b1626;
-}
-
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content blockquote {
   margin: 7rem 0 5rem;
   width: 100vw !important;
