@@ -176,7 +176,7 @@
   });
 
   $('#showMoreAreas').on("click", function () {
-    $('#business-areas .item-list').removeClass('visually-hidden');
+    $('#business-areas .item-list').removeClass('display-none');
     $('#showMoreAreas').hide()
   });
 
