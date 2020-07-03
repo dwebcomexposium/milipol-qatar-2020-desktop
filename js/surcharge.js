@@ -189,7 +189,7 @@
 
   // add last item to contacts-list section
 
-  $('.contacts-list .cl-content').append($("<a href='#' class='cl-item last-item'></div>").html('<p>See all speakers</p>'));
+  $('.contacts-list .cl-content').append($("<a href='https://milipolqatar.cms-cxpm.com/Events/2020-Seminar-Programme' class='cl-item last-item'></div>").html('<p>See all speakers</p>'));
 
   milipolJS.init();
 
