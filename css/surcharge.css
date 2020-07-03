@@ -6850,6 +6850,34 @@ h1.main-title  {
   display: none;
 }
 
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .container-bloc-important {
+  background-color: #f2efe6;
+  padding: 15px;
+  border-left: 2px solid #a6945d;
+  color: #3c4451;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .container-bloc-important .bloc-important-img {
+  margin-right: 15px;
+}
+
+.body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .container-bloc-important-noimg {
+  background-color: #f2efe6;
+  padding: 15px;
+  border-left: 2px solid #a6945d;
+  color: #3c4451;
+  font-family: "Univers LT Std", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content figure.fr {
   border: 0;
 }
