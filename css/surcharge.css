@@ -6952,11 +6952,10 @@ h1.main-title  {
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus1 {
   margin-top: 3rem;
   margin-bottom: 5rem;
-  max-width: 250px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus1 a {
-  display: flex;
+  display: inline-flex;
   text-decoration: none;
   padding: 2rem 3rem;
   min-width: 16rem;
@@ -6969,6 +6968,7 @@ h1.main-title  {
   letter-spacing: 0.2px;
   color: #0b1626;
   border: 2px solid #dfe1e3;
+  min-width: 250px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -6986,11 +6986,10 @@ h1.main-title  {
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 {
   margin-bottom: 5rem;
-  max-width: 250px;
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324) .site-wrapper .zone .article-content .focus2 a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
   padding: 2rem 3rem;
@@ -7004,6 +7003,7 @@ h1.main-title  {
   letter-spacing: 0.2px;
   color: #0b1626;
   border: 2px solid #dfe1e3;
+  min-width: 250px;
 }
 
 @media screen and (max-width: 1500px) {
