@@ -7771,7 +7771,8 @@ h1.main-title  {
 }
 
 .body-corpo:not(.front):not(.content374293):not(.content743324):not(.exposant):not(.search) #main .site-wrapper .layout-2-col .list-articles .grid-la-list .gla-item a img {
-  max-width: 300px;
+  min-width: 300px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
