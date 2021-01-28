@@ -9538,3 +9538,28 @@ body.error404 .ep-form-wrap {
 
 
 /*# sourceMappingURL=main.css.map*/
+
+/* catalogue New 2020 */
+#catalog-v2 {
+    margin-top: 125px;
+}
+body.catalogue {
+    background-color: #000;
+    color: #fff;
+}
+#catalog-v2 .inside {
+    background: #000;
+    height: 15rem;
+}
+#catalog-v2 .CatalogProductStrip .CatalogMainTitle {
+    color: #000;
+}
+#catalog-v2 .site-banner, .catalogue .site-banner.is-stuck{
+padding:0
+}
+#catalog-v2 .site-banner.is-stuck {
+    background-color: #000;
+}
+#comexposium-connect2-app.VueWrapper {
+    padding-top: 0px;
+}
