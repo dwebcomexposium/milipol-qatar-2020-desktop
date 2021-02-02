@@ -9539,7 +9539,7 @@ body.error404 .ep-form-wrap {
 
 /*# sourceMappingURL=main.css.map*/
 
-/* catalogue New 2020 */
+/* catalogue New 2021 */
 #catalog-v2 {
     margin-top: 125px;
 }
@@ -9563,3 +9563,7 @@ padding:0
 #comexposium-connect2-app.VueWrapper {
     padding-top: 0px;
 }
+#catalog-v2 .bgTint {
+    background-color: #a6945d !important;
+}
+
