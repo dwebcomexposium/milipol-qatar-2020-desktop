@@ -9567,12 +9567,8 @@ padding:0
     background-color: #a6945d !important;
 }
 
-#catalog-v2 .CatalogResultsList-searchcontainer h1 {
-    color: #fff !important;
-}
-
-#catalog-v2 h1.CatalogMainTitle.CatalogMainTitle--padded.textAccent {
-    color: #a6945d !important;
+#catalog-v2 h1 {
+    color: #971b35 !important;
 }
 
 #catalog-v2 h1 {
