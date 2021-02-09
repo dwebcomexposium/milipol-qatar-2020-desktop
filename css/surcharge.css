@@ -9566,17 +9566,13 @@ padding:0
 #catalog-v2 .bgTint {
     background-color: #a6945d !important;
 }
-#catalog-v2 h1.CatalogMainTitle {
-    text-align: center;
-    color: #5a6368;
-    margin-bottom: 0;
-    font-family: "museo 700",sans-serif;
-    font-size: 41px;
-    font-weight: 700;
-    line-height: 34px;
-}
-#catalog-v2 h1.CatalogMainTitle.CatalogMainTitle--padded.textAccent {
+
+#catalog-v2 .CatalogResultsList-searchcontainer h1 {
     color: #fff !important;
+}
+
+#catalog-v2 h1.CatalogMainTitle.CatalogMainTitle--padded.textAccent {
+    color: #a6945d !important;
 }
 
 #catalog-v2 h1 {
