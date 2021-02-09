@@ -9575,4 +9575,10 @@ padding:0
     font-weight: 700;
     line-height: 34px;
 }
+#catalog-v2 h1.CatalogMainTitle.CatalogMainTitle--padded.textAccent {
+    color: #a6945d !important;
+}
+
+#catalog-v2 h1 {
+  margin-bottom: 0rem;}
 
