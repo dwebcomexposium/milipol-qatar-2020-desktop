@@ -2228,7 +2228,7 @@ hr {
 }
 
 .body-corpo .pg-item-illust {
-  height: 125px;
+  height: 125px !important;
 }
 
 .body-corpo .pg-item-illust img {
