@@ -2239,6 +2239,10 @@ hr {
   width: 170px;
 }
 
+.body-corpo .slider-pagin-btn {
+  top: 178px;
+}
+
 .body-corpo.front #zone2 {
   width: 100%;
 }
