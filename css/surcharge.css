@@ -2227,6 +2227,18 @@ hr {
   margin-top: -25px;
 }
 
+.body-corpo .pg-item-illust {
+  height: 140px;
+}
+
+.body-corpo .pg-item-illust img {
+  min-height: 140px;
+}
+
+.body-corpo .partner-gallery.slider .pg-item {
+  width: 170px;
+}
+
 .body-corpo.front #zone2 {
   width: 100%;
 }
