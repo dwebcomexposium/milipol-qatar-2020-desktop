@@ -2233,7 +2233,7 @@ hr {
   margin-top: -25px;
 }
 
-.body-corpo .pg-item-illust {
+.body-corpo:not(.partners) .pg-item-illust {
   height: 136px !important;
 }
 
