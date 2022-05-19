@@ -2042,7 +2042,13 @@ hr {
 .intro-home .intro-home__img-bg {
   position: absolute;
   z-index: 0;
-  top: 35px;
+  top: 10px;
+  font-size: 22rem;
+  margin-top: 0;
+  color: #AA203F;
+  font-family: "museo 900", sans-serif;
+  font-weight: bolder;
+  line-height: 1;
 }
 
 .intro-home .intro-home__img-bg-right {
@@ -9588,4 +9594,3 @@ padding:0
 .body-corpo.catalogue .site-wrapper.wrapper .layout-2-col #zone2 h1  {
     margin-bottom: 0rem !important;
 }
-
